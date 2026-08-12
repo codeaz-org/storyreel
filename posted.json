@@ -1,1 +1,24 @@
-{"topics":{},"uploads":[]}
+{
+  "topics": {
+    "threadfire": [
+      "Accused of stealing what's mine"
+    ]
+  },
+  "uploads": [
+    {
+      "channel": "threadfire",
+      "topic": "Accused of stealing what's mine",
+      "title": "A False Claim",
+      "story": "I \u201cstole\u201d what I already own, and you followed me to my car? Sure, I\u2019ll come inside with you and explain it all.",
+      "story_id": "reddit:1vkqnnl",
+      "story_url": "https://reddit.com/r/MaliciousCompliance/comments/1vkqnnl/i_stole_what_i_already_own_and_you_followed_me_to/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "9VD0KOBmFNQ",
+      "tiktok": true,
+      "tiktok_post_id": "6a7c35b88970c904456bed25",
+      "ts": "2026-08-12T08:58:28"
+    }
+  ]
+}
