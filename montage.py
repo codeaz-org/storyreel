@@ -71,40 +71,43 @@ def ffprobe_duration(path):
 # ---- 1. scene plan -----------------------------------------------------------
 
 SCENE_SYSTEM = """You are an editor breaking a narrated story into visual slots for a
-real-footage montage. Split the script into 6-10 consecutive slots. For each slot:
+real-footage montage. Split the script into consecutive slots, aiming for roughly
+one slot every {words_per_slot} words. For each slot:
   - "text": the EXACT next contiguous chunk of the script, verbatim, in order.
     Every word of the script must appear in exactly one slot. Do not rewrite.
   - "visual": a 3-8 word description of concrete, filmable stock/archive footage
     that fits the mood of that chunk. Places, objects, weather, hands, streets --
     never people's readable faces, never text on screen, never brand logos.
-Slots should break at the story's beats: cold open, rewind, escalations, turn,
-landing. Return JSON only."""
+Slots should break at the story's beats. Return JSON only."""
+
+# One slot per ~55 words = one clip roughly every 20-22s at spoken pace.
+WORDS_PER_SLOT = 55
 
 
 def scene_plan(script, channel):
-    """[{text, visual}] covering the whole script, or a mechanical fallback.
-    The fallback matters: a bad LLM day should degrade footage relevance, not
-    kill the run."""
+    """[{text, visual}] covering the whole script, or a mechanical fallback."""
+    word_count = len(script.split())
+    target_slots = max(6, min(50, word_count // WORDS_PER_SLOT))
     try:
         result = nim_json(
-            SCENE_SYSTEM + ' JSON schema: {"slots": [{"text": "...", "visual": "..."}]}',
+            SCENE_SYSTEM.format(words_per_slot=WORDS_PER_SLOT)
+            + ' JSON schema: {"slots": [{"text": "...", "visual": "..."}]}',
             f"Style keywords for this channel: {channel.get('style_suffix', '')}\n\n"
-            f"Script:\n{script}",
-            max_tokens=2500, temperature=0.3,
+            f"Script (aim for ~{target_slots} slots):\n{script}",
+            max_tokens=6000, temperature=0.3,
         )
         slots = [s for s in (result.get("slots") or [])
                  if isinstance(s, dict) and s.get("text") and s.get("visual")]
         planned = " ".join(s["text"] for s in slots)
-        # The plan must actually cover the narration -- caption timing and slot
-        # lengths are derived from these word counts.
-        if 6 <= len(slots) <= 12 and \
-                abs(len(planned.split()) - len(script.split())) <= len(script.split()) * 0.1:
+        lo, hi = max(5, target_slots // 2), min(60, target_slots * 2)
+        if lo <= len(slots) <= hi and \
+                abs(len(planned.split()) - word_count) <= word_count * 0.12:
             return slots
         log(f"scene plan rejected ({len(slots)} slots, "
-            f"{len(planned.split())}/{len(script.split())} words); using fallback")
+            f"{len(planned.split())}/{word_count} words); using fallback")
     except Exception as e:
         log(f"scene plan failed ({type(e).__name__}); using fallback")
-    return _mechanical_plan(script, channel)
+    return _mechanical_plan(script, channel, target_slots)
 
 
 def _mechanical_plan(script, channel, target_slots=8):
@@ -143,7 +146,7 @@ def active_sources(channel):
     return wanted
 
 
-def build_corpus(channel, queries, corpus_dir, per_source=6, max_new=30):
+def build_corpus(channel, queries, corpus_dir, per_source=8, max_new=80):
     _import_om()
     from tools.video.corpus_builder import CorpusBuilder
 
@@ -227,32 +230,70 @@ def _ts(seconds):
     return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
 
 
+CAPTION_MAX_WORDS = 7  # short chunks so libass never wraps off-screen
+
+
+def _chunk_sentence(sentence, max_words=CAPTION_MAX_WORDS):
+    """Break a sentence into ~max_words chunks at natural pauses (commas, dashes)
+    when possible, else on word boundaries. Prevents multi-line captions from
+    overflowing the safe area."""
+    words = sentence.split()
+    if len(words) <= max_words:
+        return [sentence]
+    chunks, current = [], []
+    for w in words:
+        current.append(w)
+        ends_pause = w.endswith((",", ";", "--", "—", ":"))
+        if len(current) >= max_words or (ends_pause and len(current) >= 4):
+            chunks.append(" ".join(current))
+            current = []
+    if current:
+        chunks.append(" ".join(current))
+    return chunks
+
+
 def write_srt(slots, slot_secs, path):
-    """Sentence-level captions, timed proportionally by word count inside each
-    slot. Word-perfect timing needs forced alignment; proportional is within
-    ~0.3s at spoken pace, which reads fine for burned captions."""
+    """Chunked captions (<= CAPTION_MAX_WORDS per line), timed proportionally by
+    word count inside each slot. Chunking keeps burned captions inside the safe
+    area on every aspect ratio."""
     idx, t, lines = 1, 0.0, []
     for slot, secs in zip(slots, slot_secs):
         sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", slot["text"]) if s.strip()]
-        words_total = sum(len(s.split()) for s in sentences) or 1
-        for s in sentences:
-            d = secs * len(s.split()) / words_total
-            lines += [str(idx), f"{_ts(t)} --> {_ts(t + d)}", s, ""]
+        chunks = [c for s in sentences for c in _chunk_sentence(s)]
+        words_total = sum(len(c.split()) for c in chunks) or 1
+        for c in chunks:
+            d = max(0.7, secs * len(c.split()) / words_total)
+            lines += [str(idx), f"{_ts(t)} --> {_ts(t + d)}", c, ""]
             idx += 1
             t += d
     path.write_text("\n".join(lines))
 
 
+def _brand_overlay(channel):
+    """drawtext filter for a corner wordmark, or empty string if the channel
+    doesn't declare a brand. Kept small and semi-transparent so it never fights
+    the story."""
+    brand = channel.get("brand") or {}
+    wordmark = (brand.get("wordmark") or "").strip()
+    if not wordmark:
+        return ""
+    return (f",drawtext=text='{wordmark}':fontcolor=white@0.55:fontsize=28:"
+            f"box=0:borderw=1:bordercolor=black@0.4:"
+            f"x=w-tw-32:y=32")
+
+
 def burn_and_mux(video, narration, srt, out_path, channel, total_secs):
     theme = channel.get("caption_style", {})
     style = (f"FontName={theme.get('font', 'DejaVu Sans')},"
-             f"FontSize={theme.get('size', 14)},Bold=1,"
+             f"FontSize={theme.get('size', 22)},Bold=1,"
              f"PrimaryColour={theme.get('colour', '&H00FFFFFF')},"
-             f"OutlineColour=&H00000000,Outline=2,Shadow=0,"
-             f"Alignment=2,MarginV={theme.get('margin_v', 40)}")
+             f"OutlineColour=&H00000000,Outline=3,Shadow=1,"
+             f"Alignment=2,MarginV={theme.get('margin_v', 80)},"
+             f"WrapStyle=0")
     srt_arg = str(srt).replace("'", r"\'")
+    vf = f"subtitles='{srt_arg}':force_style='{style}'" + _brand_overlay(channel)
     _run(["ffmpeg", "-y", "-i", str(video), "-i", str(narration),
-          "-vf", f"subtitles='{srt_arg}':force_style='{style}'",
+          "-vf", vf,
           "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "veryfast",
           "-crf", "22", "-c:a", "aac", "-b:a", "160k",
           "-t", f"{total_secs + 0.6:.2f}", str(out_path)], "final mux")

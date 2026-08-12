@@ -3,37 +3,44 @@
     {
       "id": "threadfire",
       "name": "ThreadFire",
-      "purpose": "Stories the internet couldn't put down — retold. Every night, one true-ish story: the free fridge that ate a deposit, the manager who demanded compliance and got exactly what he asked for, the wedding guest who read the room too late. Real threads, retold in our own words, source linked in every description. New thread nightly.",
+      "purpose": "Long-form YouTube channel: one real Reddit thread, retold as a cinematic 10-minute story with texture, pace, and voice. Landscape master gets auto-split into portrait TikTok parts.",
       "voice": "en-US-BrianNeural-Male",
-      "orientation": "portrait",
+      "orientation": "landscape",
       "footage_sources": [
         "pexels",
-        "pixabay_video"
+        "pixabay_video",
+        "archive_org",
+        "wikimedia",
+        "nasa"
       ],
-      "min_script_words": 140,
+      "min_script_words": 1200,
       "youtube_category": "24",
       "credit_source": true,
-      "script_prompt": "You write narration for a 60-80 second vertical story video. You are given a real thread someone posted. RETELL it -- a storyteller who read it this morning, not a text-to-speech engine reading it aloud.\n\nHARD RULES -- these outrank everything else:\n- Write ENTIRELY in your own words and sentence structures. Never copy a sentence or distinctive phrase from the source.\n- Replace every username and real name with plain invented first names. Strip employers, cities, dates.\n- Frame it honestly as a story someone told ('So this guy -- call him Dave -- swears this happened'). Never claim it happened to YOU; never say 'Reddit', 'thread', 'OP' or 'post' in the narration.\n- Keep the source's actual events. Compress and reorder for tension; never invent events or a different ending.\n- Nothing sexual, nothing involving minors in danger, no graphic injury, no slurs.\n\nStructure: COLD OPEN at the moment of maximum tension (1 sentence, concrete, never a question) -> REWIND ('It starts two weeks earlier', 1-2 sentences) -> ESCALATION in quick beats -> THE TURN (shortest sentences in the script) -> LANDING + one dry repeatable closer line.\n\nStyle: 150-190 words, present tense where it heightens tension. Plain spoken English, wry, sympathetic to whoever got the short end. No markdown, emoji, hashtags, or stage directions. Write only the words the narrator says.",
-      "critic_rubric": "You are a harsh story editor for a narrated-story channel. You did not write this script and you gain nothing by approving it. Most drafts should be sent back.\n\nScore each from 1 to 10:\n\n  hook          Does the first sentence drop the viewer into the collision? Opening with context or a question scores 3 or less.\n  arc           Setup, escalation, turn, landing -- all present in under 200 words. A flat recap scores 4.\n  faithfulness  Retells the SOURCE's events. Invented events or changed endings cap this at 2.\n  own_words     Reads like the narrator's telling. Echoing the source's phrasing caps this at 3. Any 'Reddit/OP/thread/post' in the narration caps it at 4.\n  pacing        The turn gets the slowest, shortest sentences. Rushing the twist scores 4.\n  landing       Ends on aftermath plus one dry repeatable line. Moralising or begging for follows scores 3.\n\nThen decide: \"publish\" only if the scores average at least {min_score}, none is below 6, and the retell stays honest to the source. \"revise\" otherwise.\n\nproblems: what is wrong, concretely, quoting the offending phrases.\nfix: direct instructions to the writer. Do not rewrite the script yourself.",
+      "script_prompt": "You are the narrator of a 10-minute story on a YouTube channel called ThreadFire. You are given a real Reddit thread. Treat that thread as the TRUE SKELETON of the story you tell -- every event, every turn, every ending stays.\n\nYour job is to RETELL that story with texture, pace, and voice -- like an old friend telling it around a fire, or a great podcast host reading a listener's letter. Not a summary. Not an AI report. A story someone would text their friend about.\n\nWHAT YOU KEEP FROM THE SOURCE (non-negotiable):\n- Every event and every turn. Nothing changes what happened or how it ended.\n- The emotional core: what was at stake, who broke, who found out what.\n- The narrator's perspective: first person if the source was first person.\n\nWHAT YOU ADD (this is the whole job):\n- Sensory scene-setting: what the room looked like, what time of day, the weather, the small grounding detail.\n- Inner monologue: what the narrator was thinking, doubting, wanting.\n- Reconstructed dialogue in the SPIRIT of the source. Never invent lines that change events; do write out what the source says 'he said'.\n- Pacing: linger in the buildup, slow at the turn, breathe after the landing.\n\nHARD RULES:\n- Replace usernames and real names with plain invented first names. Strip employers, cities, dates specific enough to identify anyone.\n- Frame it as a story someone told: 'Call her Sarah.' or 'This one was sent in.' Never claim it happened to you. NEVER say 'Reddit', 'OP', 'thread', 'post', 'update', 'sub'.\n- Nothing sexual involving minors, no graphic injury of children, no slurs.\n- KEEP THE SOURCE'S ENDING. If she went no-contact, don't invent a reconciliation. If he won, don't invent a downfall.\n\nSTRUCTURE (this is the shape, not a script):\n1. COLD OPEN (2-3 sentences): drop us into the moment of maximum tension, mid-collision, before any context.\n2. REWIND ('Call her Sarah. Six months earlier...'): who they were, where they were, what the ordinary looked like before it broke.\n3. THE FIRST CRACK: the small moment the ordinary started to shift. Slow. Textural.\n4. ESCALATION: three or four beats, each more consequential than the last. Include dialogue.\n5. THE TURN (short sentences, present tense -- this is the moment): what changed everything.\n6. AFTERMATH: what it cost, what it saved, what she learned.\n7. LANDING (2-3 sentences): one wry, quotable reflection. Something a viewer would text a friend.\n\nSTYLE:\n- 1300-1700 words.\n- Plain spoken English. Contractions. Em dashes. Short sentences hit hardest in the buildup and the turn.\n- Warm, wry, human. Not sanitized. Not 'AI helpful assistant' energy. No moral lessons.\n- No markdown, no emojis, no stage directions, no chapter headers. Write only the words the narrator says out loud.\n\nWrite the narration now.",
+      "critic_rubric": "You are the editor of ThreadFire, a channel where real internet threads are retold with cinematic pacing. Your job is to gatekeep against sterile AI-narrator prose while protecting faithfulness to the source events and ending.\n\nScore each 1 to 10:\n\n  hook          Do the opening 2-3 sentences drop the viewer into a specific moment of tension? 'Something happened at my sister's wedding' scores 4. 'The knife hit the tile before I understood he'd thrown it' scores 9. A question or a setup scores 3 or less.\n  arc           Cold open, rewind, escalation, turn, aftermath, landing -- all present, none skipped, none rushed. A flat recap scores 4.\n  faithfulness  Retells the SOURCE's events and its ending. Invented events or a changed ending caps this at 3.\n  voice         Warm, human, wry. Storyteller, not narrator-bot. Sanitized or 'AI helpful' prose caps at 4. Any 'Reddit/OP/thread/post/update' caps at 3.\n  texture       Sensory detail, inner monologue, real dialogue. Bare recap without scene-setting caps at 5.\n  landing       Ends on aftermath plus one quotable reflection a viewer would repeat. Moralising or 'hope you learned something' scores 3.\n\nThen decide: 'publish' only if scores average at least {min_score}, none is below 6, AND voice and faithfulness are both at least 7. Otherwise 'revise'.\n\nproblems: quote the specific offending lines.\nfix: direct instructions to the writer. Do not rewrite the script yourself.",
       "critic_axes": [
         "hook",
         "arc",
         "faithfulness",
-        "own_words",
-        "pacing",
+        "voice",
+        "texture",
         "landing"
       ],
       "subreddits": [
-        "tifu",
+        "BestOfRedditorUpdates",
+        "TrueOffMyChest",
         "AmItheAsshole",
-        "MaliciousCompliance",
-        "pettyrevenge",
-        "IDontWorkHereLady",
-        "ChoosingBeggars"
+        "relationship_advice",
+        "JustNoMIL",
+        "raisedbynarcissists",
+        "LetsNotMeet",
+        "tifu",
+        "confession",
+        "entitledparents"
       ],
-      "story_min_words": 120,
-      "story_max_words": 700,
-      "story_min_engagement": 250,
+      "story_min_words": 600,
+      "story_max_words": 5000,
+      "story_min_engagement": 1500,
       "blocked_terms": [
         "suicide",
         "self harm",
@@ -43,20 +50,13 @@
         "molest",
         "incest",
         "underage",
-        "minor",
         "child abuse",
         "csa",
         "grooming",
         "overdose",
         "school shooting",
-        "shooting",
-        "stabbed",
         "gore",
-        "domestic violence",
-        "miscarriage",
-        "stillbirth",
-        "terminal",
-        "hospice"
+        "stillbirth"
       ],
       "drift_terms": [
         "you won't believe",
@@ -64,39 +64,51 @@
         "gone wrong",
         "smash that",
         "like and subscribe",
-        "wait for it"
+        "wait for it",
+        "hope you enjoyed"
       ],
-      "style_suffix": "moody vertical footage, dusk, city apartments, rain on glass, hands and doorways, no readable faces, no text",
-      "fallback_visual": "rainy city street at night, vertical, cinematic",
+      "style_suffix": "cinematic documentary footage, warm natural light, homes, hands, windows, roads, weather, small objects that carry memory, no readable faces, no on-screen text",
+      "fallback_visual": "quiet suburban street at dusk, cinematic, documentary",
       "caption_style": {
         "font": "DejaVu Sans",
-        "size": 16,
+        "size": 22,
         "colour": "&H00FFFFFF",
-        "margin_v": 120
+        "margin_v": 80
       },
-      "hashtags": "#storytime #story #shorts #threadfire",
+      "brand": {
+        "wordmark": "ThreadFire",
+        "primary_colour": "&H0040A0FF",
+        "intro_seconds": 2.5
+      },
+      "hashtags": "#storytime #truestory #reddit #threadfire",
       "youtube_tags": [
         "storytime",
-        "story",
-        "shorts",
-        "tifu",
-        "aita",
+        "true story",
+        "reddit stories",
+        "narrated",
+        "long form",
         "threadfire"
       ],
       "viral_research": true,
       "viral_queries": [
-        "reddit story shorts",
-        "aita storytime",
-        "revenge story short",
-        "tifu story",
-        "entitled customer story"
+        "reddit story narrated",
+        "true reddit story",
+        "long reddit story",
+        "best of redditor updates",
+        "aita story narrated",
+        "relationship story narrated"
       ],
-      "viral_min_views": 100000,
+      "viral_min_views": 500000,
       "viral_duration_range": [
-        15,
-        150
+        480,
+        1800
       ],
-      "tiktok_hashtags": "#storytime #story #fyp #reddit #threadfire"
+      "tiktok": {
+        "enabled": true,
+        "part_seconds": 55,
+        "min_part_seconds": 30
+      },
+      "tiktok_hashtags": "#storytime #truestory #reddit #fyp #threadfire"
     }
   ]
 }

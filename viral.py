@@ -44,29 +44,29 @@ def fetch_trending(channel, per_query=PER_QUERY):
     seen, vids = set(), []
     with yt_dlp.YoutubeDL(opts) as ydl:
         for q in queries:
-            # relevance surfaces the evergreen hits, date the fresh climbers
-            for prefix in ("ytsearch", "ytsearchdate"):
-                try:
-                    info = ydl.extract_info(f"{prefix}{per_query}:{q}", download=False)
-                except Exception as e:
-                    log(f"search '{q}' ({prefix}): {type(e).__name__}: {str(e)[:60]}")
+            # ponytail: only `ytsearch` -- `ytsearchdate` was throwing "Unsupported
+            # url scheme" on current yt-dlp; relevance is the important ranking anyway.
+            try:
+                info = ydl.extract_info(f"ytsearch{per_query}:{q}", download=False)
+            except Exception as e:
+                log(f"search '{q}': {type(e).__name__}: {str(e)[:60]}")
+                continue
+            for e in (info or {}).get("entries") or []:
+                if not e or not e.get("id") or e["id"] in seen:
                     continue
-                for e in (info or {}).get("entries") or []:
-                    if not e or not e.get("id") or e["id"] in seen:
-                        continue
-                    seen.add(e["id"])
-                    dur = e.get("duration") or 0
-                    if dur and not lo <= dur <= hi:
-                        continue
-                    vids.append({
-                        "id": e["id"],
-                        "title": (e.get("title") or "").strip(),
-                        "url": f"https://www.youtube.com/watch?v={e['id']}",
-                        "views": e.get("view_count") or 0,
-                        "duration": dur,
-                        "uploader": e.get("channel") or e.get("uploader") or "",
-                        "query": q,
-                    })
+                seen.add(e["id"])
+                dur = e.get("duration") or 0
+                if dur and not lo <= dur <= hi:
+                    continue
+                vids.append({
+                    "id": e["id"],
+                    "title": (e.get("title") or "").strip(),
+                    "url": f"https://www.youtube.com/watch?v={e['id']}",
+                    "views": e.get("view_count") or 0,
+                    "duration": dur,
+                    "uploader": e.get("channel") or e.get("uploader") or "",
+                    "query": q,
+                })
     min_views = int(channel.get("viral_min_views", MIN_VIEWS_DEFAULT))
     vids = [v for v in vids if v["views"] >= min_views and v["title"]]
     vids.sort(key=lambda v: v["views"], reverse=True)

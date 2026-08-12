@@ -23,7 +23,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 110
+    timeout-minutes: 300
     permissions:
       contents: write   # commits posted.json back (state + keeps the cron alive)
     steps:
@@ -74,7 +74,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.ollama/models
-          key: ollama-llama3.1-8b-v1
+          key: ollama-gpt-oss-20b-v1
 
       - name: Install, start, and warm Ollama
         env:
@@ -83,15 +83,13 @@ jobs:
           curl -fsSL https://ollama.com/install.sh | sh
           nohup ollama serve > /tmp/ollama.log 2>&1 &
           sleep 5
-          ollama pull llama3.1:8b
+          ollama pull gpt-oss:20b
 
       - name: Run autopilot
         env:
-          NIM_API_KEY: ${{ secrets.NIM_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # ponytail: hosted LLMs off; Ollama-only for stability. Re-enable a key here to bring failover back.
           OLLAMA_URL: http://127.0.0.1:11434
-          OLLAMA_MODEL: llama3.1:8b
+          OLLAMA_MODEL: gpt-oss:20b
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}

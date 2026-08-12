@@ -166,8 +166,8 @@ def generate_script(topic, channel, story):
 
 # ---- render sanity (lifted from mpt) ------------------------------------------
 
-WORDS_PER_SECOND = 2.6
-MIN_VIDEO_SECONDS = 25
+WORDS_PER_SECOND = 2.5
+MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "300"))  # 5 min floor for long-form
 
 
 def check_rendered_video(path, script):
@@ -182,6 +182,49 @@ def check_rendered_video(path, script):
     if "audio" not in streams:
         raise RuntimeError("rendered video has no audio track, not uploading")
     log(f"video checks out: {duration:.0f}s for {len(script.split())} words")
+
+
+def split_for_tiktok(video, channel, out_dir):
+    """Landscape master -> N portrait 9:16 clips of ~part_seconds each. Uses one
+    ffmpeg pass with -f segment so cuts land on keyframes; center-crops to 9:16.
+    Returns a list of (index, path, duration) tuples in order.
+    ponytail: keyframe cuts drift a few seconds; add smart cutting when it bites."""
+    cfg = channel.get("tiktok", {}) or {}
+    if not cfg.get("enabled"):
+        return []
+    part_secs = int(cfg.get("part_seconds", 55))
+    min_secs = int(cfg.get("min_part_seconds", 30))
+    duration = montage.ffprobe_duration(video)
+    if duration < min_secs:
+        log(f"[{channel['id']}] tiktok split skipped: video is only {duration:.0f}s")
+        return []
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    stem = Path(video).stem
+    pattern = str(out_dir / f"{stem}-part-%03d.mp4")
+    # crop=ih*9/16:ih -> center-crop landscape to 9:16 at native height; scale to 1080x1920
+    vf = "crop=ih*9/16:ih,scale=1080:1920"
+    _r = subprocess.run(
+        ["ffmpeg", "-y", "-i", str(video),
+         "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "22",
+         "-c:a", "aac", "-b:a", "160k",
+         "-f", "segment", "-segment_time", str(part_secs),
+         "-reset_timestamps", "1", pattern],
+        capture_output=True, text=True)
+    if _r.returncode != 0:
+        raise RuntimeError(f"tiktok split failed: {_r.stderr[-800:]}")
+
+    parts = sorted(out_dir.glob(f"{stem}-part-*.mp4"))
+    kept = []
+    for i, p in enumerate(parts):
+        d = montage.ffprobe_duration(p)
+        if d < min_secs:
+            log(f"[{channel['id']}] tiktok part {i + 1} too short ({d:.0f}s), dropping")
+            p.unlink(missing_ok=True)
+            continue
+        kept.append((len(kept) + 1, p, d))
+    log(f"[{channel['id']}] tiktok: {len(kept)} portrait parts")
+    return kept
 
 
 def tiktok_caption(meta, channel, limit=2200):
@@ -248,14 +291,18 @@ def run_channel(channel, state):
     if channel.get("credit_source", True) and story.get("url"):
         meta["description"] += f"\n\nInspired by a real thread: {story['url']}"
 
+    tiktok_parts = split_for_tiktok(video, channel, OUT_DIR / "tiktok")
+
     if DRY_RUN:
         OUT_DIR.mkdir(parents=True, exist_ok=True)
         dest = OUT_DIR / Path(video).name
         shutil.copy(video, dest)
         dest.with_suffix(".txt").write_text(
             f"topic: {topic}\n\ntitle: {meta['title']}\n\n"
-            f"description:\n{meta['description']}\n\nscript:\n{script}\n")
-        log(f"[{channel['id']}] DRY_RUN: upload skipped, video at {dest}")
+            f"description:\n{meta['description']}\n\nscript:\n{script}\n\n"
+            f"tiktok_parts: {len(tiktok_parts)}\n")
+        log(f"[{channel['id']}] DRY_RUN: upload skipped, video at {dest}"
+            + (f" + {len(tiktok_parts)} tiktok parts" if tiktok_parts else ""))
         used.append(topic)
         return
 
@@ -267,22 +314,29 @@ def run_channel(channel, state):
         "story_url": story.get("url"),
         "trend_id": (trend or {}).get("id"), "trend_url": (trend or {}).get("url"),
         "theme": theme,
-        "youtube": yt_id, "tiktok": False, "tiktok_post_id": None,
+        "youtube": yt_id, "tiktok": False, "tiktok_post_ids": [],
         "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
     }
     state["uploads"].append(entry)
     save_state(state)  # YouTube is live: record before TikTok can fail
 
-    if buffer.enabled():
-        try:
-            post_id = buffer.publish(video, tiktok_caption(meta, channel),
-                                     title=meta["title"], niche_id=channel["id"])
-            entry.update(tiktok=True, tiktok_post_id=post_id)
-        except Exception as e:
-            # YouTube already has the video; losing TikTok must not lose the run.
-            log(f"[{channel['id']}] Buffer/TikTok failed: "
-                f"{type(e).__name__}: {str(e)[:160]}")
+    if buffer.enabled() and tiktok_parts:
+        base_caption = tiktok_caption(meta, channel)
+        total = len(tiktok_parts)
+        for i, path, _ in tiktok_parts:
+            part_title = f"{meta['title']} — Part {i}/{total}"
+            part_caption = f"Part {i}/{total}\n\n{base_caption}"
+            try:
+                post_id = buffer.publish(str(path), part_caption,
+                                         title=part_title, niche_id=channel["id"])
+                entry["tiktok_post_ids"].append(post_id)
+            except Exception as e:
+                log(f"[{channel['id']}] Buffer/TikTok part {i} failed: "
+                    f"{type(e).__name__}: {str(e)[:160]}")
+        entry["tiktok"] = bool(entry["tiktok_post_ids"])
         save_state(state)
+    for _, path, _ in tiktok_parts:
+        path.unlink(missing_ok=True)
     Path(video).unlink(missing_ok=True)
 
 
