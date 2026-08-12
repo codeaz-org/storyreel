@@ -8,7 +8,7 @@
       "orientation": "portrait",
       "footage_sources": [
         "pexels",
-        "pixabay"
+        "pixabay_video"
       ],
       "min_script_words": 140,
       "youtube_category": "24",

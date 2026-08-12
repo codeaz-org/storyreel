@@ -35,7 +35,7 @@ FPS = 30
 # Keyless sources always on; keyed ones join automatically when their env key is set
 # (OpenMontage's adapters check the same PEXELS_API_KEY/PIXABAY_API_KEY names).
 KEYLESS_SOURCES = ["archive_org", "wikimedia", "nasa"]
-KEYED_SOURCES = {"pexels": "PEXELS_API_KEY", "pixabay": "PIXABAY_API_KEY"}
+KEYED_SOURCES = {"pexels": "PEXELS_API_KEY", "pixabay_video": "PIXABAY_API_KEY"}
 MIN_CLIP_SCORE = 0.22   # CLIP ViT-B/32: ~0.25 is a decent match; below 0.22 is noise
 
 
