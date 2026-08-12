@@ -166,7 +166,7 @@ def generate_script(topic, channel, story):
 # ---- render sanity (lifted from mpt) ------------------------------------------
 
 WORDS_PER_SECOND = 2.5
-MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "300"))  # 5 min floor for long-form
+MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "240"))  # 4 min floor -- llama3.1:8b under-produces vs 10-min target
 
 
 def check_rendered_video(path, script):
