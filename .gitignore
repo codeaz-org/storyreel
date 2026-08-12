@@ -1,0 +1,6 @@
+.env
+__pycache__/
+work/
+out/
+corpus/
+OpenMontage/

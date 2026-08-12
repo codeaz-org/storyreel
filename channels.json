@@ -1,0 +1,200 @@
+{
+  "channels": [
+    {
+      "id": "kindling",
+      "name": "Kindling — Small Stories, Big Turns",
+      "purpose": "Vertical shorts channel: one upvoted subreddit story per video, retold in ~75 seconds over real portrait stock footage. Reddit's votes pick the stories; the retell is always in our own words with the source thread credited.",
+      "voice": "en-US-BrianNeural-Male",
+      "orientation": "portrait",
+      "footage_sources": [
+        "pexels",
+        "pixabay"
+      ],
+      "min_script_words": 140,
+      "youtube_category": "24",
+      "credit_source": true,
+      "script_prompt": "You write narration for a 60-80 second vertical story video. You are given a real thread someone posted. RETELL it -- a storyteller who read it this morning, not a text-to-speech engine reading it aloud.\n\nHARD RULES -- these outrank everything else:\n- Write ENTIRELY in your own words and sentence structures. Never copy a sentence or distinctive phrase from the source.\n- Replace every username and real name with plain invented first names. Strip employers, cities, dates.\n- Frame it honestly as a story someone told ('So this guy -- call him Dave -- swears this happened'). Never claim it happened to YOU; never say 'Reddit', 'thread', 'OP' or 'post' in the narration.\n- Keep the source's actual events. Compress and reorder for tension; never invent events or a different ending.\n- Nothing sexual, nothing involving minors in danger, no graphic injury, no slurs.\n\nStructure: COLD OPEN at the moment of maximum tension (1 sentence, concrete, never a question) -> REWIND ('It starts two weeks earlier', 1-2 sentences) -> ESCALATION in quick beats -> THE TURN (shortest sentences in the script) -> LANDING + one dry repeatable closer line.\n\nStyle: 150-190 words, present tense where it heightens tension. Plain spoken English, wry, sympathetic to whoever got the short end. No markdown, emoji, hashtags, or stage directions. Write only the words the narrator says.",
+      "critic_rubric": "You are a harsh story editor for a narrated-story channel. You did not write this script and you gain nothing by approving it. Most drafts should be sent back.\n\nScore each from 1 to 10:\n\n  hook          Does the first sentence drop the viewer into the collision? Opening with context or a question scores 3 or less.\n  arc           Setup, escalation, turn, landing -- all present in under 200 words. A flat recap scores 4.\n  faithfulness  Retells the SOURCE's events. Invented events or changed endings cap this at 2.\n  own_words     Reads like the narrator's telling. Echoing the source's phrasing caps this at 3. Any 'Reddit/OP/thread/post' in the narration caps it at 4.\n  pacing        The turn gets the slowest, shortest sentences. Rushing the twist scores 4.\n  landing       Ends on aftermath plus one dry repeatable line. Moralising or begging for follows scores 3.\n\nThen decide: \"publish\" only if the scores average at least {min_score}, none is below 6, and the retell stays honest to the source. \"revise\" otherwise.\n\nproblems: what is wrong, concretely, quoting the offending phrases.\nfix: direct instructions to the writer. Do not rewrite the script yourself.",
+      "critic_axes": [
+        "hook",
+        "arc",
+        "faithfulness",
+        "own_words",
+        "pacing",
+        "landing"
+      ],
+      "subreddits": [
+        "tifu",
+        "AmItheAsshole",
+        "MaliciousCompliance",
+        "pettyrevenge",
+        "IDontWorkHereLady",
+        "ChoosingBeggars"
+      ],
+      "story_min_words": 120,
+      "story_max_words": 700,
+      "story_min_engagement": 250,
+      "blocked_terms": [
+        "suicide",
+        "self harm",
+        "self-harm",
+        "kill myself",
+        "rape",
+        "molest",
+        "incest",
+        "underage",
+        "minor",
+        "child abuse",
+        "csa",
+        "grooming",
+        "overdose",
+        "school shooting",
+        "shooting",
+        "stabbed",
+        "gore",
+        "domestic violence",
+        "miscarriage",
+        "stillbirth",
+        "terminal",
+        "hospice"
+      ],
+      "drift_terms": [
+        "you won't believe",
+        "not clickbait",
+        "gone wrong",
+        "smash that",
+        "like and subscribe",
+        "wait for it"
+      ],
+      "style_suffix": "moody vertical footage, dusk, city apartments, rain on glass, hands and doorways, no readable faces, no text",
+      "fallback_visual": "rainy city street at night, vertical, cinematic",
+      "caption_style": {
+        "font": "DejaVu Sans",
+        "size": 16,
+        "colour": "&H00FFFFFF",
+        "margin_v": 120
+      },
+      "hashtags": "#storytime #story #shorts",
+      "youtube_tags": [
+        "storytime",
+        "story",
+        "shorts",
+        "tifu",
+        "aita"
+      ],
+      "viral_research": true,
+      "viral_queries": [
+        "reddit story shorts",
+        "aita storytime",
+        "revenge story short",
+        "tifu story",
+        "entitled customer story"
+      ],
+      "viral_min_views": 100000,
+      "viral_duration_range": [
+        15,
+        150
+      ],
+      "tiktok_hashtags": "#storytime #story #fyp #reddit"
+    },
+    {
+      "id": "driftwater",
+      "name": "Driftwater — Stories Worth the Detour",
+      "purpose": "Landscape channel: one longer story per video (~3 minutes), retold over documentary footage from Pexels and open archives. Calmer register than Kindling -- workplace, retail, and family stories told like a late-night radio segment.",
+      "voice": "en-US-AvaMultilingualNeural-Female",
+      "orientation": "landscape",
+      "footage_sources": [
+        "pexels",
+        "pixabay",
+        "archive_org",
+        "wikimedia",
+        "nasa"
+      ],
+      "min_script_words": 320,
+      "youtube_category": "24",
+      "credit_source": true,
+      "script_prompt": "You write narration for a 2.5 to 3 minute story video, told like a late-night radio segment. You are given a real thread someone posted. RETELL it -- warm, unhurried, wry -- never read it aloud.\n\nHARD RULES -- these outrank everything else:\n- Write ENTIRELY in your own words and sentence structures. Never copy a sentence or distinctive phrase from the source.\n- Replace every username and real name with plain invented first names. Strip employers, cities, dates.\n- Frame it honestly as a story someone told. Never claim it happened to YOU; never say 'Reddit', 'thread', 'OP' or 'post' in the narration.\n- Keep the source's actual events. Compress, reorder for tension, cut side detail; never invent events, dialogue that changes what happened, or a different ending.\n- Nothing sexual, nothing involving minors in danger, no graphic injury, no slurs.\n\nStructure: COLD OPEN at the collision (1-2 sentences) -> REWIND with who, where, and the one arrangement the story turns on (2-3 sentences) -> ESCALATION in clear beats with a line or two of reconstructed dialogue in your own words -> THE TURN, slowed right down -> LANDING with the aftermath -> one-line CLOSER a viewer could repeat.\n\nStyle: 380-460 words. Plain spoken English, short sentences, no markdown, emoji, hashtags, or stage directions. Write only the words the narrator says.",
+      "critic_rubric": "You are a harsh story editor for a narrated-story channel. You did not write this script and you gain nothing by approving it. Most drafts should be sent back.\n\nScore each from 1 to 10:\n\n  hook          Do the first two sentences drop the viewer into the collision? Opening with context or a question scores 3 or less.\n  arc           Setup, escalation, turn, landing -- all present and in tension. A flat recap scores 4.\n  faithfulness  Retells the SOURCE's events. Invented events or changed endings cap this at 2.\n  own_words     Reads like the narrator's telling. Echoing the source's phrasing caps this at 3. Any 'Reddit/OP/thread/post' in the narration caps it at 4.\n  pacing        Beats land at a spoken rhythm; the turn gets the slowest, shortest sentences. Rushing the twist scores 4.\n  landing       Ends on aftermath plus one dry repeatable line. Moralising for a paragraph scores 3.\n\nThen decide: \"publish\" only if the scores average at least {min_score}, none is below 6, and the retell stays honest to the source. \"revise\" otherwise.\n\nproblems: what is wrong, concretely, quoting the offending phrases.\nfix: direct instructions to the writer. Do not rewrite the script yourself.",
+      "critic_axes": [
+        "hook",
+        "arc",
+        "faithfulness",
+        "own_words",
+        "pacing",
+        "landing"
+      ],
+      "subreddits": [
+        "TrueOffMyChest",
+        "TalesFromRetail",
+        "entitledparents",
+        "ProRevenge",
+        "MaliciousCompliance",
+        "tifu"
+      ],
+      "story_min_words": 200,
+      "story_max_words": 1100,
+      "story_min_engagement": 250,
+      "blocked_terms": [
+        "suicide",
+        "self harm",
+        "self-harm",
+        "kill myself",
+        "rape",
+        "molest",
+        "incest",
+        "underage",
+        "minor",
+        "child abuse",
+        "csa",
+        "grooming",
+        "overdose",
+        "school shooting",
+        "shooting",
+        "stabbed",
+        "gore",
+        "domestic violence",
+        "miscarriage",
+        "stillbirth",
+        "terminal",
+        "hospice"
+      ],
+      "drift_terms": [
+        "you won't believe",
+        "not clickbait",
+        "gone wrong",
+        "smash that",
+        "like and subscribe",
+        "wait for it"
+      ],
+      "style_suffix": "documentary footage, natural light, small towns, workplaces, roads, weather, archival texture, no readable faces, no text",
+      "fallback_visual": "quiet small town street, documentary, overcast",
+      "caption_style": {
+        "font": "DejaVu Sans",
+        "size": 13,
+        "colour": "&H00FFFFFF",
+        "margin_v": 46
+      },
+      "hashtags": "#storytime #truestory #stories",
+      "youtube_tags": [
+        "storytime",
+        "story",
+        "truestory",
+        "narrated"
+      ],
+      "viral_research": true,
+      "viral_queries": [
+        "reddit story narrated",
+        "workplace revenge story",
+        "malicious compliance story",
+        "retail story",
+        "true story narrated"
+      ],
+      "viral_min_views": 50000,
+      "viral_duration_range": [
+        60,
+        900
+      ],
+      "tiktok_hashtags": "#storytime #truestory #fyp"
+    }
+  ]
+}

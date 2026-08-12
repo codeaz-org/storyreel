@@ -1,0 +1,17 @@
+# storyreel core
+requests>=2.31
+edge-tts>=6.1
+google-api-python-client>=2.100
+google-auth>=2.20
+google-auth-oauthlib>=1.0
+
+# OpenMontage tool deps (corpus_builder, clip_search, video_stitch)
+numpy>=1.24
+Pillow>=10.0
+opencv-python-headless>=4.8
+transformers>=4.40
+python-dotenv>=1.0
+pyyaml>=6.0
+pydantic>=2.0
+# torch is installed in the workflow from the CPU wheel index to avoid the CUDA download
+yt-dlp>=2025.1.1

@@ -1,0 +1,126 @@
+name: storyreel autopilot
+on:
+  schedule:
+    # Twice a day. The critic gates quality; more runs mostly means more rejected
+    # drafts against rate-limited free tiers.
+    - cron: "0 8 * * *"
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+    inputs:
+      channels:
+        description: "Comma-separated channel ids to run (blank = all)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Render but don't upload (video saved as an artifact)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: autopilot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    permissions:
+      contents: write   # commits posted.json back (state + keeps the cron alive)
+    steps:
+      - uses: actions/checkout@v4
+
+      # Pin OpenMontage to a known-good commit once you've verified a run:
+      # replace `ref: main` with that SHA so an upstream change can't break the cron.
+      - uses: actions/checkout@v4
+        with:
+          repository: calesthio/OpenMontage
+          path: OpenMontage
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install deps (torch is the CPU wheel -- no CUDA download)
+        run: |
+          pip install -r requirements.txt
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      # CLIP ViT-B/32 (~350 MB) downloads once, then restores from cache.
+      - name: Cache CLIP weights
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-clip-vit-base-patch32-v1
+
+      # The clip corpus persists across runs: retrieval gets richer and each run
+      # downloads only what's new. Keyed per week so it can't grow unbounded.
+      - name: Cache clip corpus
+        uses: actions/cache@v4
+        with:
+          path: corpus
+          key: corpus-${{ github.run_id }}
+          restore-keys: |
+            corpus-
+
+      # LAST-RESORT LLM fallback, same pattern as mpt: only fires when NIM, Groq,
+      # and OpenRouter are all down or quota-drained. Comment this block out to
+      # save ~10 min of first-run setup if you trust the hosted free tiers.
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-llama3.1-8b-v1
+
+      - name: Install, start, and warm Ollama
+        env:
+          OLLAMA_KEEP_ALIVE: "24h"
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          sleep 5
+          ollama pull llama3.1:8b
+
+      - name: Run autopilot
+        env:
+          NIM_API_KEY: ${{ secrets.NIM_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OLLAMA_URL: http://127.0.0.1:11434
+          OLLAMA_MODEL: llama3.1:8b
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_KINDLING: ${{ secrets.YT_REFRESH_TOKEN_KINDLING }}
+          YT_REFRESH_TOKEN_DRIFTWATER: ${{ secrets.YT_REFRESH_TOKEN_DRIFTWATER }}
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_CHANNEL_ID_KINDLING: ${{ secrets.BUFFER_CHANNEL_ID_KINDLING }}
+          BUFFER_CHANNEL_ID_DRIFTWATER: ${{ secrets.BUFFER_CHANNEL_ID_DRIFTWATER }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHANNELS: ${{ github.event.inputs.channels }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+          OPENMONTAGE_DIR: ${{ github.workspace }}/OpenMontage
+        run: python autopilot.py
+
+      - name: Upload dry-run videos as artifacts
+        if: github.event.inputs.dry_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-videos
+          path: out/
+          if-no-files-found: ignore
+
+      - name: Commit state
+        run: |
+          git config user.name "storyreel-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add posted.json
+          git diff --cached --quiet || git commit -m "state: $(date -u +%FT%TZ)"
+          git push
