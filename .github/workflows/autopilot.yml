@@ -98,11 +98,9 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
-          YT_REFRESH_TOKEN_KINDLING: ${{ secrets.YT_REFRESH_TOKEN_KINDLING }}
-          YT_REFRESH_TOKEN_DRIFTWATER: ${{ secrets.YT_REFRESH_TOKEN_DRIFTWATER }}
+          YT_REFRESH_TOKEN_THREADFIRE: ${{ secrets.YT_REFRESH_TOKEN_THREADFIRE }}
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
-          BUFFER_CHANNEL_ID_KINDLING: ${{ secrets.BUFFER_CHANNEL_ID_KINDLING }}
-          BUFFER_CHANNEL_ID_DRIFTWATER: ${{ secrets.BUFFER_CHANNEL_ID_DRIFTWATER }}
+          BUFFER_CHANNEL_ID_THREADFIRE: ${{ secrets.BUFFER_CHANNEL_ID_THREADFIRE }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHANNELS: ${{ github.event.inputs.channels }}
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
