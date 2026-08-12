@@ -69,7 +69,7 @@
       "fallback_visual": "rainy city street at night, vertical, cinematic",
       "caption_style": {
         "font": "DejaVu Sans",
-        "size": 22,
+        "size": 18,
         "colour": "&H00FFFFFF",
         "margin_v": 120
       },

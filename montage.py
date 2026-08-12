@@ -230,7 +230,7 @@ def _ts(seconds):
     return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
 
 
-CAPTION_MAX_WORDS = 7  # short chunks so libass never wraps off-screen
+CAPTION_MAX_WORDS = 10  # a touch denser: more text per line, still fits with WrapStyle=0
 
 
 def _chunk_sentence(sentence, max_words=CAPTION_MAX_WORDS):
@@ -261,8 +261,10 @@ def write_srt(slots, slot_secs, path):
         sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", slot["text"]) if s.strip()]
         chunks = [c for s in sentences for c in _chunk_sentence(s)]
         words_total = sum(len(c.split()) for c in chunks) or 1
+        # Pure proportional -- no minimum floor. A per-chunk max floor inflates
+        # cumulative timing and causes captions to lag the narration.
         for c in chunks:
-            d = max(0.7, secs * len(c.split()) / words_total)
+            d = secs * len(c.split()) / words_total
             lines += [str(idx), f"{_ts(t)} --> {_ts(t + d)}", c, ""]
             idx += 1
             t += d
