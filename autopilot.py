@@ -166,7 +166,7 @@ def generate_script(topic, channel, story):
 # ---- render sanity (lifted from mpt) ------------------------------------------
 
 WORDS_PER_SECOND = 2.5
-MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "240"))  # 4 min floor -- llama3.1:8b under-produces vs 10-min target
+MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "55"))  # shorts channel: ~60-180s target
 
 
 def check_rendered_video(path, script):
@@ -183,17 +183,25 @@ def check_rendered_video(path, script):
     log(f"video checks out: {duration:.0f}s for {len(script.split())} words")
 
 
+TIKTOK_MAX_SECONDS = 180  # anything shorter is published as a single post, not split
+
+
 def split_for_tiktok(video, channel, out_dir):
-    """Landscape master -> N portrait 9:16 clips of ~part_seconds each. Uses one
-    ffmpeg pass with -f segment so cuts land on keyframes; center-crops to 9:16.
-    Returns a list of (index, path, duration) tuples in order.
-    ponytail: keyframe cuts drift a few seconds; add smart cutting when it bites."""
+    """For shorts channels (portrait, <= TIKTOK_MAX_SECONDS), return the master
+    video as a single 'part 1/1' -- no crop, no split, just publish the whole
+    thing. For long-form landscape videos, center-crop to 9:16 and cut into
+    ~part_seconds segments. Returns [(index, path, duration), ...]."""
     cfg = channel.get("tiktok", {}) or {}
     if not cfg.get("enabled"):
         return []
+    duration = montage.ffprobe_duration(video)
+    portrait = channel.get("orientation", "landscape") == "portrait"
+
+    if portrait and duration <= TIKTOK_MAX_SECONDS:
+        return [(1, Path(video), duration)]
+
     part_secs = int(cfg.get("part_seconds", 55))
     min_secs = int(cfg.get("min_part_seconds", 30))
-    duration = montage.ffprobe_duration(video)
     if duration < min_secs:
         log(f"[{channel['id']}] tiktok split skipped: video is only {duration:.0f}s")
         return []
@@ -201,8 +209,7 @@ def split_for_tiktok(video, channel, out_dir):
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(video).stem
     pattern = str(out_dir / f"{stem}-part-%03d.mp4")
-    # crop=ih*9/16:ih -> center-crop landscape to 9:16 at native height; scale to 1080x1920
-    vf = "crop=ih*9/16:ih,scale=1080:1920"
+    vf = "crop=ih*9/16:ih,scale=1080:1920" if not portrait else "scale=1080:1920"
     _r = subprocess.run(
         ["ffmpeg", "-y", "-i", str(video),
          "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "22",
@@ -323,8 +330,8 @@ def run_channel(channel, state):
         base_caption = tiktok_caption(meta, channel)
         total = len(tiktok_parts)
         for i, path, _ in tiktok_parts:
-            part_title = f"{meta['title']} — Part {i}/{total}"
-            part_caption = f"Part {i}/{total}\n\n{base_caption}"
+            part_title = meta["title"] if total == 1 else f"{meta['title']} — Part {i}/{total}"
+            part_caption = base_caption if total == 1 else f"Part {i}/{total}\n\n{base_caption}"
             try:
                 post_id = buffer.publish(str(path), part_caption,
                                          title=part_title, niche_id=channel["id"])

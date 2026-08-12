@@ -85,8 +85,11 @@ def review(topic, script, question=None, min_score=None, niche=None):
 
     scores = {k: v for k, v in (result.get("scores") or {}).items() if isinstance(v, (int, float))}
     problems = [p for p in (result.get("problems") or []) if isinstance(p, str)]
-    fix = (result.get("fix") or "").strip()
-    verdict = (result.get("verdict") or "").strip().lower()
+    # Models sometimes return fix/verdict as a list; coerce to string safely.
+    raw_fix = result.get("fix") or ""
+    fix = (" ".join(str(x) for x in raw_fix) if isinstance(raw_fix, list) else str(raw_fix)).strip()
+    raw_verdict = result.get("verdict") or ""
+    verdict = (raw_verdict[0] if isinstance(raw_verdict, list) and raw_verdict else str(raw_verdict)).strip().lower()
     # Trust the scores over the verdict: models say "publish" while scoring a 4.
     if scores:
         mean = sum(scores.values()) / len(scores)
