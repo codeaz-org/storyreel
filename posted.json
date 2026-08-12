@@ -2,7 +2,8 @@
   "topics": {
     "threadfire": [
       "Accused of stealing what's mine",
-      "Mistaken for a Worker"
+      "Mistaken for a Worker",
+      "I 'fixed' my boss's 'hardware problem'"
     ]
   },
   "uploads": [
@@ -35,6 +36,23 @@
       "tiktok": true,
       "tiktok_post_id": "6a7c3a5141c0632313fe1ebc",
       "ts": "2026-08-12T09:18:06"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I 'fixed' my boss's 'hardware problem'",
+      "title": "A Fix That Raised Questions",
+      "story": "I Eternal Sunshined my egomaniac ex",
+      "story_id": "reddit:1vk5kr9",
+      "story_url": "https://reddit.com/r/pettyrevenge/comments/1vk5kr9/i_eternal_sunshined_my_egomaniac_ex/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "dO_k8XRCnKA",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a7cdc8b8360b60181e103c2"
+      ],
+      "ts": "2026-08-12T20:50:14"
     }
   ]
 }
