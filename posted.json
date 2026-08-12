@@ -1,7 +1,8 @@
 {
   "topics": {
     "threadfire": [
-      "Accused of stealing what's mine"
+      "Accused of stealing what's mine",
+      "Mistaken for a Worker"
     ]
   },
   "uploads": [
@@ -19,6 +20,21 @@
       "tiktok": true,
       "tiktok_post_id": "6a7c35b88970c904456bed25",
       "ts": "2026-08-12T08:58:28"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Mistaken for a Worker",
+      "title": "Wrong Place",
+      "story": "You can\u2019t fire me, I don\u2019t work here.",
+      "story_id": "reddit:1vkjej6",
+      "story_url": "https://reddit.com/r/IDontWorkHereLady/comments/1vkjej6/you_cant_fire_me_i_dont_work_here/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "vMXZSCikE_0",
+      "tiktok": true,
+      "tiktok_post_id": "6a7c3a5141c0632313fe1ebc",
+      "ts": "2026-08-12T09:18:06"
     }
   ]
 }
