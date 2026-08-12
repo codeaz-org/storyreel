@@ -120,18 +120,17 @@ def _clean_script(raw):
 def _write_script(topic, channel, story, feedback=None):
     system = channel["script_prompt"]
     notes = [
-        "SOURCE THREAD (inspiration, NOT a script). Retell this story entirely in "
-        "your own words and sentence structures -- never copy a sentence verbatim. "
-        "Replace usernames and real names with generic invented ones, drop "
-        "identifying details, keep the arc and the emotional beats:\n\n"
+        "SOURCE THREAD (your working text -- keep its sentences and voice where they "
+        "work, edit only what breaks the read; follow the channel's editorial "
+        "instructions above for exactly what to keep, cut, and add):\n\n"
         + (story.get("text") or "")]
     if feedback:
         notes.append("An editor reviewed your previous attempt and rejected it. "
                      f"Their instructions:\n{feedback}")
     system += "\n\n" + "\n\n".join(notes)
     return _clean_script(nim_chat(
-        system, f"Topic: {topic}\n\nWrite the narration now.",
-        temperature=0.8 if not feedback else 0.6, max_tokens=2500,
+        system, f"Topic: {topic}\n\nProduce the finished script now.",
+        temperature=0.5 if not feedback else 0.4, max_tokens=3500,
     ))
 
 

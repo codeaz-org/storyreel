@@ -74,7 +74,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.ollama/models
-          key: ollama-gpt-oss-20b-v1
+          key: ollama-llama3.1-8b-v1
 
       - name: Install, start, and warm Ollama
         env:
@@ -83,13 +83,14 @@ jobs:
           curl -fsSL https://ollama.com/install.sh | sh
           nohup ollama serve > /tmp/ollama.log 2>&1 &
           sleep 5
-          ollama pull gpt-oss:20b
+          ollama pull llama3.1:8b
 
       - name: Run autopilot
         env:
           # ponytail: hosted LLMs off; Ollama-only for stability. Re-enable a key here to bring failover back.
           OLLAMA_URL: http://127.0.0.1:11434
-          OLLAMA_MODEL: gpt-oss:20b
+          OLLAMA_MODEL: llama3.1:8b
+          NIM_TIMEOUT: "600"
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
