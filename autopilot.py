@@ -87,6 +87,29 @@ WEAK_HOOK_RE = re.compile(
 HEDGE_RE = re.compile(
     r"\b(?:can lead to|may (?:lead|cause)|is important|it'?s essential)\b", re.I)
 
+# Mechanical Reddit-speak / meta detector -- more reliable than asking the critic
+# model. Any hit forces a revise with concrete feedback.
+REDDIT_SPEAK_RE = re.compile(
+    r"\b(?:so basically|TL;DR|edit ?[:\-]|update ?[:\-]|obligatory|throwaway|"
+    r"long[- ]time lurker|first[- ]time poster|buckle up|let that sink in|"
+    r"wait for it|not clickbait|OP\b|redditor|subreddit|Reddit)\b",
+    re.I)
+
+
+def dirty_phrases(script, channel):
+    """Return (phrases_found, reason_string) for mechanical fails, or ([], '')."""
+    hits = set()
+    for m in REDDIT_SPEAK_RE.finditer(script):
+        hits.add(m.group(0).lower())
+    for term in channel.get("drift_terms", []) or []:
+        if re.search(rf"\b{re.escape(term)}\b", script, re.I):
+            hits.add(term.lower())
+    if not hits:
+        return [], ""
+    return sorted(hits), (
+        "Delete these Reddit-speak / drift phrases from the script -- they must "
+        "not appear in the final read: " + ", ".join(sorted(hits)))
+
 
 def _first_sentence(script):
     return re.split(r"(?<=[.!?])\s+", script.strip(), maxsplit=1)[0].strip()
@@ -149,6 +172,11 @@ def generate_script(topic, channel, story):
             problems = [f"weak hook: {bad}"] + problems
             fix = ("Replace the first sentence with the moment of maximum tension, "
                    "stated as a concrete fact. " + fix)
+            verdict = "revise"
+        dirty, dirty_fix = dirty_phrases(script, channel)
+        if dirty:
+            problems = [f"drift/reddit-speak: {', '.join(dirty)}"] + problems
+            fix = f"{dirty_fix} {fix}".strip()
             verdict = "revise"
         return verdict, scores, problems, fix
 
