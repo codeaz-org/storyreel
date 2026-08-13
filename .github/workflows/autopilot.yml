@@ -119,5 +119,13 @@ jobs:
           git config user.name "storyreel-bot"
           git config user.email "bot@users.noreply.github.com"
           git add posted.json
-          git diff --cached --quiet || git commit -m "state: $(date -u +%FT%TZ)"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "state: $(date -u +%FT%TZ)"
+          # ponytail: rebase-pull-retry loop -- state commits from concurrent runs
+          # race; without this, a stale push aborts the workflow and loses the state.
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "state push failed after 3 attempts" >&2
+          exit 1
