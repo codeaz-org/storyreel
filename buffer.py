@@ -190,6 +190,23 @@ def _create_post(channel_id, caption, assets, title):
     return post.get("id")
 
 
+def _wait_url_ready(url, tries=10, initial=2.0):
+    """HEAD the URL until it returns 200. GitHub release assets take a few seconds
+    to propagate to their CDN; without this Buffer's fetcher hits the URL before
+    the asset is live and fails with 'Video could not be read from its URL'."""
+    for i in range(tries):
+        try:
+            r = requests.head(url, timeout=15, allow_redirects=True)
+            if r.status_code == 200:
+                if i:
+                    log(f"URL ready after {i + 1} probes")
+                return
+        except requests.RequestException:
+            pass
+        time.sleep(initial * (i + 1))
+    log(f"URL not confirmed ready after {tries} probes; publishing anyway: {url}")
+
+
 def publish(video_path, caption, title=None, video_url=None, niche_id=None):
     """Queue the video on the connected TikTok channel with its caption.
 
@@ -199,7 +216,21 @@ def publish(video_path, caption, title=None, video_url=None, niche_id=None):
     channel_id, _ = tiktok_channel(niche_id)
     if not video_url:
         video_url = host_file(video_path)
-    return _create_post(channel_id, caption, [{"video": {"url": video_url}}], title)
+        _wait_url_ready(video_url)
+    # Belt-and-suspenders: even a warm URL sometimes 404s from Buffer's fetcher
+    # for one call and works on the next. Retry only the fetch-failed variant.
+    last = None
+    for i in range(3):
+        try:
+            return _create_post(channel_id, caption, [{"video": {"url": video_url}}], title)
+        except RuntimeError as e:
+            if "could not be read" not in str(e).lower():
+                raise
+            last = e
+            wait = 15 * (i + 1)
+            log(f"buffer fetch failed, retrying in {wait}s")
+            time.sleep(wait)
+    raise last
 
 
 def delete(post_id):
