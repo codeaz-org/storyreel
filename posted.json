@@ -4,7 +4,8 @@
       "Accused of stealing what's mine",
       "Mistaken for a Worker",
       "I 'fixed' my boss's 'hardware problem'",
-      "The Rain That Wakes Me"
+      "The Rain That Wakes Me",
+      "I Refuse to Be a Math Harvest"
     ]
   },
   "uploads": [
@@ -74,6 +75,23 @@
         "6a7edd0d7f7772c1abe69154"
       ],
       "ts": "2026-08-14T09:16:15"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I Refuse to Be a Math Harvest",
+      "title": "The Numbers are Coming for Me",
+      "story": "Can I have some napkins, please?",
+      "story_id": "reddit:1vl4tbq",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vl4tbq/can_i_have_some_napkins_please/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "mzq6JVqaorI",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a7f685267592b2353d7261e"
+      ],
+      "ts": "2026-08-14T19:11:08"
     }
   ]
 }
