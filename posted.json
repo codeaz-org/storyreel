@@ -3,7 +3,8 @@
     "threadfire": [
       "Accused of stealing what's mine",
       "Mistaken for a Worker",
-      "I 'fixed' my boss's 'hardware problem'"
+      "I 'fixed' my boss's 'hardware problem'",
+      "The Rain That Wakes Me"
     ]
   },
   "uploads": [
@@ -53,6 +54,26 @@
         "6a7cdc8b8360b60181e103c2"
       ],
       "ts": "2026-08-12T20:50:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Rain That Wakes Me",
+      "title": "The Rain That Wakes Me",
+      "story": "That\u2019s Not Rain",
+      "story_id": "reddit:1vk73f1",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vk73f1/thats_not_rain/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "-PqwQcYZSAA",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a7edce3e4f4c7f1580fec85",
+        "6a7edcf1d9f28c7efb75b82c",
+        "6a7edcffe4f4c7f1580fedba",
+        "6a7edd0d7f7772c1abe69154"
+      ],
+      "ts": "2026-08-14T09:16:15"
     }
   ]
 }
