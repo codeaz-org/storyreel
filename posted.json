@@ -5,7 +5,8 @@
       "Mistaken for a Worker",
       "I 'fixed' my boss's 'hardware problem'",
       "The Rain That Wakes Me",
-      "I Refuse to Be a Math Harvest"
+      "I Refuse to Be a Math Harvest",
+      "My Wife Was So Happy When the Baby Finally Ate"
     ]
   },
   "uploads": [
@@ -92,6 +93,23 @@
         "6a7f685267592b2353d7261e"
       ],
       "ts": "2026-08-14T19:11:08"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Wife Was So Happy When the Baby Finally Ate",
+      "title": "The Unsettling Moment",
+      "story": "My Wife Was So Happy When the Baby Finally Ate",
+      "story_id": "reddit:1vmhopw",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vmhopw/my_wife_was_so_happy_when_the_baby_finally_ate/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "3G-FazjeL70",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a7f855572d7f70e3e1e7ae3"
+      ],
+      "ts": "2026-08-14T21:14:57"
     }
   ]
 }
