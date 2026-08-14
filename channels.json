@@ -37,7 +37,7 @@
       ],
       "story_min_words": 200,
       "story_max_words": 1800,
-      "story_min_engagement": 400,
+      "story_min_engagement": 150,
       "blocked_terms": [
         "suicide",
         "self harm",
@@ -102,7 +102,7 @@
       "tiktok": {
         "enabled": true
       },
-      "tiktok_hashtags": "#horror #scarystory #creepy #fyp #reddit #threadfire"
+      "tiktok_hashtags": "#horror #scarystory #creepy #fyp #threadfire"
     }
   ]
 }

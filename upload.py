@@ -17,9 +17,9 @@ def make_metadata(topic, channel):
     try:
         raw = nim_chat(
             "You write YouTube metadata for a narrated story video. Respond ONLY with "
-            'JSON: {"title": "...", "description": "..."}. Title under 90 chars, states '
-            "the collision in the story without spoiling the turn, no ALL CAPS, no "
-            "clickbait cliches. Description: 2 sentences + a call to action to follow.",
+            'JSON: {"title": "...", "description": "..."}. Title under 80 chars, one '
+            "dread-hook line, no ALL CAPS, no clickbait cliches. Description: ONE short "
+            "sentence (under 140 chars) that teases the fear without spoiling the turn.",
             f"Video topic: {topic}",
             temperature=0.7,
         )
