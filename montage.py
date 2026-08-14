@@ -252,21 +252,21 @@ def _chunk_sentence(sentence, max_words=CAPTION_MAX_WORDS):
     return chunks
 
 
-CAPTION_LEAD_OFFSET = 0.45  # edge-tts adds ~0.4s of silence before speech starts; delay captions to match
-CAPTION_MIN_HOLD = 0.9      # short chunks (1-2 words) shouldn't flash past the eye
+CAPTION_LEAD_OFFSET = 0.35  # edge-tts adds ~0.3-0.4s of silence before speech starts
 
 
 def write_srt(slots, slot_secs, path):
     """Chunked captions (<= CAPTION_MAX_WORDS per line), timed proportionally by
-    word count with a global lead offset (TTS initial silence) and a per-chunk
-    minimum hold (prevent flashes). Ffmpeg trims any overshoot at video end."""
+    word count with a global lead offset (TTS initial silence). Cursor advances
+    by the natural per-chunk duration -- padding it (min-hold) accumulates drift
+    over dozens of chunks and pushes captions behind the voice."""
     idx, t, lines = 1, CAPTION_LEAD_OFFSET, []
     for slot, secs in zip(slots, slot_secs):
         sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", slot["text"]) if s.strip()]
         chunks = [c for s in sentences for c in _chunk_sentence(s)]
         words_total = sum(len(c.split()) for c in chunks) or 1
         for c in chunks:
-            d = max(CAPTION_MIN_HOLD, secs * len(c.split()) / words_total)
+            d = secs * len(c.split()) / words_total
             lines += [str(idx), f"{_ts(t)} --> {_ts(t + d)}", c, ""]
             idx += 1
             t += d
