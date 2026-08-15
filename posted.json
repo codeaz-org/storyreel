@@ -6,7 +6,8 @@
       "I 'fixed' my boss's 'hardware problem'",
       "The Rain That Wakes Me",
       "I Refuse to Be a Math Harvest",
-      "My Wife Was So Happy When the Baby Finally Ate"
+      "My Wife Was So Happy When the Baby Finally Ate",
+      "My Wife Said Our Daughter Died Peacefully in Her Sleep"
     ]
   },
   "uploads": [
@@ -110,6 +111,23 @@
         "6a7f855572d7f70e3e1e7ae3"
       ],
       "ts": "2026-08-14T21:14:57"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Wife Said Our Daughter Died Peacefully in Her Sleep",
+      "title": "A Grieving Father's Descent into Madness",
+      "story": "I Think There\u2019s Something Wrong With My Wife",
+      "story_id": "reddit:1vlkm3a",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vlkm3a/i_think_theres_something_wrong_with_my_wife/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "pe_pIp5DGWE",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8024a28c440c5edfec46be"
+      ],
+      "ts": "2026-08-15T08:34:37"
     }
   ]
 }
