@@ -126,15 +126,30 @@ def _mechanical_plan(script, channel, target_slots=8):
 # ---- 2. narration ------------------------------------------------------------
 
 def tts(script, voice, out_path):
+    """Narrate and capture real per-word timestamps from edge-tts. The WordBoundary
+    events tell us exactly when each word is spoken, so captions never drift."""
     import edge_tts
     short = re.sub(r"-(Male|Female)$", "", voice)
+    words = []
 
     async def go():
-        await edge_tts.Communicate(script, short, rate="+4%").save(str(out_path))
+        comm = edge_tts.Communicate(script, short, rate="+4%")
+        with open(out_path, "wb") as f:
+            async for chunk in comm.stream():
+                if chunk["type"] == "audio":
+                    f.write(chunk["data"])
+                elif chunk["type"] == "WordBoundary":
+                    words.append({
+                        "text": chunk["text"],
+                        "start": chunk["offset"] / 1e7,
+                        "duration": chunk["duration"] / 1e7,
+                    })
     asyncio.run(go())
     if not out_path.exists() or out_path.stat().st_size < 1000:
         raise RuntimeError(f"edge-tts produced no audio for {short}")
-    log(f"narration -> {out_path.name} ({out_path.stat().st_size // 1024} KB, {short})")
+    log(f"narration -> {out_path.name} ({out_path.stat().st_size // 1024} KB, "
+        f"{short}, {len(words)} word timings)")
+    return words
 
 
 # ---- 3. corpus ---------------------------------------------------------------
@@ -230,46 +245,37 @@ def _ts(seconds):
     return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
 
 
-CAPTION_MAX_WORDS = 10  # a touch denser: more text per line, still fits with WrapStyle=0
+CAPTION_MAX_WORDS = 12       # denser captions, still fits vertical safe area at 14pt
+CAPTION_PAUSE_BREAK = 0.30   # gap between spoken words that ends a caption chunk early
+CAPTION_TAIL_HOLD = 0.08     # tiny hold past the last word so it doesn't blink out
 
 
-def _chunk_sentence(sentence, max_words=CAPTION_MAX_WORDS):
-    """Break a sentence into ~max_words chunks at natural pauses (commas, dashes)
-    when possible, else on word boundaries. Prevents multi-line captions from
-    overflowing the safe area."""
-    words = sentence.split()
-    if len(words) <= max_words:
-        return [sentence]
-    chunks, current = [], []
-    for w in words:
-        current.append(w)
-        ends_pause = w.endswith((",", ";", "--", "—", ":"))
-        if len(current) >= max_words or (ends_pause and len(current) >= 4):
-            chunks.append(" ".join(current))
-            current = []
-    if current:
-        chunks.append(" ".join(current))
-    return chunks
-
-
-CAPTION_LEAD_OFFSET = 0.35  # edge-tts adds ~0.3-0.4s of silence before speech starts
-
-
-def write_srt(slots, slot_secs, path):
-    """Chunked captions (<= CAPTION_MAX_WORDS per line), timed proportionally by
-    word count with a global lead offset (TTS initial silence). Cursor advances
-    by the natural per-chunk duration -- padding it (min-hold) accumulates drift
-    over dozens of chunks and pushes captions behind the voice."""
-    idx, t, lines = 1, CAPTION_LEAD_OFFSET, []
-    for slot, secs in zip(slots, slot_secs):
-        sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", slot["text"]) if s.strip()]
-        chunks = [c for s in sentences for c in _chunk_sentence(s)]
-        words_total = sum(len(c.split()) for c in chunks) or 1
-        for c in chunks:
-            d = secs * len(c.split()) / words_total
-            lines += [str(idx), f"{_ts(t)} --> {_ts(t + d)}", c, ""]
-            idx += 1
-            t += d
+def write_srt(word_timings, path, max_words=CAPTION_MAX_WORDS):
+    """Group real edge-tts word timestamps into caption chunks. Start/end come
+    straight from the TTS stream, so captions stay locked to the voice regardless
+    of pauses, sentence breaks, or variable word lengths. Breaks early on a long
+    inter-word pause so captions land on natural beats."""
+    if not word_timings:
+        path.write_text("")
+        return
+    lines, idx, i = [], 1, 0
+    while i < len(word_timings):
+        end_i = min(i + max_words, len(word_timings))
+        for j in range(i + 1, end_i):
+            prev = word_timings[j - 1]
+            gap = word_timings[j]["start"] - (prev["start"] + prev["duration"])
+            if gap > CAPTION_PAUSE_BREAK and j - i >= 4:
+                end_i = j
+                break
+        chunk = word_timings[i:end_i]
+        text = " ".join(w["text"] for w in chunk).strip()
+        start = chunk[0]["start"]
+        end = chunk[-1]["start"] + chunk[-1]["duration"] + CAPTION_TAIL_HOLD
+        if end_i < len(word_timings):  # never overlap the next cue's start
+            end = min(end, word_timings[end_i]["start"] - 0.01)
+        lines += [str(idx), f"{_ts(start)} --> {_ts(end)}", text, ""]
+        idx += 1
+        i = end_i
     path.write_text("\n".join(lines))
 
 
@@ -318,7 +324,7 @@ def render(topic, channel, script, story=None):
     log(f"1/6 scene plan -> {len(slots)} slots")
 
     narration = project / "narration.mp3"
-    tts(script, channel["voice"], narration)
+    word_timings = tts(script, channel["voice"], narration)
     audio_secs = ffprobe_duration(narration)
     total_words = sum(len(s["text"].split()) for s in slots) or 1
     slot_secs = [audio_secs * len(s["text"].split()) / total_words for s in slots]
@@ -349,7 +355,7 @@ def render(topic, channel, script, story=None):
     log(f"5/6 stitch     -> {stitched.name} ({ffprobe_duration(stitched):.0f}s)")
 
     srt = project / "captions.srt"
-    write_srt(slots, slot_secs, srt)
+    write_srt(word_timings, srt)
     final = project / f"{channel['id']}-{ts}-final.mp4"
     burn_and_mux(stitched, narration, srt, final, channel, audio_secs)
     log(f"6/6 final      -> {final.name} ({ffprobe_duration(final):.0f}s, {w}x{h})")
