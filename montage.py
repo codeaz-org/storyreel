@@ -126,23 +126,28 @@ def _mechanical_plan(script, channel, target_slots=8):
 # ---- 2. narration ------------------------------------------------------------
 
 def tts(script, voice, out_path):
-    """Narrate and capture real per-word timestamps from edge-tts. The WordBoundary
-    events tell us exactly when each word is spoken, so captions never drift."""
+    """Narrate and capture real per-word timestamps from edge-tts. WordBoundary
+    events tell us exactly when each word is spoken, so captions never drift.
+
+    Rate is NOT passed as a prosody modifier: the <prosody rate=...> SSML wrapper
+    suppresses WordBoundary events in current edge-tts / Azure combinations, and
+    zero timings means unsynced captions. Natural rate keeps the events flowing."""
     import edge_tts
     short = re.sub(r"-(Male|Female)$", "", voice)
     words = []
 
     async def go():
-        comm = edge_tts.Communicate(script, short, rate="+4%")
+        comm = edge_tts.Communicate(script, short)
         with open(out_path, "wb") as f:
             async for chunk in comm.stream():
-                if chunk["type"] == "audio":
+                ct = chunk.get("type")
+                if ct == "audio":
                     f.write(chunk["data"])
-                elif chunk["type"] == "WordBoundary":
+                elif ct == "WordBoundary":
                     words.append({
-                        "text": chunk["text"],
-                        "start": chunk["offset"] / 1e7,
-                        "duration": chunk["duration"] / 1e7,
+                        "text": chunk.get("text") or "",
+                        "start": (chunk.get("offset") or 0) / 1e7,
+                        "duration": (chunk.get("duration") or 0) / 1e7,
                     })
     asyncio.run(go())
     if not out_path.exists() or out_path.stat().st_size < 1000:
@@ -248,15 +253,43 @@ def _ts(seconds):
 CAPTION_MAX_WORDS = 12       # denser captions, still fits vertical safe area at 14pt
 CAPTION_PAUSE_BREAK = 0.30   # gap between spoken words that ends a caption chunk early
 CAPTION_TAIL_HOLD = 0.08     # tiny hold past the last word so it doesn't blink out
+FALLBACK_LEAD = 0.35         # rough TTS initial silence for the no-boundaries fallback
 
 
-def write_srt(word_timings, path, max_words=CAPTION_MAX_WORDS):
+def _fallback_srt(script, audio_secs, max_words=CAPTION_MAX_WORDS):
+    """When edge-tts doesn't emit WordBoundary events, split the script by
+    sentence and time each sentence proportional to its word share of audio_secs.
+    Bounded drift (per sentence, not accumulated); always produces a valid SRT."""
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", script) if s.strip()]
+    if not sentences or audio_secs <= 0:
+        return "1\n00:00:00,000 --> 00:00:01,000\n \n"  # ffmpeg-valid placeholder
+    total_words = sum(len(s.split()) for s in sentences) or 1
+    speech = max(audio_secs - FALLBACK_LEAD, 0.5)
+    t, lines, idx = FALLBACK_LEAD, [], 1
+    for sent in sentences:
+        sent_words = sent.split()
+        sent_dur = speech * len(sent_words) / total_words
+        chunks = ([sent] if len(sent_words) <= max_words else
+                  [" ".join(sent_words[i:i + max_words])
+                   for i in range(0, len(sent_words), max_words)])
+        for c in chunks:
+            cd = sent_dur * len(c.split()) / len(sent_words)
+            lines += [str(idx), f"{_ts(t)} --> {_ts(t + cd)}", c, ""]
+            idx += 1
+            t += cd
+    return "\n".join(lines)
+
+
+def write_srt(word_timings, path, script="", audio_secs=0.0, max_words=CAPTION_MAX_WORDS):
     """Group real edge-tts word timestamps into caption chunks. Start/end come
     straight from the TTS stream, so captions stay locked to the voice regardless
     of pauses, sentence breaks, or variable word lengths. Breaks early on a long
-    inter-word pause so captions land on natural beats."""
+    inter-word pause so captions land on natural beats. Falls back to a
+    sentence-proportional split of the known audio_secs when boundaries are
+    missing -- captions imperfect but the pipeline never crashes on an empty SRT."""
     if not word_timings:
-        path.write_text("")
+        log(f"no word timings; sentence-proportional fallback over {audio_secs:.1f}s")
+        path.write_text(_fallback_srt(script, audio_secs, max_words))
         return
     lines, idx, i = [], 1, 0
     while i < len(word_timings):
@@ -355,7 +388,7 @@ def render(topic, channel, script, story=None):
     log(f"5/6 stitch     -> {stitched.name} ({ffprobe_duration(stitched):.0f}s)")
 
     srt = project / "captions.srt"
-    write_srt(word_timings, srt)
+    write_srt(word_timings, srt, script=script, audio_secs=audio_secs)
     final = project / f"{channel['id']}-{ts}-final.mp4"
     burn_and_mux(stitched, narration, srt, final, channel, audio_secs)
     log(f"6/6 final      -> {final.name} ({ffprobe_duration(final):.0f}s, {w}x{h})")
