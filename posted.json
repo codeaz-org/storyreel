@@ -7,7 +7,8 @@
       "The Rain That Wakes Me",
       "I Refuse to Be a Math Harvest",
       "My Wife Was So Happy When the Baby Finally Ate",
-      "My Wife Said Our Daughter Died Peacefully in Her Sleep"
+      "My Wife Said Our Daughter Died Peacefully in Her Sleep",
+      "A Creepy Business Proposal"
     ]
   },
   "uploads": [
@@ -128,6 +129,23 @@
         "6a8024a28c440c5edfec46be"
       ],
       "ts": "2026-08-15T08:34:37"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A Creepy Business Proposal",
+      "title": "The Job Offer That Chilled Me to the Bone",
+      "story": "Sophie",
+      "story_id": "reddit:1vmbw0k",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vmbw0k/sophie/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "cyIETFTeOqg",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a819ef90553c0d53cc3704e"
+      ],
+      "ts": "2026-08-16T11:28:51"
     }
   ]
 }
