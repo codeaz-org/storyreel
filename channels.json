@@ -70,11 +70,15 @@
         "font": "DejaVu Sans",
         "size": 14,
         "colour": "&H00FFFFFF",
+        "outline_colour": "&H002020C8",
         "margin_v": 120
       },
+      "look": "eq=saturation=0.65:contrast=1.10:brightness=-0.04,curves=preset=darker,vignette=PI/4.2",
       "brand": {
         "wordmark": "ThreadFire",
-        "primary_colour": "&H001030CC"
+        "primary_colour": "&H001030CC",
+        "wordmark_colour": "0xCC3010",
+        "wordmark_size": 44
       },
       "hashtags": "#horror #creepy #scarystory #shorts #threadfire",
       "youtube_tags": [

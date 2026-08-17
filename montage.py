@@ -313,16 +313,18 @@ def write_srt(word_timings, path, script="", audio_secs=0.0, max_words=CAPTION_M
 
 
 def _brand_overlay(channel):
-    """drawtext filter for a corner wordmark, or empty string if the channel
-    doesn't declare a brand. Kept small and semi-transparent so it never fights
-    the story."""
+    """drawtext filter for a persistent corner wordmark. Reads brand.wordmark_colour
+    (ffmpeg colour syntax) and brand.wordmark_size so each channel can dial its own
+    on-brand look. Empty string if the channel declares no brand."""
     brand = channel.get("brand") or {}
     wordmark = (brand.get("wordmark") or "").strip()
     if not wordmark:
         return ""
-    return (f",drawtext=text='{wordmark}':fontcolor=white@0.55:fontsize=28:"
-            f"box=0:borderw=1:bordercolor=black@0.4:"
-            f"x=w-tw-32:y=32")
+    colour = brand.get("wordmark_colour", "white@0.55")
+    size = brand.get("wordmark_size", 28)
+    return (f",drawtext=text='{wordmark}':fontcolor={colour}:fontsize={size}:"
+            f"box=0:borderw=2:bordercolor=black@0.6:"
+            f"x=w-tw-32:y=48")
 
 
 def burn_and_mux(video, narration, srt, out_path, channel, total_secs):
@@ -330,11 +332,15 @@ def burn_and_mux(video, narration, srt, out_path, channel, total_secs):
     style = (f"FontName={theme.get('font', 'DejaVu Sans')},"
              f"FontSize={theme.get('size', 22)},Bold=1,"
              f"PrimaryColour={theme.get('colour', '&H00FFFFFF')},"
-             f"OutlineColour=&H00000000,Outline=3,Shadow=1,"
+             f"OutlineColour={theme.get('outline_colour', '&H00000000')},"
+             f"Outline=3,Shadow=1,"
              f"Alignment=2,MarginV={theme.get('margin_v', 80)},"
              f"WrapStyle=0")
     srt_arg = str(srt).replace("'", r"\'")
-    vf = f"subtitles='{srt_arg}':force_style='{style}'" + _brand_overlay(channel)
+    look = (channel.get("look") or "").strip()
+    vf = ((f"{look}," if look else "")
+          + f"subtitles='{srt_arg}':force_style='{style}'"
+          + _brand_overlay(channel))
     _run(["ffmpeg", "-y", "-i", str(video), "-i", str(narration),
           "-vf", vf,
           "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "veryfast",
