@@ -9,7 +9,8 @@
       "My Wife Was So Happy When the Baby Finally Ate",
       "My Wife Said Our Daughter Died Peacefully in Her Sleep",
       "A Creepy Business Proposal",
-      "I Paid $2,000 for a Furry Convention Date... That Turned Out to Be a Disaster"
+      "I Paid $2,000 for a Furry Convention Date... That Turned Out to Be a Disaster",
+      "A lottery win turns out to be a nightmare"
     ]
   },
   "uploads": [
@@ -167,6 +168,28 @@
         "6a82da9a83de042fc02a8190"
       ],
       "ts": "2026-08-17T09:54:55"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A lottery win turns out to be a nightmare",
+      "title": "The Winning Ticket",
+      "story": "Zoo: A Lottery I Wish I Didn't Win",
+      "story_id": "reddit:1vqeman",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vqeman/zoo_a_lottery_i_wish_i_didnt_win/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "paaO9YbTHSs",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a84bfb38be90925016033c7",
+        "6a84bfc28be90925016034b1",
+        "6a84bfd07aefb3601557e00f",
+        "6a84bfde8be90925016035ce",
+        "6a84bfecc889b558fa0d72b6",
+        "6a84bffa4cc5b353b07f8e06"
+      ],
+      "ts": "2026-08-18T20:25:18"
     }
   ]
 }
