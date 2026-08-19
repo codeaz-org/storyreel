@@ -43,7 +43,7 @@ jobs:
           cache: "pip"
 
       - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
 
       - name: Install deps (torch is the CPU wheel -- no CUDA download)
         run: |
