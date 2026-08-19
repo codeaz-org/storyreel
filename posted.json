@@ -10,7 +10,8 @@
       "My Wife Said Our Daughter Died Peacefully in Her Sleep",
       "A Creepy Business Proposal",
       "I Paid $2,000 for a Furry Convention Date... That Turned Out to Be a Disaster",
-      "A lottery win turns out to be a nightmare"
+      "A lottery win turns out to be a nightmare",
+      "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance"
     ]
   },
   "uploads": [
@@ -190,6 +191,23 @@
         "6a84bffa4cc5b353b07f8e06"
       ],
       "ts": "2026-08-18T20:25:18"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance",
+      "title": "The Unseen Vanishing",
+      "story": "In 2002, a 71-year-old Missouri woman vanished on her way to her daughter\u2019s house. Ten days later, her car was found hidden under a tarp with large amounts of her blood in the backseat. Who killed Shirley McKeown?",
+      "story_id": "reddit:1vq1uc7",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1vq1uc7/in_2002_a_71yearold_missouri_woman_vanished_on/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": "NThDZLVrNVc",
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a85560803f8f5645a10a937"
+      ],
+      "ts": "2026-08-19T07:06:45"
     }
   ]
 }
