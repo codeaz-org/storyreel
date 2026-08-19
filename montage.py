@@ -80,8 +80,9 @@ one slot every {words_per_slot} words. For each slot:
     never people's readable faces, never text on screen, never brand logos.
 Slots should break at the story's beats. Return JSON only."""
 
-# One slot per ~55 words = one clip roughly every 20-22s at spoken pace.
-WORDS_PER_SLOT = 55
+# One slot per ~20 words = one clip roughly every 8s at spoken pace.
+# Sized for the 60s one-story short: yields ~7 cuts across a 140-word script.
+WORDS_PER_SLOT = 20
 
 
 def scene_plan(script, channel):
@@ -137,7 +138,8 @@ def tts(script, voice, out_path):
     words = []
 
     async def go():
-        comm = edge_tts.Communicate(script, short)
+        # edge-tts 7.x defaults to SentenceBoundary; must opt in for per-word events.
+        comm = edge_tts.Communicate(script, short, boundary="WordBoundary")
         with open(out_path, "wb") as f:
             async for chunk in comm.stream():
                 ct = chunk.get("type")
@@ -245,53 +247,21 @@ def stitch(clips, out_path, width, height):
 
 # ---- 6. captions + mux ---------------------------------------------------------
 
-def _ts(seconds):
-    ms = int(round(seconds * 1000))
-    return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
+def _ass_ts(seconds):
+    """ASS time format: H:MM:SS.cc (centiseconds)."""
+    cs = int(round(seconds * 100))
+    return f"{cs//360000}:{cs//6000%60:02d}:{cs//100%60:02d}.{cs%100:02d}"
 
 
-CAPTION_MAX_WORDS = 12       # denser captions, still fits vertical safe area at 14pt
+CAPTION_MAX_WORDS = 1        # one spoken word per cue, timed to edge-tts WordBoundary
 CAPTION_PAUSE_BREAK = 0.30   # gap between spoken words that ends a caption chunk early
-CAPTION_TAIL_HOLD = 0.08     # tiny hold past the last word so it doesn't blink out
+CAPTION_TAIL_HOLD = 0.05     # tiny hold past the last word so it doesn't blink out
 FALLBACK_LEAD = 0.35         # rough TTS initial silence for the no-boundaries fallback
 
 
-def _fallback_srt(script, audio_secs, max_words=CAPTION_MAX_WORDS):
-    """When edge-tts doesn't emit WordBoundary events, split the script by
-    sentence and time each sentence proportional to its word share of audio_secs.
-    Bounded drift (per sentence, not accumulated); always produces a valid SRT."""
-    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", script) if s.strip()]
-    if not sentences or audio_secs <= 0:
-        return "1\n00:00:00,000 --> 00:00:01,000\n \n"  # ffmpeg-valid placeholder
-    total_words = sum(len(s.split()) for s in sentences) or 1
-    speech = max(audio_secs - FALLBACK_LEAD, 0.5)
-    t, lines, idx = FALLBACK_LEAD, [], 1
-    for sent in sentences:
-        sent_words = sent.split()
-        sent_dur = speech * len(sent_words) / total_words
-        chunks = ([sent] if len(sent_words) <= max_words else
-                  [" ".join(sent_words[i:i + max_words])
-                   for i in range(0, len(sent_words), max_words)])
-        for c in chunks:
-            cd = sent_dur * len(c.split()) / len(sent_words)
-            lines += [str(idx), f"{_ts(t)} --> {_ts(t + cd)}", c, ""]
-            idx += 1
-            t += cd
-    return "\n".join(lines)
-
-
-def write_srt(word_timings, path, script="", audio_secs=0.0, max_words=CAPTION_MAX_WORDS):
-    """Group real edge-tts word timestamps into caption chunks. Start/end come
-    straight from the TTS stream, so captions stay locked to the voice regardless
-    of pauses, sentence breaks, or variable word lengths. Breaks early on a long
-    inter-word pause so captions land on natural beats. Falls back to a
-    sentence-proportional split of the known audio_secs when boundaries are
-    missing -- captions imperfect but the pipeline never crashes on an empty SRT."""
-    if not word_timings:
-        log(f"no word timings; sentence-proportional fallback over {audio_secs:.1f}s")
-        path.write_text(_fallback_srt(script, audio_secs, max_words))
-        return
-    lines, idx, i = [], 1, 0
+def _chunk_timings(word_timings, max_words=CAPTION_MAX_WORDS):
+    """[(start, end, text), ...] from real edge-tts per-word timestamps."""
+    out, i = [], 0
     while i < len(word_timings):
         end_i = min(i + max_words, len(word_timings))
         for j in range(i + 1, end_i):
@@ -306,10 +276,74 @@ def write_srt(word_timings, path, script="", audio_secs=0.0, max_words=CAPTION_M
         end = chunk[-1]["start"] + chunk[-1]["duration"] + CAPTION_TAIL_HOLD
         if end_i < len(word_timings):  # never overlap the next cue's start
             end = min(end, word_timings[end_i]["start"] - 0.01)
-        lines += [str(idx), f"{_ts(start)} --> {_ts(end)}", text, ""]
-        idx += 1
+        out.append((start, end, text))
         i = end_i
-    path.write_text("\n".join(lines))
+    return out
+
+
+def _fallback_chunks(script, audio_secs, max_words=CAPTION_MAX_WORDS):
+    """No WordBoundary events -> sentence-proportional split so we always ship
+    something usable. Bounded drift (per sentence, not accumulated)."""
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", script) if s.strip()]
+    if not sentences or audio_secs <= 0:
+        return [(0.0, 1.0, " ")]
+    total_words = sum(len(s.split()) for s in sentences) or 1
+    speech = max(audio_secs - FALLBACK_LEAD, 0.5)
+    t, out = FALLBACK_LEAD, []
+    for sent in sentences:
+        sent_words = sent.split()
+        sent_dur = speech * len(sent_words) / total_words
+        chunks = ([sent] if len(sent_words) <= max_words else
+                  [" ".join(sent_words[i:i + max_words])
+                   for i in range(0, len(sent_words), max_words)])
+        for c in chunks:
+            cd = sent_dur * len(c.split()) / len(sent_words)
+            out.append((t, t + cd, c))
+            t += cd
+    return out
+
+
+# ASS_COLOUR_KEYS: caption_style key -> ASS style field. All colours are ASS
+# format (&HAABBGGRR); alpha 00 = opaque, 80 = 50% translucent.
+_DEFAULTS = {
+    "font": "DejaVu Sans", "size": 60, "colour": "&H00FFFFFF",
+    "outline_colour": "&H00000000", "back_colour": "&H80000000",
+    "outline": 4, "shadow": 2, "alignment": 5, "margin_v": 0,
+}
+
+
+def write_ass(word_timings, path, channel, script="", audio_secs=0.0,
+              max_words=CAPTION_MAX_WORDS):
+    """Emit an ASS file with PlayRes matched to the output frame, so FontSize
+    renders as real pixels and Alignment=5 truly centers. Skips SRT entirely --
+    libass's SRT->ASS auto-conversion uses a 384x288 PlayRes that mangled our
+    styling before."""
+    t = {**_DEFAULTS, **(channel.get("caption_style") or {})}
+    pw, ph = (1080, 1920) if channel.get("orientation") == "portrait" else (1920, 1080)
+    chunks = (_chunk_timings(word_timings, max_words) if word_timings
+              else _fallback_chunks(script, audio_secs, max_words))
+    if not word_timings:
+        log(f"no word timings; sentence-proportional fallback over {audio_secs:.1f}s")
+    style = (
+        f"Style: Default,{t['font']},{t['size']},"
+        f"{t['colour']},{t['colour']},{t['outline_colour']},{t['back_colour']},"
+        f"1,0,0,0,100,100,0,0,1,{t['outline']},{t['shadow']},"
+        f"{t['alignment']},40,40,{t['margin_v']},1"
+    )
+    events = "\n".join(
+        f"Dialogue: 0,{_ass_ts(s)},{_ass_ts(e)},Default,,0,0,0,,{txt}"
+        for s, e, txt in chunks
+    )
+    path.write_text(
+        f"[Script Info]\nScriptType: v4.00+\nPlayResX: {pw}\nPlayResY: {ph}\n"
+        f"ScaledBorderAndShadow: yes\nWrapStyle: 2\n\n"
+        f"[V4+ Styles]\nFormat: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,"
+        f"OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,"
+        f"Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,"
+        f"Encoding\n{style}\n\n"
+        f"[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n"
+        f"{events}\n"
+    )
 
 
 def _brand_overlay(channel):
@@ -327,19 +361,11 @@ def _brand_overlay(channel):
             f"x=w-tw-32:y=48")
 
 
-def burn_and_mux(video, narration, srt, out_path, channel, total_secs):
-    theme = channel.get("caption_style", {})
-    style = (f"FontName={theme.get('font', 'DejaVu Sans')},"
-             f"FontSize={theme.get('size', 22)},Bold=1,"
-             f"PrimaryColour={theme.get('colour', '&H00FFFFFF')},"
-             f"OutlineColour={theme.get('outline_colour', '&H00000000')},"
-             f"Outline=3,Shadow=1,"
-             f"Alignment=2,MarginV={theme.get('margin_v', 80)},"
-             f"WrapStyle=0")
-    srt_arg = str(srt).replace("'", r"\'")
+def burn_and_mux(video, narration, ass, out_path, channel, total_secs):
+    ass_arg = str(ass).replace("'", r"\'")
     look = (channel.get("look") or "").strip()
     vf = ((f"{look}," if look else "")
-          + f"subtitles='{srt_arg}':force_style='{style}'"
+          + f"ass='{ass_arg}'"
           + _brand_overlay(channel))
     _run(["ffmpeg", "-y", "-i", str(video), "-i", str(narration),
           "-vf", vf,
@@ -393,10 +419,10 @@ def render(topic, channel, script, story=None):
     stitch(fitted, stitched, w, h)
     log(f"5/6 stitch     -> {stitched.name} ({ffprobe_duration(stitched):.0f}s)")
 
-    srt = project / "captions.srt"
-    write_srt(word_timings, srt, script=script, audio_secs=audio_secs)
+    ass = project / "captions.ass"
+    write_ass(word_timings, ass, channel, script=script, audio_secs=audio_secs)
     final = project / f"{channel['id']}-{ts}-final.mp4"
-    burn_and_mux(stitched, narration, srt, final, channel, audio_secs)
+    burn_and_mux(stitched, narration, ass, final, channel, audio_secs)
     log(f"6/6 final      -> {final.name} ({ffprobe_duration(final):.0f}s, {w}x{h})")
 
     for f in fitted + [stitched]:
