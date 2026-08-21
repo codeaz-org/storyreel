@@ -42,8 +42,11 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install ffmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v3
+      # ponytail: ffmpeg is preinstalled on ubuntu-latest. apt-get update hung
+      # (Azure mirror), setup-ffmpeg@v3 flakes on its release-info fetch. Neither
+      # was needed. `which ffmpeg` fails the job fast if the image ever drops it.
+      - name: Verify ffmpeg
+        run: which ffmpeg && ffmpeg -version | head -1
 
       - name: Install deps (torch is the CPU wheel -- no CUDA download)
         run: |
