@@ -42,11 +42,17 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      # ponytail: ffmpeg is preinstalled on ubuntu-latest. apt-get update hung
-      # (Azure mirror), setup-ffmpeg@v3 flakes on its release-info fetch. Neither
-      # was needed. `which ffmpeg` fails the job fast if the image ever drops it.
-      - name: Verify ffmpeg
-        run: which ffmpeg && ffmpeg -version | head -1
+      - name: Install ffmpeg
+        # ponytail: no `apt-get update` (Azure mirror hangs for hours). The
+        # runner's apt index is pre-baked, so install hits it directly. Timeout
+        # + retry survives a briefly-slow mirror. Third-party actions (like
+        # setup-ffmpeg@v3) flake on their own upstream; apt is the boring path.
+        run: |
+          for i in 1 2 3; do
+            timeout 180 sudo apt-get install -y --no-install-recommends ffmpeg && break
+            sleep $((i * 10))
+          done
+          which ffmpeg && ffmpeg -version | head -1
 
       - name: Install deps (torch is the CPU wheel -- no CUDA download)
         run: |
