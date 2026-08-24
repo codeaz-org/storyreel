@@ -11,7 +11,8 @@
       "A Creepy Business Proposal",
       "I Paid $2,000 for a Furry Convention Date... That Turned Out to Be a Disaster",
       "A lottery win turns out to be a nightmare",
-      "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance"
+      "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance",
+      "Birthmark moved from one hand to the other, and I'm not the only one who noticed"
     ]
   },
   "uploads": [
@@ -208,6 +209,23 @@
         "6a85560803f8f5645a10a937"
       ],
       "ts": "2026-08-19T07:06:45"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Birthmark moved from one hand to the other, and I'm not the only one who noticed",
+      "title": "The Mysterious Birthmark Shift",
+      "story": "Birthmark moved from one hand to the other and I\u2019m not the only one who noticed",
+      "story_id": "reddit:1vuoznk",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1vuoznk/birthmark_moved_from_one_hand_to_the_other_and_im/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8c06b5eb530dcb0465c7bf"
+      ],
+      "ts": "2026-08-24T08:54:10"
     }
   ]
 }
