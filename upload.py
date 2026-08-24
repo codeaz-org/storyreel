@@ -45,6 +45,7 @@ def credentials(channel_id):
 
 
 def upload_youtube(video_path, meta, channel):
+    from google.auth.exceptions import RefreshError
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
@@ -78,8 +79,15 @@ def upload_youtube(video_path, meta, channel):
     media = MediaFileUpload(video_path, chunksize=-1, resumable=True,
                             mimetype="video/mp4")
     req = yt.videos().insert(part="snippet,status", body=body, media_body=media)
-    resp = None
-    while resp is None:
-        _, resp = req.next_chunk()
+    # ponytail: a dead refresh token (expired/revoked) shouldn't block the
+    # Buffer/TikTok leg. Skip YT like a missing token; user re-runs get_youtube_token.py.
+    try:
+        resp = None
+        while resp is None:
+            _, resp = req.next_chunk()
+    except RefreshError as e:
+        log(f"YT refresh token dead ({e}); re-run get_youtube_token.py and update "
+            f"YT_REFRESH_TOKEN_{channel['id'].upper()}. Skipping YouTube.")
+        return None
     log(f"YouTube uploaded: https://youtu.be/{resp['id']}")
     return resp["id"]
