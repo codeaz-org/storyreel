@@ -12,7 +12,8 @@
       "I Paid $2,000 for a Furry Convention Date... That Turned Out to Be a Disaster",
       "A lottery win turns out to be a nightmare",
       "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance",
-      "Birthmark moved from one hand to the other, and I'm not the only one who noticed"
+      "Birthmark moved from one hand to the other, and I'm not the only one who noticed",
+      "Our first date was my last"
     ]
   },
   "uploads": [
@@ -226,6 +227,23 @@
         "6a8c06b5eb530dcb0465c7bf"
       ],
       "ts": "2026-08-24T08:54:10"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Our first date was my last",
+      "title": "The Night That Ended It All",
+      "story": "Our first date was my last.",
+      "story_id": "reddit:1vuib0o",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vuib0o/our_first_date_was_my_last/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8cb5c67fa16d24f51f6a7b"
+      ],
+      "ts": "2026-08-24T21:21:06"
     }
   ]
 }
