@@ -13,7 +13,8 @@
       "A lottery win turns out to be a nightmare",
       "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance",
       "Birthmark moved from one hand to the other, and I'm not the only one who noticed",
-      "Our first date was my last"
+      "Our first date was my last",
+      "I lost 10 minutes of my life on the drive home"
     ]
   },
   "uploads": [
@@ -244,6 +245,23 @@
         "6a8cb5c67fa16d24f51f6a7b"
       ],
       "ts": "2026-08-24T21:21:06"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I lost 10 minutes of my life on the drive home",
+      "title": "The Forgotten Detour",
+      "story": "My wife and I both lost the same 10 minutes on the drive home",
+      "story_id": "reddit:1vs8ldg",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1vs8ldg/my_wife_and_i_both_lost_the_same_10_minutes_on/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8d57482685e6981602d882"
+      ],
+      "ts": "2026-08-25T08:50:13"
     }
   ]
 }
