@@ -14,7 +14,8 @@
       "The Vanishing Act: A 71-Year-Old Woman's Mysterious Disappearance",
       "Birthmark moved from one hand to the other, and I'm not the only one who noticed",
       "Our first date was my last",
-      "I lost 10 minutes of my life on the drive home"
+      "I lost 10 minutes of my life on the drive home",
+      "I let my killer in myself"
     ]
   },
   "uploads": [
@@ -262,6 +263,23 @@
         "6a8d57482685e6981602d882"
       ],
       "ts": "2026-08-25T08:50:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I let my killer in myself",
+      "title": "the monster within",
+      "story": "In 1985, Jerri Emken was found murdered inside the Florida bar where she worked-- Police believe she let her killer in herself.",
+      "story_id": "reddit:1vwlxco",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1vwlxco/in_1985_jerri_emken_was_found_murdered_inside_the/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8dfdb44236595eb3ca1f53"
+      ],
+      "ts": "2026-08-25T20:40:17"
     }
   ]
 }
