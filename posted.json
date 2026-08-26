@@ -15,7 +15,8 @@
       "Birthmark moved from one hand to the other, and I'm not the only one who noticed",
       "Our first date was my last",
       "I lost 10 minutes of my life on the drive home",
-      "I let my killer in myself"
+      "I let my killer in myself",
+      "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary"
     ]
   },
   "uploads": [
@@ -280,6 +281,23 @@
         "6a8dfdb44236595eb3ca1f53"
       ],
       "ts": "2026-08-25T20:40:17"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary",
+      "title": "New Lead in 34-Year-Old Cold Case",
+      "story": "Possible new lead in the 1992 murder of Tammy Zywicki on the 34th anniversary of the day she went missing",
+      "story_id": "reddit:1vwn2h2",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1vwn2h2/possible_new_lead_in_the_1992_murder_of_tammy/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8eb2d87d22cc6a9736981a"
+      ],
+      "ts": "2026-08-26T09:33:09"
     }
   ]
 }
