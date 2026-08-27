@@ -16,12 +16,10 @@ import difflib, json, os, re, shutil, subprocess, sys, time
 from pathlib import Path
 
 import buffer
-import critic
 import montage
 import stories
 import upload as uploader
 import viral
-from llm import nim_chat
 
 ROOT = Path(__file__).resolve().parent
 _env = ROOT / ".env"
@@ -79,126 +77,35 @@ def too_similar(topic, used_topics):
     return None, ""
 
 
-# ---- script generation (mpt's loop, story-only) -------------------------------
+# ---- script generation (raw story, no LLM rewrite) ----------------------------
 
-WEAK_HOOK_RE = re.compile(
-    r"^\s*(?:have you ever|ever wondered|did you know|let'?s talk|in this video|"
-    r"today (?:we|i)\b|welcome back|so,? i found|imagine if)", re.I)
-HEDGE_RE = re.compile(
-    r"\b(?:can lead to|may (?:lead|cause)|is important|it'?s essential)\b", re.I)
-
-# Mechanical Reddit-speak / meta detector -- more reliable than asking the critic
-# model. Any hit forces a revise with concrete feedback.
+# Reddit boilerplate the TTS would read aloud. Deleted mechanically -- the only
+# transformation left between source and narration. ponytail: user rejected the
+# LLM rewrite loop ("scenarios are crap"), stories go in straight.
 REDDIT_SPEAK_RE = re.compile(
     r"\b(?:so basically|TL;DR|edit ?[:\-]|update ?[:\-]|obligatory|throwaway|"
     r"long[- ]time lurker|first[- ]time poster|buckle up|let that sink in|"
-    r"wait for it|not clickbait|OP\b|redditor|subreddit|Reddit)\b",
+    r"wait for it|not clickbait|OP\b|redditor|subreddit|Reddit)"
+    r"[ \t,:;\-]*",  # swallow trailing punctuation so we don't leave orphan ":"
     re.I)
 
 
-def dirty_phrases(script, channel):
-    """Return (phrases_found, reason_string) for mechanical fails, or ([], '')."""
-    hits = set()
-    for m in REDDIT_SPEAK_RE.finditer(script):
-        hits.add(m.group(0).lower())
-    for term in channel.get("drift_terms", []) or []:
-        if re.search(rf"\b{re.escape(term)}\b", script, re.I):
-            hits.add(term.lower())
-    if not hits:
-        return [], ""
-    return sorted(hits), (
-        "Delete these Reddit-speak / drift phrases from the script -- they must "
-        "not appear in the final read: " + ", ".join(sorted(hits)))
-
-
-def _first_sentence(script):
-    return re.split(r"(?<=[.!?])\s+", script.strip(), maxsplit=1)[0].strip()
-
-
-def weak_hook(script):
-    opener = _first_sentence(script)
-    if not opener:
-        return "the script is empty"
-    if opener.endswith("?"):
-        return f"opens with a question: {opener!r}"
-    if WEAK_HOOK_RE.match(opener):
-        return f"opens with a stock phrase: {opener!r}"
-    if len(opener.split()) > 28:
-        return f"opening sentence is {len(opener.split())} words"
-    if HEDGE_RE.search(opener):
-        return f"hedged opener: {opener!r}"
-    return None
-
-
 def _clean_script(raw):
-    s = re.sub(r"(?is)<(think|thinking|reasoning)>.*?</\1>", " ", raw)
-    s = re.sub(r"(?is)<(?:think|thinking|reasoning)>.*$", " ", s)
-    s = re.sub(r"```[a-z]*|```", "", s)
+    s = re.sub(r"```[a-z]*|```", "", raw)
     s = re.sub(r"^\s*(?:#+|\*+|\d+[\.\)])\s*", "", s, flags=re.M)
     s = re.sub(r"\*\*|__|\[[^\]]*\]", "", s)
     s = re.sub(r"\n{2,}", " ", s).replace("\n", " ")
     return re.sub(r"\s{2,}", " ", s).strip().strip('"')
 
 
-def _write_script(topic, channel, story, feedback=None):
-    system = channel["script_prompt"]
-    notes = [
-        "SOURCE THREAD (your working text -- keep its sentences and voice where they "
-        "work, edit only what breaks the read; follow the channel's editorial "
-        "instructions above for exactly what to keep, cut, and add):\n\n"
-        + (story.get("text") or "")]
-    if feedback:
-        notes.append("An editor reviewed your previous attempt and rejected it. "
-                     f"Their instructions:\n{feedback}")
-    system += "\n\n" + "\n\n".join(notes)
-    return _clean_script(nim_chat(
-        system, f"Topic: {topic}\n\nProduce the finished script now.",
-        temperature=0.5 if not feedback else 0.4, max_tokens=3500,
-    ))
-
-
 def generate_script(topic, channel, story):
-    """Draft, critique, revise until the critic passes it; publish-or-nothing."""
-    def write(feedback):
-        script = _write_script(topic, channel, story, feedback)
-        log(f"[{channel['id']}] draft: {len(script.split())} words")
-        return script
-
-    max_words = int(channel.get("max_script_words", 140))
-
-    def review(t, script, asked, min_score):
-        verdict, scores, problems, fix = critic.review(t, script, asked, min_score,
-                                                       niche=channel)
-        bad = weak_hook(script)
-        if bad:
-            problems = [f"weak hook: {bad}"] + problems
-            fix = ("Replace the first sentence with the moment of maximum tension, "
-                   "stated as a concrete fact. " + fix)
-            verdict = "revise"
-        dirty, dirty_fix = dirty_phrases(script, channel)
-        if dirty:
-            problems = [f"drift/reddit-speak: {', '.join(dirty)}"] + problems
-            fix = f"{dirty_fix} {fix}".strip()
-            verdict = "revise"
-        wc = len(script.split())
-        if wc > max_words:
-            problems = [f"too long: {wc} words (cap {max_words})"] + problems
-            fix = (f"Cut to {max_words} words or fewer -- this is a strict one-minute "
-                   f"vertical short. Keep the cold open, the events, and the closer; "
-                   f"cut side detail and repetition. " + fix)
-            verdict = "revise"
-        return verdict, scores, problems, fix
-
-    script, verdict, scores = critic.refine(
-        topic, write, question=story.get("title"), review_fn=review)
-    # Loosen: publish borderline drafts (mean >= 5, no score below 3) instead of
-    # hard-failing the whole run when the critic never fully approved.
-    mean = (sum(scores.values()) / len(scores)) if scores else 0
-    worst = min(scores.values()) if scores else 0
-    if verdict != "publish" and (mean < 5 or worst < 3):
-        raise RuntimeError(f"script never passed review ({critic.summarise(scores)})")
-    tag = "approved" if verdict == "publish" else "borderline"
-    log(f"[{channel['id']}] script {tag}: {critic.summarise(scores)}")
+    """Story text becomes the script verbatim, minus mechanical Reddit boilerplate.
+    No LLM rewrite, no critic loop -- if the picked story doesn't fit, retry picks
+    a different one."""
+    script = _clean_script(story.get("text") or "")
+    script = REDDIT_SPEAK_RE.sub("", script)
+    script = re.sub(r"\s{2,}", " ", script).strip()
+    log(f"[{channel['id']}] script (raw story): {len(script.split())} words")
     return script
 
 
@@ -206,7 +113,7 @@ def generate_script(topic, channel, story):
 
 WORDS_PER_SECOND = 2.5
 MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "8"))   # let short stories ship
-MAX_VIDEO_SECONDS = int(os.environ.get("MAX_VIDEO_SECONDS", "62"))  # hard 1-minute ceiling
+MAX_VIDEO_SECONDS = int(os.environ.get("MAX_VIDEO_SECONDS", "180"))  # YT Shorts / TikTok cap
 
 
 def check_rendered_video(path, script):

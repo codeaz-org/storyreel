@@ -1,10 +1,9 @@
 name: storyreel autopilot
 on:
   schedule:
-    # Twice a day. The critic gates quality; more runs mostly means more rejected
-    # drafts against rate-limited free tiers.
-    - cron: "0 8 * * *"
-    - cron: "0 20 * * *"
+    # 4x/day, every 6h. Raw-story pipeline (no LLM rewrite) so runs are shorter
+    # and the free tiers stop being the bottleneck.
+    - cron: "0 0,6,12,18 * * *"
   workflow_dispatch:
     inputs:
       channels:
