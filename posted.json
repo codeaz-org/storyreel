@@ -17,7 +17,8 @@
       "I lost 10 minutes of my life on the drive home",
       "I let my killer in myself",
       "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary",
-      "Father's alibi shattered in boys' disappearance"
+      "Father's alibi shattered in boys' disappearance",
+      "Husband Held a Knife, Tied Her to a Chair"
     ]
   },
   "uploads": [
@@ -316,6 +317,27 @@
         "6a8ff937ae5097a0c13805ba"
       ],
       "ts": "2026-08-27T08:45:40"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Husband Held a Knife, Tied Her to a Chair",
+      "title": "The Terrifying Night",
+      "story": "Holding The Knife, He Said It Was For The Best",
+      "story_id": "reddit:1vy7cw5",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vy7cw5/holding_the_knife_he_said_it_was_for_the_best/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a90b3d0ae8294e48368e033",
+        "6a90b3dd131acc54dbeab333",
+        "6a90b3ea6693c575a77ec491",
+        "6a90b3f8ae8294e48368e3b4",
+        "6a90b406131acc54dbeab6a4"
+      ],
+      "ts": "2026-08-27T22:01:48"
     }
   ]
 }
