@@ -13,7 +13,7 @@
         "wikimedia"
       ],
       "min_script_words": 60,
-      "max_script_words": 450,
+      "max_script_words": 1500,
       "youtube_category": "24",
       "credit_source": true,
       "script_prompt": "You are the EDITOR of ThreadFire, a channel that turns real creepy internet threads into 60-180 second vertical horror videos. Your job is not to rewrite -- it is to shape the source into a tight, atmospheric narration that keeps the poster's own voice.\n\nYou will be given the SOURCE thread (a real post from a creepy-encounter, paranormal, unresolved-mystery, or scary-story community). Keep the poster's sentences and voice wherever they work. Only rewrite what breaks the read.\n\nWHAT YOU DO:\n1. ANONYMIZE. Replace usernames and real names with plain invented first names. Pick a DIFFERENT name each video from a wide pool (Elena, Jonas, Priya, Marcus, Ivy, Theo, Hannah, Ren, Owen, Lila, Sam, Nora, Diego, Cass, Wren, Isaac). Never default to any single name across videos. Strip employers, cities, dates specific enough to identify a real person. INVENTED first names are correct -- do not remove them.\n2. CUT REDDIT-SPEAK. Delete 'so basically', 'TL;DR', 'edit:', 'update:', 'wait for it', 'buckle up', 'obligatory', 'long-time lurker', 'throwaway', 'let that sink in', all-caps outbursts, and every meta reference to Reddit itself. Remove 'edits' and 'thanks for the awards' completely.\n3. COMPRESS. The source is often twice as long as the video needs. Cut side detail, tangents, and repeated context. Keep every EVENT and the ENDING -- especially if the ending is unresolved. Unresolved endings are GOOD in horror; do NOT invent a resolution.\n4. WRITE THE FRAMING. Add exactly these pieces of new prose in the narrator's voice:\n   - A COLD OPEN (1 sentence, concrete, never a question) at the top: drop the viewer into the moment of maximum fear or wrongness. A sensory image beats a summary.\n   - A ONE-SENTENCE REWIND right after that names the person and rewinds to the moment before the fear started (form: 'Call her [name]. Three nights before she stopped sleeping...' -- use a fresh name from the pool above).\n   - A ONE-LINE CLOSER at the end: a dry, disturbing observation, a lingering question, or the unresolved detail that stays with you. Never a moral. Never 'I still wonder if...' cliches.\n5. LIGHT POLISH. Break up run-ons. Fix typos. Clarify unclear pronouns. Keep the poster's rhythm otherwise -- their real fear is the whole point.\n\nHARD RULES:\n- Do NOT rewrite the source wholesale. Keep sentences that work.\n- Do NOT invent events or fabricate a resolution the source didn't have. Unresolved is fine.\n- Do NOT say 'Reddit', 'OP', 'thread', 'post', 'update', 'sub', 'redditor'.\n- Do NOT claim it happened to you.\n- Nothing sexual involving minors, no graphic injury of children, no slurs.\n\nSTYLE:\n- 90-140 words total. HARD CAP: never over 140 words. This is a strict one-minute vertical short at ~2.5 words/second. Cut ruthlessly.\n- Plain spoken English. Contractions. Short sentences at the moment of dread. Sensory detail: what the room smelled like, what the silence was like, the wrongness of a small thing.\n- No markdown, no emojis, no stage directions, no chapter headers. Only the words the narrator says out loud.\n\nOutput the finished script now, as one continuous narration.",
@@ -37,7 +37,7 @@
         "creepypasta"
       ],
       "story_min_words": 60,
-      "story_max_words": 400,
+      "story_max_words": 1500,
       "story_min_engagement": 150,
       "blocked_terms": [
         "suicide",

@@ -91,10 +91,23 @@ REDDIT_SPEAK_RE = re.compile(
 
 
 def _clean_script(raw):
-    s = re.sub(r"```[a-z]*|```", "", raw)
-    s = re.sub(r"^\s*(?:#+|\*+|\d+[\.\)])\s*", "", s, flags=re.M)
+    # markdown link "[text](url)" -> keep the human-readable text, drop the URL
+    s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", raw)
+    # bare URLs -- TTS reading "https colon slash slash..." is what set the user off
+    s = re.sub(r"https?://\S+|\bwww\.\S+\b", "", s)
+    # reddit mentions the narrator has no business reading aloud
+    s = re.sub(r"(?<![A-Za-z0-9])/?[ur]/[A-Za-z0-9_-]+", "", s)
+    # HTML entities Reddit inlines
+    s = s.replace("&amp;", " and ").replace("&gt;", "").replace("&lt;", "")
+    s = s.replace("&#x200B;", "").replace("&nbsp;", " ")
+    # code fences, list/heading/blockquote markers, bold/italic, leftover brackets
+    s = re.sub(r"```[a-z]*|```", "", s)
+    s = re.sub(r"^\s*(?:#+|\*+|\d+[\.\)]|>)\s*", "", s, flags=re.M)
     s = re.sub(r"\*\*|__|\[[^\]]*\]", "", s)
     s = re.sub(r"\n{2,}", " ", s).replace("\n", " ")
+    # empty parens and repeated punctuation left behind by the strips
+    s = re.sub(r"\(\s*\)", "", s)
+    s = re.sub(r"([.,;:!?])(?:\s*\1)+", r"\1", s)
     return re.sub(r"\s{2,}", " ", s).strip().strip('"')
 
 
@@ -113,7 +126,7 @@ def generate_script(topic, channel, story):
 
 WORDS_PER_SECOND = 2.5
 MIN_VIDEO_SECONDS = int(os.environ.get("MIN_VIDEO_SECONDS", "8"))   # let short stories ship
-MAX_VIDEO_SECONDS = int(os.environ.get("MAX_VIDEO_SECONDS", "180"))  # YT Shorts / TikTok cap
+MAX_VIDEO_SECONDS = int(os.environ.get("MAX_VIDEO_SECONDS", "600"))  # 10-min hard ceiling
 
 
 def check_rendered_video(path, script):
