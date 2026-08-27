@@ -16,7 +16,8 @@
       "Our first date was my last",
       "I lost 10 minutes of my life on the drive home",
       "I let my killer in myself",
-      "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary"
+      "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary",
+      "Father's alibi shattered in boys' disappearance"
     ]
   },
   "uploads": [
@@ -298,6 +299,23 @@
         "6a8eb2d87d22cc6a9736981a"
       ],
       "ts": "2026-08-26T09:33:09"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Father's alibi shattered in boys' disappearance",
+      "title": "Shattered Trust",
+      "story": "3 boys missing from Morenci MI since 2010 - finally going to trial",
+      "story_id": "reddit:1vx7wtu",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1vx7wtu/3_boys_missing_from_morenci_mi_since_2010_finally/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a8ff937ae5097a0c13805ba"
+      ],
+      "ts": "2026-08-27T08:45:40"
     }
   ]
 }
