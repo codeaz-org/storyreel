@@ -19,7 +19,8 @@
       "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary",
       "Father's alibi shattered in boys' disappearance",
       "Husband Held a Knife, Tied Her to a Chair",
-      "My wife's ex-father crashed our wedding reception"
+      "My wife's ex-father crashed our wedding reception",
+      "The Same Family Passed Me Twice on a Path with No Exits"
     ]
   },
   "uploads": [
@@ -362,6 +363,25 @@
         "6a9140b40637a5a7d88cbe68"
       ],
       "ts": "2026-08-28T08:01:39"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Same Family Passed Me Twice on a Path with No Exits",
+      "title": "The Same Family Passed Me Twice",
+      "story": "The same family passed me twice on a path with no exits",
+      "story_id": "reddit:1vw2gcn",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1vw2gcn/the_same_family_passed_me_twice_on_a_path_with_no/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9205a5aa187a14a5e3b2dd",
+        "6a9205b2c4c3aa938d8939ed",
+        "6a9205bf9426246f671a4fe2"
+      ],
+      "ts": "2026-08-28T22:03:13"
     }
   ]
 }
