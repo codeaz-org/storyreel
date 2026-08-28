@@ -18,7 +18,8 @@
       "I let my killer in myself",
       "Tammy Zywicki's 1992 murder gets a potential new lead on its 34th anniversary",
       "Father's alibi shattered in boys' disappearance",
-      "Husband Held a Knife, Tied Her to a Chair"
+      "Husband Held a Knife, Tied Her to a Chair",
+      "My wife's ex-father crashed our wedding reception"
     ]
   },
   "uploads": [
@@ -338,6 +339,29 @@
         "6a90b406131acc54dbeab6a4"
       ],
       "ts": "2026-08-27T22:01:48"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My wife's ex-father crashed our wedding reception",
+      "title": "The Uninvited Groom",
+      "story": "Newly weds",
+      "story_id": "reddit:1vytenc",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vytenc/newly_weds/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9140667c4562152b2c6f0a",
+        "6a91407358eb5a5ad7889240",
+        "6a91408084543e0b3f149fe4",
+        "6a91408d58eb5a5ad7889505",
+        "6a91409a7c4562152b2c75d1",
+        "6a9140a884543e0b3f14a2f8",
+        "6a9140b40637a5a7d88cbe68"
+      ],
+      "ts": "2026-08-28T08:01:39"
     }
   ]
 }
