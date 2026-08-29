@@ -21,7 +21,8 @@
       "Husband Held a Knife, Tied Her to a Chair",
       "My wife's ex-father crashed our wedding reception",
       "The Same Family Passed Me Twice on a Path with No Exits",
-      "The Silent Neighbor"
+      "The Silent Neighbor",
+      "The Weight of Keeping a Secret"
     ]
   },
   "uploads": [
@@ -402,6 +403,28 @@
         "6a92cf9e463a5d78ec6ac670"
       ],
       "ts": "2026-08-29T12:24:30"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Weight of Keeping a Secret",
+      "title": "Beneath the Surface",
+      "story": "Leaving your husband is more difficult than you might expect.",
+      "story_id": "reddit:1w0295z",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w0295z/leaving_your_husband_is_more_difficult_than_you/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9308e4ba5ed85198020e97",
+        "6a9308f119e5b3c30ea7fbb7",
+        "6a9308ff61f7ab587ccafd4b",
+        "6a93090c61f7ab587ccaff70",
+        "6a93091b19e5b3c30ea800ee",
+        "6a930929ba5ed85198021621"
+      ],
+      "ts": "2026-08-29T16:29:20"
     }
   ]
 }
