@@ -22,7 +22,8 @@
       "My wife's ex-father crashed our wedding reception",
       "The Same Family Passed Me Twice on a Path with No Exits",
       "The Silent Neighbor",
-      "The Weight of Keeping a Secret"
+      "The Weight of Keeping a Secret",
+      "The Doll My Son's Bringing Home from School"
     ]
   },
   "uploads": [
@@ -425,6 +426,23 @@
         "6a930929ba5ed85198021621"
       ],
       "ts": "2026-08-29T16:29:20"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Doll My Son's Bringing Home from School",
+      "title": "The Uninvited Playmate",
+      "story": "Pretty sure the doll I bought my son is haunted.",
+      "story_id": "reddit:1vzkwgh",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1vzkwgh/pretty_sure_the_doll_i_bought_my_son_is_haunted/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a933f9aba5ed8519805cc4c"
+      ],
+      "ts": "2026-08-29T20:22:47"
     }
   ]
 }
