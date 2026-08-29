@@ -20,7 +20,8 @@
       "Father's alibi shattered in boys' disappearance",
       "Husband Held a Knife, Tied Her to a Chair",
       "My wife's ex-father crashed our wedding reception",
-      "The Same Family Passed Me Twice on a Path with No Exits"
+      "The Same Family Passed Me Twice on a Path with No Exits",
+      "The Silent Neighbor"
     ]
   },
   "uploads": [
@@ -382,6 +383,25 @@
         "6a9205bf9426246f671a4fe2"
       ],
       "ts": "2026-08-28T22:03:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Silent Neighbor",
+      "title": "The Unseen Presence Next Door",
+      "story": "Tiffany",
+      "story_id": "reddit:1vza1m2",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1vza1m2/tiffany/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a92cf82aa187a14a5f1259f",
+        "6a92cf90946f45853746417f",
+        "6a92cf9e463a5d78ec6ac670"
+      ],
+      "ts": "2026-08-29T12:24:30"
     }
   ]
 }
