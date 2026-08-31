@@ -28,7 +28,8 @@
       "A breakup line that cut deep",
       "My boyfriend's EXTREME hunger is turning me into a suspect",
       "The Costco Reset Theory: A Woman's Mysterious Disappearance",
-      "A Birthday Surprise with a Dark Twist"
+      "A Birthday Surprise with a Dark Twist",
+      "Young businessman's disappearance sparks 'suspicious activities' at warehouse"
     ]
   },
   "uploads": [
@@ -549,6 +550,27 @@
         "6a94e82dc711fa42daf2dbbe"
       ],
       "ts": "2026-08-31T02:33:36"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Young businessman's disappearance sparks 'suspicious activities' at warehouse",
+      "title": "The Vanishing Executive",
+      "story": "Young businessman suddenly goes missing; After his disappearance, his car is found abandoned, and \"suspicious activities\" start to happen at the warehouse he was last seen at- Where is Nihar Mehta? (2023)",
+      "story_id": "reddit:1w1srp2",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w1srp2/young_businessman_suddenly_goes_missing_after_his/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9573b18f11e3932be8ff9c",
+        "6a9573bf86ef7aa882173fa6",
+        "6a9573cf86ef7aa882174265",
+        "6a9573df2ebcad038d640ce9",
+        "6a9573efb5b55e810eac6d35"
+      ],
+      "ts": "2026-08-31T12:29:33"
     }
   ]
 }
