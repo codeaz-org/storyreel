@@ -29,7 +29,8 @@
       "My boyfriend's EXTREME hunger is turning me into a suspect",
       "The Costco Reset Theory: A Woman's Mysterious Disappearance",
       "A Birthday Surprise with a Dark Twist",
-      "Young businessman's disappearance sparks 'suspicious activities' at warehouse"
+      "Young businessman's disappearance sparks 'suspicious activities' at warehouse",
+      "My kid's chemistry experiment nearly destroyed our kitchen"
     ]
   },
   "uploads": [
@@ -571,6 +572,28 @@
         "6a9573efb5b55e810eac6d35"
       ],
       "ts": "2026-08-31T12:29:33"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My kid's chemistry experiment nearly destroyed our kitchen",
+      "title": "Kitchen Catastrophe",
+      "story": "My kid got into the chemicals under the kitchen sink",
+      "story_id": "reddit:1w1zs9g",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w1zs9g/my_kid_got_into_the_chemicals_under_the_kitchen/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a95d496bc8169016aead710",
+        "6a95d4a226f0899f47fca9ab",
+        "6a95d4af32a5ef375f3f52c7",
+        "6a95d4bc26f0899f47fcace2",
+        "6a95d4c93872327d3a720058",
+        "6a95d4d626fd9f05358630b7"
+      ],
+      "ts": "2026-08-31T19:22:59"
     }
   ]
 }
