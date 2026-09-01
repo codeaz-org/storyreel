@@ -31,7 +31,8 @@
       "A Birthday Surprise with a Dark Twist",
       "Young businessman's disappearance sparks 'suspicious activities' at warehouse",
       "My kid's chemistry experiment nearly destroyed our kitchen",
-      "Five women found dead in the same rural area: A chilling connection?"
+      "Five women found dead in the same rural area: A chilling connection?",
+      "I woke up to a man watching me sleep through my window"
     ]
   },
   "uploads": [
@@ -614,6 +615,26 @@
         "6a964f186075208a15a6c673"
       ],
       "ts": "2026-09-01T04:05:11"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I woke up to a man watching me sleep through my window",
+      "title": "Waking Up to a Stalker",
+      "story": "I woke up to a man watching me sleep through my window",
+      "story_id": "reddit:1vyq1i1",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1vyq1i1/i_woke_up_to_a_man_watching_me_sleep_through_my/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a96b004bc6bd9fec0b59f2f",
+        "6a96b011bc6bd9fec0b59fb3",
+        "6a96b01e8955451bba9aa79f",
+        "6a96b02b22567806484d8f8b"
+      ],
+      "ts": "2026-09-01T10:59:13"
     }
   ]
 }
