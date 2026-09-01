@@ -30,7 +30,8 @@
       "The Costco Reset Theory: A Woman's Mysterious Disappearance",
       "A Birthday Surprise with a Dark Twist",
       "Young businessman's disappearance sparks 'suspicious activities' at warehouse",
-      "My kid's chemistry experiment nearly destroyed our kitchen"
+      "My kid's chemistry experiment nearly destroyed our kitchen",
+      "Five women found dead in the same rural area: A chilling connection?"
     ]
   },
   "uploads": [
@@ -594,6 +595,25 @@
         "6a95d4d626fd9f05358630b7"
       ],
       "ts": "2026-08-31T19:22:59"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Five women found dead in the same rural area: A chilling connection?",
+      "title": "The Dark Connection",
+      "story": "Five women were found dead in the same rural area near Leduc. Could these unsolved cases be connected?",
+      "story_id": "reddit:1vy85om",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1vy85om/five_women_were_found_dead_in_the_same_rural_area/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a964efce7374ae2697e02cc",
+        "6a964f0ad351db8f3269a803",
+        "6a964f186075208a15a6c673"
+      ],
+      "ts": "2026-09-01T04:05:11"
     }
   ]
 }
