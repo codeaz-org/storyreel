@@ -32,7 +32,8 @@
       "Young businessman's disappearance sparks 'suspicious activities' at warehouse",
       "My kid's chemistry experiment nearly destroyed our kitchen",
       "Five women found dead in the same rural area: A chilling connection?",
-      "I woke up to a man watching me sleep through my window"
+      "I woke up to a man watching me sleep through my window",
+      "The Price of a Deadly Experiment"
     ]
   },
   "uploads": [
@@ -635,6 +636,25 @@
         "6a96b02b22567806484d8f8b"
       ],
       "ts": "2026-09-01T10:59:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Price of a Deadly Experiment",
+      "title": "The price of a deadly experiment",
+      "story": "How the Zombie Apocalypse Started",
+      "story_id": "reddit:1w2ho41",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w2ho41/how_the_zombie_apocalypse_started/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a96f6a62a4349576c66ee96",
+        "6a96f6b42a4349576c66f400",
+        "6a96f6c26e5ad3b0b11c5b4b"
+      ],
+      "ts": "2026-09-01T16:00:33"
     }
   ]
 }
