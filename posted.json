@@ -33,7 +33,8 @@
       "My kid's chemistry experiment nearly destroyed our kitchen",
       "Five women found dead in the same rural area: A chilling connection?",
       "I woke up to a man watching me sleep through my window",
-      "The Price of a Deadly Experiment"
+      "The Price of a Deadly Experiment",
+      "I Ate at Her House, Now I\u2019m the Pan"
     ]
   },
   "uploads": [
@@ -655,6 +656,27 @@
         "6a96f6c26e5ad3b0b11c5b4b"
       ],
       "ts": "2026-09-01T16:00:33"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I Ate at Her House, Now I\u2019m the Pan",
+      "title": "the guest who became the main course",
+      "story": "I Ate at Her House, Now I\u2019m the Pan",
+      "story_id": "reddit:1w4ld39",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w4ld39/i_ate_at_her_house_now_im_the_pan/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a994e4fcb231a3bd84ce8bb",
+        "6a994e5dcb231a3bd84cea2e",
+        "6a994e6bbc4091a9a4fd4763",
+        "6a994e79ee1391a90b4159b5",
+        "6a994e882da58d9c72706aa3"
+      ],
+      "ts": "2026-09-03T10:39:06"
     }
   ]
 }
