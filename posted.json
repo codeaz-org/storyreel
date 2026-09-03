@@ -34,7 +34,8 @@
       "Five women found dead in the same rural area: A chilling connection?",
       "I woke up to a man watching me sleep through my window",
       "The Price of a Deadly Experiment",
-      "I Ate at Her House, Now I\u2019m the Pan"
+      "I Ate at Her House, Now I\u2019m the Pan",
+      "The Accident That Haunted a Friend"
     ]
   },
   "uploads": [
@@ -677,6 +678,28 @@
         "6a994e882da58d9c72706aa3"
       ],
       "ts": "2026-09-03T10:39:06"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Accident That Haunted a Friend",
+      "title": "The Unspoken Truth",
+      "story": "My Friend Never Forgave Himself for the Accident",
+      "story_id": "reddit:1w3iugp",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w3iugp/my_friend_never_forgave_himself_for_the_accident/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a99deb56fb3aac20a295051",
+        "6a99dec2595d3d1a82415dfa",
+        "6a99decf7820340df41ce683",
+        "6a99dee030d93c98c2cbd1d7",
+        "6a99deedd54bb74a297a1b9b",
+        "6a99def930d93c98c2cbd445"
+      ],
+      "ts": "2026-09-03T20:55:14"
     }
   ]
 }
