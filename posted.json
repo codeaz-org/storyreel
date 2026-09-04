@@ -37,7 +37,8 @@
       "I Ate at Her House, Now I\u2019m the Pan",
       "The Accident That Haunted a Friend",
       "My $500 magic belt: the truth it didn't tell me",
-      "The Dark Side of Meth: Shadow People in Plain Sight"
+      "The Dark Side of Meth: Shadow People in Plain Sight",
+      "Scary update: the stalker's return"
     ]
   },
   "uploads": [
@@ -736,6 +737,23 @@
         "6a9ae2feb978916dd71a1154"
       ],
       "ts": "2026-09-04T15:25:42"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Scary update: the stalker's return",
+      "title": "The Shadow in the Night",
+      "story": "Someone was watching me over my backyard fence - scary update",
+      "story_id": "reddit:1w4w4e8",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1w4w4e8/someone_was_watching_me_over_my_backyard_fence/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9b25a19ca05109bec699a7"
+      ],
+      "ts": "2026-09-04T20:10:05"
     }
   ]
 }
