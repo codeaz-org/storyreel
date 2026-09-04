@@ -36,7 +36,8 @@
       "The Price of a Deadly Experiment",
       "I Ate at Her House, Now I\u2019m the Pan",
       "The Accident That Haunted a Friend",
-      "My $500 magic belt: the truth it didn't tell me"
+      "My $500 magic belt: the truth it didn't tell me",
+      "The Dark Side of Meth: Shadow People in Plain Sight"
     ]
   },
   "uploads": [
@@ -718,6 +719,23 @@
         "6a9a9b439e905e8210a0e915"
       ],
       "ts": "2026-09-04T10:19:42"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Dark Side of Meth: Shadow People in Plain Sight",
+      "title": "Encounters in the Shadows",
+      "story": "Shadow people that meth users see are actually real.",
+      "story_id": "reddit:1w518fw",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1w518fw/shadow_people_that_meth_users_see_are_actually/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9ae2feb978916dd71a1154"
+      ],
+      "ts": "2026-09-04T15:25:42"
     }
   ]
 }
