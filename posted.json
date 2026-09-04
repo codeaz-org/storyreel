@@ -35,7 +35,8 @@
       "I woke up to a man watching me sleep through my window",
       "The Price of a Deadly Experiment",
       "I Ate at Her House, Now I\u2019m the Pan",
-      "The Accident That Haunted a Friend"
+      "The Accident That Haunted a Friend",
+      "My $500 magic belt: the truth it didn't tell me"
     ]
   },
   "uploads": [
@@ -700,6 +701,23 @@
         "6a99def930d93c98c2cbd445"
       ],
       "ts": "2026-09-03T20:55:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My $500 magic belt: the truth it didn't tell me",
+      "title": "The Dark Side of My Magic Belt",
+      "story": "I have a very expensive belt made of full grain leather. They didn't tell me it's expensive because it's a magic belt.",
+      "story_id": "reddit:1w4x1x7",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1w4x1x7/i_have_a_very_expensive_belt_made_of_full_grain/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9a9b439e905e8210a0e915"
+      ],
+      "ts": "2026-09-04T10:19:42"
     }
   ]
 }
