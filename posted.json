@@ -40,7 +40,8 @@
       "The Dark Side of Meth: Shadow People in Plain Sight",
       "Scary update: the stalker's return",
       "A 'Free' Fridge Trapped Me",
-      "My keys were already inside my apartment when I unlocked the door with them"
+      "My keys were already inside my apartment when I unlocked the door with them",
+      "The Doctor's Secret Obsession"
     ]
   },
   "uploads": [
@@ -790,6 +791,29 @@
         "6a9be6536442f9877b981267"
       ],
       "ts": "2026-09-05T09:52:16"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Doctor's Secret Obsession",
+      "title": "The Doctor's Secret Obsession",
+      "story": "The Doctor Couldn\u2019t Let Go of Our Baby",
+      "story_id": "reddit:1w6c7w4",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w6c7w4/the_doctor_couldnt_let_go_of_our_baby/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9c2bbef97391de04b6eeec",
+        "6a9c2bccf97391de04b6f017",
+        "6a9c2bda0ca93dff239bbfb1",
+        "6a9c2be885ccb3a22c0342d8",
+        "6a9c2bf6e6524401a6561054",
+        "6a9c2c040ca93dff239bc2b2",
+        "6a9c2c12529c459120872171"
+      ],
+      "ts": "2026-09-05T14:48:26"
     }
   ]
 }
