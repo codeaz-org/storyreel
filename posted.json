@@ -38,7 +38,8 @@
       "The Accident That Haunted a Friend",
       "My $500 magic belt: the truth it didn't tell me",
       "The Dark Side of Meth: Shadow People in Plain Sight",
-      "Scary update: the stalker's return"
+      "Scary update: the stalker's return",
+      "A 'Free' Fridge Trapped Me"
     ]
   },
   "uploads": [
@@ -754,6 +755,23 @@
         "6a9b25a19ca05109bec699a7"
       ],
       "ts": "2026-09-04T20:10:05"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A 'Free' Fridge Trapped Me",
+      "title": "A Free Fridge, A Deadly Snare",
+      "story": "Weapon found possibly in relation to the Lake Annecy murders (2012)",
+      "story_id": "reddit:1w3p8il",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w3p8il/weapon_found_possibly_in_relation_to_the_lake/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9b765d4274bc7e31ac764d"
+      ],
+      "ts": "2026-09-05T01:54:34"
     }
   ]
 }
