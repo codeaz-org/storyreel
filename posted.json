@@ -41,7 +41,8 @@
       "Scary update: the stalker's return",
       "A 'Free' Fridge Trapped Me",
       "My keys were already inside my apartment when I unlocked the door with them",
-      "The Doctor's Secret Obsession"
+      "The Doctor's Secret Obsession",
+      "My partner and I explore abandoned villages in China. We just found out why one house was painted bone-white."
     ]
   },
   "uploads": [
@@ -814,6 +815,31 @@
         "6a9c2c12529c459120872171"
       ],
       "ts": "2026-09-05T14:48:26"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My partner and I explore abandoned villages in China. We just found out why one house was painted bone-white.",
+      "title": "Abandoned Villages of China: The White House Secret",
+      "story": "My partner and I explore abandoned villages in China. We just found out why one house was painted bone-white.",
+      "story_id": "reddit:1w6wjjz",
+      "story_url": "https://reddit.com/r/nosleep/comments/1w6wjjz/my_partner_and_i_explore_abandoned_villages_in/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9c7ac5fba008bcd5515ed8",
+        "6a9c7ad318e142b386379cf6",
+        "6a9c7ae10ca93dff23a2199d",
+        "6a9c7aefe6524401a65cb351",
+        "6a9c7afd18e142b386379f03",
+        "6a9c7b0af97391de04bdb022",
+        "6a9c7b18fba008bcd5516324",
+        "6a9c7b26fba008bcd55163ff",
+        "6a9c7b2d18e142b38637a299"
+      ],
+      "ts": "2026-09-05T20:25:35"
     }
   ]
 }
