@@ -47,7 +47,8 @@
       "I clicked on the Google search bar and gave my little brother a grin.",
       "My boyfriend's 'snack' attack left me speechless",
       "A Coroner's Unsettling Discovery After 12 Years on the Job",
-      "My wife's birthday surprise turned into a terrifying adventure"
+      "My wife's birthday surprise turned into a terrifying adventure",
+      "A tiny problem with our marital vows"
     ]
   },
   "uploads": [
@@ -957,6 +958,27 @@
         "6a9e1e2c32d4364c943d5848"
       ],
       "ts": "2026-09-07T02:13:57"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A tiny problem with our marital vows",
+      "title": "The Unspoken Clause",
+      "story": "There was a slight problem with our marital vows",
+      "story_id": "reddit:1w8bm1l",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w8bm1l/there_was_a_slight_problem_with_our_marital_vows/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9ea06ec29186844d097c80",
+        "6a9ea07b91f6beda1617e17b",
+        "6a9ea088577834d181d7eda0",
+        "6a9ea095906fa7c6ccb7bbb2",
+        "6a9ea09a577834d181d7ef51"
+      ],
+      "ts": "2026-09-07T11:30:52"
     }
   ]
 }
