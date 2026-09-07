@@ -48,7 +48,8 @@
       "My boyfriend's 'snack' attack left me speechless",
       "A Coroner's Unsettling Discovery After 12 Years on the Job",
       "My wife's birthday surprise turned into a terrifying adventure",
-      "A tiny problem with our marital vows"
+      "A tiny problem with our marital vows",
+      "Stolen from her casket: a family's unimaginable loss"
     ]
   },
   "uploads": [
@@ -979,6 +980,23 @@
         "6a9ea09a577834d181d7ef51"
       ],
       "ts": "2026-09-07T11:30:52"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Stolen from her casket: a family's unimaginable loss",
+      "title": "The Gravest Loss",
+      "story": "Her body was stolen from her casket and has never been found",
+      "story_id": "reddit:1w7kvj8",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w7kvj8/her_body_was_stolen_from_her_casket_and_has_never/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9eeecfb7074cb288041b75"
+      ],
+      "ts": "2026-09-07T17:05:15"
     }
   ]
 }
