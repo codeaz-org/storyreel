@@ -49,7 +49,8 @@
       "A Coroner's Unsettling Discovery After 12 Years on the Job",
       "My wife's birthday surprise turned into a terrifying adventure",
       "A tiny problem with our marital vows",
-      "Stolen from her casket: a family's unimaginable loss"
+      "Stolen from her casket: a family's unimaginable loss",
+      "A Severed Hand, a Mysterious Package, and a Trail of Questions"
     ]
   },
   "uploads": [
@@ -997,6 +998,23 @@
         "6a9eeecfb7074cb288041b75"
       ],
       "ts": "2026-09-07T17:05:15"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A Severed Hand, a Mysterious Package, and a Trail of Questions",
+      "title": "The Hand in the Package",
+      "story": "An unmarked package arrives at a UPS distribution center; When the employees open it, they discover a severed human hand- Who was the Dauphin County Jane Doe, who sent her arm, and who was supposed to recieve it? (2025)",
+      "story_id": "reddit:1w84iby",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w84iby/an_unmarked_package_arrives_at_a_ups_distribution/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9f2931604293d4b36a2dab"
+      ],
+      "ts": "2026-09-07T21:14:23"
     }
   ]
 }
