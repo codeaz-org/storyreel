@@ -50,7 +50,8 @@
       "My wife's birthday surprise turned into a terrifying adventure",
       "A tiny problem with our marital vows",
       "Stolen from her casket: a family's unimaginable loss",
-      "A Severed Hand, a Mysterious Package, and a Trail of Questions"
+      "A Severed Hand, a Mysterious Package, and a Trail of Questions",
+      "My dad's midnight wake-up calls since my brother's passing"
     ]
   },
   "uploads": [
@@ -1015,6 +1016,23 @@
         "6a9f2931604293d4b36a2dab"
       ],
       "ts": "2026-09-07T21:14:23"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My dad's midnight wake-up calls since my brother's passing",
+      "title": "The Midnight Calls",
+      "story": "Weird things are happening to my dad after my brother died.",
+      "story_id": "reddit:1w84jf1",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1w84jf1/weird_things_are_happening_to_my_dad_after_my/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9f6b04555f6e1cb7756e38"
+      ],
+      "ts": "2026-09-08T01:55:14"
     }
   ]
 }
