@@ -53,7 +53,8 @@
       "A Severed Hand, a Mysterious Package, and a Trail of Questions",
       "My dad's midnight wake-up calls since my brother's passing",
       "Unidentified Bodies Found on a New Property in Michigan",
-      "My neighbor's death sparked a decades-long mystery"
+      "My neighbor's death sparked a decades-long mystery",
+      "The Mysterious Ear Piercing That Haunted Me for Years"
     ]
   },
   "uploads": [
@@ -1075,6 +1076,23 @@
         "6aa0345148794a711157077a"
       ],
       "ts": "2026-09-08T16:12:45"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Ear Piercing That Haunted Me for Years",
+      "title": "The Whisper in My Ear",
+      "story": "Mystery ear piercings",
+      "story_id": "reddit:1w81aqa",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1w81aqa/mystery_ear_piercings/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa071e01b4f0210e3429754"
+      ],
+      "ts": "2026-09-08T20:36:44"
     }
   ]
 }
