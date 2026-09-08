@@ -52,7 +52,8 @@
       "Stolen from her casket: a family's unimaginable loss",
       "A Severed Hand, a Mysterious Package, and a Trail of Questions",
       "My dad's midnight wake-up calls since my brother's passing",
-      "Unidentified Bodies Found on a New Property in Michigan"
+      "Unidentified Bodies Found on a New Property in Michigan",
+      "My neighbor's death sparked a decades-long mystery"
     ]
   },
   "uploads": [
@@ -1051,6 +1052,29 @@
         "6a9fe2db26d29bc114306d0d"
       ],
       "ts": "2026-09-08T10:26:31"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My neighbor's death sparked a decades-long mystery",
+      "title": "The Neighbor's Dark Legacy",
+      "story": "The Unsolved Murder of Annie Elizabeth Nichols - Leeds, UK, 1945",
+      "story_id": "reddit:1w8xchz",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w8xchz/the_unsolved_murder_of_annie_elizabeth_nichols/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa033ff45fd8d4044dcd7f1",
+        "6aa0340d48794a71115701b3",
+        "6aa0341a48794a7111570300",
+        "6aa034279cf55d2acd03f9c8",
+        "6aa034345e971bc1bff1c6c1",
+        "6aa0344345fd8d4044dcdd9a",
+        "6aa0345148794a711157077a"
+      ],
+      "ts": "2026-09-08T16:12:45"
     }
   ]
 }
