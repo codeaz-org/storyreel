@@ -51,7 +51,8 @@
       "A tiny problem with our marital vows",
       "Stolen from her casket: a family's unimaginable loss",
       "A Severed Hand, a Mysterious Package, and a Trail of Questions",
-      "My dad's midnight wake-up calls since my brother's passing"
+      "My dad's midnight wake-up calls since my brother's passing",
+      "Unidentified Bodies Found on a New Property in Michigan"
     ]
   },
   "uploads": [
@@ -1033,6 +1034,23 @@
         "6a9f6b04555f6e1cb7756e38"
       ],
       "ts": "2026-09-08T01:55:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Unidentified Bodies Found on a New Property in Michigan",
+      "title": "The Uninvited Residents of Willow Creek",
+      "story": "Unidentified Bodies Found on Michigan Property",
+      "story_id": "reddit:1w8dr5y",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w8dr5y/unidentified_bodies_found_on_michigan_property/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6a9fe2db26d29bc114306d0d"
+      ],
+      "ts": "2026-09-08T10:26:31"
     }
   ]
 }
