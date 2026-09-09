@@ -55,7 +55,8 @@
       "Unidentified Bodies Found on a New Property in Michigan",
       "My neighbor's death sparked a decades-long mystery",
       "The Mysterious Ear Piercing That Haunted Me for Years",
-      "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern"
+      "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern",
+      "My Phone Started Notifying Me About Things That Hadn't Happened Yet"
     ]
   },
   "uploads": [
@@ -1118,6 +1119,26 @@
         "6aa0c61a3c5ae934d5218c04"
       ],
       "ts": "2026-09-09T02:34:34"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Phone Started Notifying Me About Things That Hadn't Happened Yet",
+      "title": "The Unseen Future",
+      "story": "My Phone Started Notifying Me About Things That Hadn't Happened Yet",
+      "story_id": "reddit:1w9zpxh",
+      "story_url": "https://reddit.com/r/nosleep/comments/1w9zpxh/my_phone_started_notifying_me_about_things_that/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa1392ed109ee96531ddf0f",
+        "6aa1393bad514bc47878acb6",
+        "6aa13949d109ee96531de0d5",
+        "6aa1395726c7fceabc1279bc"
+      ],
+      "ts": "2026-09-09T10:47:07"
     }
   ]
 }
