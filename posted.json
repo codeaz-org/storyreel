@@ -56,7 +56,8 @@
       "My neighbor's death sparked a decades-long mystery",
       "The Mysterious Ear Piercing That Haunted Me for Years",
       "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern",
-      "My Phone Started Notifying Me About Things That Hadn't Happened Yet"
+      "My Phone Started Notifying Me About Things That Hadn't Happened Yet",
+      "The Mysterious Disappearance of Marble Ace Arvidson"
     ]
   },
   "uploads": [
@@ -1139,6 +1140,23 @@
         "6aa1395726c7fceabc1279bc"
       ],
       "ts": "2026-09-09T10:47:07"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Disappearance of Marble Ace Arvidson",
+      "title": "The Case of Marble Ace Arvidson",
+      "story": "A Vermont teenager disappeared mere hours before a hurricane hit - what happened to Marble Ace Arvidson? (2011)",
+      "story_id": "reddit:1w9zn2l",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w9zn2l/a_vermont_teenager_disappeared_mere_hours_before/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa17fcb641c87e5536654f3"
+      ],
+      "ts": "2026-09-09T15:48:23"
     }
   ]
 }
