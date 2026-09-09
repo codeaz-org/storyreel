@@ -54,7 +54,8 @@
       "My dad's midnight wake-up calls since my brother's passing",
       "Unidentified Bodies Found on a New Property in Michigan",
       "My neighbor's death sparked a decades-long mystery",
-      "The Mysterious Ear Piercing That Haunted Me for Years"
+      "The Mysterious Ear Piercing That Haunted Me for Years",
+      "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern"
     ]
   },
   "uploads": [
@@ -1093,6 +1094,30 @@
         "6aa071e01b4f0210e3429754"
       ],
       "ts": "2026-09-08T20:36:44"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern",
+      "title": "The Vanishing Residents",
+      "story": "Three people vanished from the same Nursing home in the span of 5 years. What happened to Rosaria (Marta) Ronchietto, Angela Bastino and Rinaldo Bertoglio Puin?",
+      "story_id": "reddit:1w9rj56",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1w9rj56/three_people_vanished_from_the_same_nursing_home/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa0c5bda821ff5ff70ca768",
+        "6aa0c5ca493bbf8c28282fea",
+        "6aa0c5d8493bbf8c282830cb",
+        "6aa0c5e53bd0dd9ef3227ce2",
+        "6aa0c5f27b66b49ec6f40b86",
+        "6aa0c5ff3c5ae934d5218a26",
+        "6aa0c60c493bbf8c28283387",
+        "6aa0c61a3c5ae934d5218c04"
+      ],
+      "ts": "2026-09-09T02:34:34"
     }
   ]
 }
