@@ -57,7 +57,8 @@
       "The Mysterious Ear Piercing That Haunted Me for Years",
       "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern",
       "My Phone Started Notifying Me About Things That Hadn't Happened Yet",
-      "The Mysterious Disappearance of Marble Ace Arvidson"
+      "The Mysterious Disappearance of Marble Ace Arvidson",
+      "Two men tried to get in my car in broad daylight"
     ]
   },
   "uploads": [
@@ -1157,6 +1158,23 @@
         "6aa17fcb641c87e5536654f3"
       ],
       "ts": "2026-09-09T15:48:23"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Two men tried to get in my car in broad daylight",
+      "title": "A Close Call on a Sunny Day",
+      "story": "Two men tried to get in my car in broad daylight",
+      "story_id": "reddit:1wahke7",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wahke7/two_men_tried_to_get_in_my_car_in_broad_daylight/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa1c23a2f9ada3474705fc2"
+      ],
+      "ts": "2026-09-09T20:31:50"
     }
   ]
 }
