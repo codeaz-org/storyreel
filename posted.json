@@ -61,7 +61,8 @@
       "Two men tried to get in my car in broad daylight",
       "My grandmother's cursed knitting brought tragedy to my family",
       "I think a regular customer might be stalking me at work",
-      "My car vanished in a sea of traffic, but why?"
+      "My car vanished in a sea of traffic, but why?",
+      "Mysterious Fumes in the Woods"
     ]
   },
   "uploads": [
@@ -1237,6 +1238,23 @@
         "6aa2cde7e006e240ded07b18"
       ],
       "ts": "2026-09-10T15:33:55"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Mysterious Fumes in the Woods",
+      "title": "The Whispering Woods",
+      "story": "(Advice wanted) Man using solvent/ possibly chloroform like chemical? Uk",
+      "story_id": "reddit:1wbfqfy",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wbfqfy/advice_wanted_man_using_solvent_possibly/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa318e644683c5d5fb41f92"
+      ],
+      "ts": "2026-09-10T20:53:53"
     }
   ]
 }
