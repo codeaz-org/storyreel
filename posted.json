@@ -58,7 +58,8 @@
       "Three Nursing Home Residents Vanished in Five Years: A Mysterious Pattern",
       "My Phone Started Notifying Me About Things That Hadn't Happened Yet",
       "The Mysterious Disappearance of Marble Ace Arvidson",
-      "Two men tried to get in my car in broad daylight"
+      "Two men tried to get in my car in broad daylight",
+      "My grandmother's cursed knitting brought tragedy to my family"
     ]
   },
   "uploads": [
@@ -1175,6 +1176,28 @@
         "6aa1c23a2f9ada3474705fc2"
       ],
       "ts": "2026-09-09T20:31:50"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My grandmother's cursed knitting brought tragedy to my family",
+      "title": "The Weight of Grandmother's Needles",
+      "story": "The Witch Cursed Everything the Men Loved Most",
+      "story_id": "reddit:1w9z72x",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1w9z72x/the_witch_cursed_everything_the_men_loved_most/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa215700c619a4310671c4d",
+        "6aa2157ef7b764c764ea41c8",
+        "6aa2158b0c619a4310671da8",
+        "6aa215995761fd1f97cffde4",
+        "6aa215a70c619a4310671ee4",
+        "6aa215b502b1a6fe6e4266cf"
+      ],
+      "ts": "2026-09-10T02:26:52"
     }
   ]
 }
