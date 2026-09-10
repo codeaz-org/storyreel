@@ -60,7 +60,8 @@
       "The Mysterious Disappearance of Marble Ace Arvidson",
       "Two men tried to get in my car in broad daylight",
       "My grandmother's cursed knitting brought tragedy to my family",
-      "I think a regular customer might be stalking me at work"
+      "I think a regular customer might be stalking me at work",
+      "My car vanished in a sea of traffic, but why?"
     ]
   },
   "uploads": [
@@ -1219,6 +1220,23 @@
         "6aa28bd1fde0429e2efa771b"
       ],
       "ts": "2026-09-10T10:51:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My car vanished in a sea of traffic, but why?",
+      "title": "The Vanishing Vehicle",
+      "story": "We all saw a flipped car and a massive traffic jam... until we passed one car and it completely vanished.",
+      "story_id": "reddit:1w4r7i4",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1w4r7i4/we_all_saw_a_flipped_car_and_a_massive_traffic/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa2cde7e006e240ded07b18"
+      ],
+      "ts": "2026-09-10T15:33:55"
     }
   ]
 }
