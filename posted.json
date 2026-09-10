@@ -59,7 +59,8 @@
       "My Phone Started Notifying Me About Things That Hadn't Happened Yet",
       "The Mysterious Disappearance of Marble Ace Arvidson",
       "Two men tried to get in my car in broad daylight",
-      "My grandmother's cursed knitting brought tragedy to my family"
+      "My grandmother's cursed knitting brought tragedy to my family",
+      "I think a regular customer might be stalking me at work"
     ]
   },
   "uploads": [
@@ -1198,6 +1199,26 @@
         "6aa215b502b1a6fe6e4266cf"
       ],
       "ts": "2026-09-10T02:26:52"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I think a regular customer might be stalking me at work",
+      "title": "The Familiar Face",
+      "story": "19F \u2014 I think a regular customer might be stalking me? I genuinely don't know what to do",
+      "story_id": "reddit:1w9w629",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1w9w629/19f_i_think_a_regular_customer_might_be_stalking/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa28ba6c0beddb28e754fc2",
+        "6aa28bb5c0beddb28e755118",
+        "6aa28bc3fde0429e2efa747b",
+        "6aa28bd1fde0429e2efa771b"
+      ],
+      "ts": "2026-09-10T10:51:14"
     }
   ]
 }
