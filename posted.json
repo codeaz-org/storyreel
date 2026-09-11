@@ -65,7 +65,8 @@
       "Mysterious Fumes in the Woods",
       "My roommate's 'harmless' drawing led to a dark realization",
       "Paid to be possessed, but the spirits had other plans",
-      "My Brother's Disturbing Encounter with a Police Psychologist"
+      "My Brother's Disturbing Encounter with a Police Psychologist",
+      "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules"
     ]
   },
   "uploads": [
@@ -1326,6 +1327,30 @@
         "6aa426075afec2abc3c186d3"
       ],
       "ts": "2026-09-11T16:01:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules",
+      "title": "The Unseen Shift",
+      "story": "I worked the night shift at a shipping warehouse and it only had two rules.",
+      "story_id": "reddit:1wc53t8",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wc53t8/i_worked_the_night_shift_at_a_shipping_warehouse/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa46ad57145e39ccec6c676",
+        "6aa46ae30ebef6a55a40c003",
+        "6aa46af00ebef6a55a40c101",
+        "6aa46af60ebef6a55a40c188",
+        "6aa46affcb62fc78b502f511",
+        "6aa46b08df564d9b29a52e7d",
+        "6aa46b110ebef6a55a40c3ed",
+        "6aa46b1f91046a8f95b50fc6"
+      ],
+      "ts": "2026-09-11T20:55:46"
     }
   ]
 }
