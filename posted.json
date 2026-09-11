@@ -64,7 +64,8 @@
       "My car vanished in a sea of traffic, but why?",
       "Mysterious Fumes in the Woods",
       "My roommate's 'harmless' drawing led to a dark realization",
-      "Paid to be possessed, but the spirits had other plans"
+      "Paid to be possessed, but the spirits had other plans",
+      "My Brother's Disturbing Encounter with a Police Psychologist"
     ]
   },
   "uploads": [
@@ -1304,6 +1305,27 @@
         "6aa3dddd21b07441ffa71521"
       ],
       "ts": "2026-09-11T10:52:23"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Brother's Disturbing Encounter with a Police Psychologist",
+      "title": "The Dark Side of the Badge",
+      "story": "My Brother Has Always Loved Trains",
+      "story_id": "reddit:1wbmhqw",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wbmhqw/my_brother_has_always_loved_trains/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa425cd531781adf633ab90",
+        "6aa425dc5ebbb9f005cb9f41",
+        "6aa425ea5afec2abc3c1837f",
+        "6aa425f8029d6fcb48929758",
+        "6aa426075afec2abc3c186d3"
+      ],
+      "ts": "2026-09-11T16:01:13"
     }
   ]
 }
