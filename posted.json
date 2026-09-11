@@ -62,7 +62,8 @@
       "My grandmother's cursed knitting brought tragedy to my family",
       "I think a regular customer might be stalking me at work",
       "My car vanished in a sea of traffic, but why?",
-      "Mysterious Fumes in the Woods"
+      "Mysterious Fumes in the Woods",
+      "My roommate's 'harmless' drawing led to a dark realization"
     ]
   },
   "uploads": [
@@ -1255,6 +1256,28 @@
         "6aa318e644683c5d5fb41f92"
       ],
       "ts": "2026-09-10T20:53:53"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My roommate's 'harmless' drawing led to a dark realization",
+      "title": "The Sketch That Changed Everything",
+      "story": "I Wish I'd Never Drawn It",
+      "story_id": "reddit:1wat95m",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wat95m/i_wish_id_never_drawn_it/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa365f271ba1c02ccf0b298",
+        "6aa365ff85199affc93f7b6c",
+        "6aa3660db6d24fd028aa9564",
+        "6aa3661a30bad4fb8332a2be",
+        "6aa3662871ba1c02ccf0b4d3",
+        "6aa3662f816445bddc46448b"
+      ],
+      "ts": "2026-09-11T02:22:39"
     }
   ]
 }
