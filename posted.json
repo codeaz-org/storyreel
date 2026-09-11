@@ -63,7 +63,8 @@
       "I think a regular customer might be stalking me at work",
       "My car vanished in a sea of traffic, but why?",
       "Mysterious Fumes in the Woods",
-      "My roommate's 'harmless' drawing led to a dark realization"
+      "My roommate's 'harmless' drawing led to a dark realization",
+      "Paid to be possessed, but the spirits had other plans"
     ]
   },
   "uploads": [
@@ -1278,6 +1279,31 @@
         "6aa3662f816445bddc46448b"
       ],
       "ts": "2026-09-11T02:22:39"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Paid to be possessed, but the spirits had other plans",
+      "title": "The Price of Possession",
+      "story": "I Get Paid to Be Possessed. Something Went Horribly Wrong.",
+      "story_id": "reddit:1wbr8hn",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wbr8hn/i_get_paid_to_be_possessed_something_went/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa3dd6b4ac55a0b109cf008",
+        "6aa3dd785a67efa86a97395c",
+        "6aa3dd86a3aa88881a3203d1",
+        "6aa3dd94a3aa88881a320519",
+        "6aa3dda232d420cab6f11ae6",
+        "6aa3ddb25a67efa86a974022",
+        "6aa3ddc121b07441ffa712ac",
+        "6aa3ddcf4ac55a0b109cfb5b",
+        "6aa3dddd21b07441ffa71521"
+      ],
+      "ts": "2026-09-11T10:52:23"
     }
   ]
 }
