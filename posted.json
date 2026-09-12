@@ -67,7 +67,8 @@
       "Paid to be possessed, but the spirits had other plans",
       "My Brother's Disturbing Encounter with a Police Psychologist",
       "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules",
-      "Family movie night turned into a chilling realization"
+      "Family movie night turned into a chilling realization",
+      "The Vanishing Boy: A Mother's Shocking Denial"
     ]
   },
   "uploads": [
@@ -1377,6 +1378,23 @@
         "6aa4bb982ff05a49069d6809"
       ],
       "ts": "2026-09-12T02:39:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Vanishing Boy: A Mother's Shocking Denial",
+      "title": "The Vanishing Boy",
+      "story": "An 11-year-old, non-verbal boy with autism grew up so isolated that no pictures of him exist. Then, he vanishes without a trace from his Brooklyn, NY home. When authorities confront his mother, she denies he is her son and claims she is Jesus Christ. Where is Jacob Pritchett (2025)?",
+      "story_id": "reddit:1wcai3k",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wcai3k/an_11yearold_nonverbal_boy_with_autism_grew_up_so/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa5250d7eb9e7595bc9ee88"
+      ],
+      "ts": "2026-09-12T10:10:16"
     }
   ]
 }
