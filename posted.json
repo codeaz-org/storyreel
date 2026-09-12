@@ -68,7 +68,8 @@
       "My Brother's Disturbing Encounter with a Police Psychologist",
       "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules",
       "Family movie night turned into a chilling realization",
-      "The Vanishing Boy: A Mother's Shocking Denial"
+      "The Vanishing Boy: A Mother's Shocking Denial",
+      "My eight-year-old's 'free' bouncy ball cost me a grout job"
     ]
   },
   "uploads": [
@@ -1395,6 +1396,26 @@
         "6aa5250d7eb9e7595bc9ee88"
       ],
       "ts": "2026-09-12T10:10:16"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My eight-year-old's 'free' bouncy ball cost me a grout job",
+      "title": "The $500 Bouncy Ball",
+      "story": "My eight-year-old is Employee of the Month",
+      "story_id": "reddit:1wcm6f3",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wcm6f3/my_eightyearold_is_employee_of_the_month/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa5678a9b54f82b9c35e27f",
+        "6aa567983da5f8715331041f",
+        "6aa567a5c637430b6b59ae5b",
+        "6aa567b33da5f871533105c4"
+      ],
+      "ts": "2026-09-12T14:53:59"
     }
   ]
 }
