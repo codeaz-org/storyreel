@@ -69,7 +69,8 @@
       "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules",
       "Family movie night turned into a chilling realization",
       "The Vanishing Boy: A Mother's Shocking Denial",
-      "My eight-year-old's 'free' bouncy ball cost me a grout job"
+      "My eight-year-old's 'free' bouncy ball cost me a grout job",
+      "Lost 30 minutes of our lives to a mysterious bright light"
     ]
   },
   "uploads": [
@@ -1416,6 +1417,23 @@
         "6aa567b33da5f871533105c4"
       ],
       "ts": "2026-09-12T14:53:59"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Lost 30 minutes of our lives to a mysterious bright light",
+      "title": "The Bright Light Incident",
+      "story": "my mom and i saw a bright light and lost 30 minutes of our lives",
+      "story_id": "reddit:1wd3fgx",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1wd3fgx/my_mom_and_i_saw_a_bright_light_and_lost_30/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa5b170130d0ea1a45bdad7"
+      ],
+      "ts": "2026-09-12T20:09:17"
     }
   ]
 }
