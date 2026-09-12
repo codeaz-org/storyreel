@@ -66,7 +66,8 @@
       "My roommate's 'harmless' drawing led to a dark realization",
       "Paid to be possessed, but the spirits had other plans",
       "My Brother's Disturbing Encounter with a Police Psychologist",
-      "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules"
+      "I Worked the Night Shift at a Shipping Warehouse with Two Bizarre Rules",
+      "Family movie night turned into a chilling realization"
     ]
   },
   "uploads": [
@@ -1351,6 +1352,31 @@
         "6aa46b1f91046a8f95b50fc6"
       ],
       "ts": "2026-09-11T20:55:46"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Family movie night turned into a chilling realization",
+      "title": "The Flickering Screen",
+      "story": "There should be five of us",
+      "story_id": "reddit:1wcfwpx",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wcfwpx/there_should_be_five_of_us/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa4bb49ccd84328917a697c",
+        "6aa4bb56373fafa8c6d86e07",
+        "6aa4bb62aa296f331c8124a9",
+        "6aa4bb6f2ff05a49069d633c",
+        "6aa4bb7c18f0927c8d623151",
+        "6aa4bb8166c59e2484a5ae16",
+        "6aa4bb8818f0927c8d623282",
+        "6aa4bb8fccd84328917a6c42",
+        "6aa4bb982ff05a49069d6809"
+      ],
+      "ts": "2026-09-12T02:39:01"
     }
   ]
 }
