@@ -72,7 +72,8 @@
       "My eight-year-old's 'free' bouncy ball cost me a grout job",
       "Lost 30 minutes of our lives to a mysterious bright light",
       "A Stranger's Chilling Warning in the Kyron Horman Case",
-      "I saw a pitch-black entity on a bus when I was in a psychotic state"
+      "I saw a pitch-black entity on a bus when I was in a psychotic state",
+      "My husband's secret coffee shop kiss"
     ]
   },
   "uploads": [
@@ -1470,6 +1471,26 @@
         "6aa681b3bcabda92e1ac2efb"
       ],
       "ts": "2026-09-13T10:57:52"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My husband's secret coffee shop kiss",
+      "title": "a kiss in the shadows",
+      "story": "My husband's been having an affair.",
+      "story_id": "reddit:1wdq277",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wdq277/my_husbands_been_having_an_affair/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa6c3f8eba7bc56779adb7c",
+        "6aa6c4061f8cf810a11682c2",
+        "6aa6c413f7b1958d5cebe082",
+        "6aa6c421eba7bc56779adfc0"
+      ],
+      "ts": "2026-09-13T15:40:37"
     }
   ]
 }
