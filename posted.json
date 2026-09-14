@@ -73,7 +73,8 @@
       "Lost 30 minutes of our lives to a mysterious bright light",
       "A Stranger's Chilling Warning in the Kyron Horman Case",
       "I saw a pitch-black entity on a bus when I was in a psychotic state",
-      "My husband's secret coffee shop kiss"
+      "My husband's secret coffee shop kiss",
+      "My landlord's 'friend' vanished without leaving a clue"
     ]
   },
   "uploads": [
@@ -1491,6 +1492,23 @@
         "6aa6c421eba7bc56779adfc0"
       ],
       "ts": "2026-09-13T15:40:37"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My landlord's 'friend' vanished without leaving a clue",
+      "title": "The Vanishing Tenant",
+      "story": "Who was Robert Lance Lindsey?",
+      "story_id": "reddit:1wcp0rq",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wcp0rq/who_was_robert_lance_lindsey/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa764d6c5102442ffe6f8b4"
+      ],
+      "ts": "2026-09-14T03:06:58"
     }
   ]
 }
