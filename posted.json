@@ -74,7 +74,8 @@
       "A Stranger's Chilling Warning in the Kyron Horman Case",
       "I saw a pitch-black entity on a bus when I was in a psychotic state",
       "My husband's secret coffee shop kiss",
-      "My landlord's 'friend' vanished without leaving a clue"
+      "My landlord's 'friend' vanished without leaving a clue",
+      "A heartbreaking 9/11 case that remains unsolved"
     ]
   },
   "uploads": [
@@ -1509,6 +1510,27 @@
         "6aa764d6c5102442ffe6f8b4"
       ],
       "ts": "2026-09-14T03:06:58"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A heartbreaking 9/11 case that remains unsolved",
+      "title": "The Face on the Key Card",
+      "story": "Unsolved NYC Homicide 9/11/2001",
+      "story_id": "reddit:1wdcp7y",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wdcp7y/unsolved_nyc_homicide_9112001/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa8489458acfe15062308e5",
+        "6aa848a1c913fd3d97e4d34f",
+        "6aa848ae1c2cae647ba98f67",
+        "6aa848bb2b2628dff3a818eb",
+        "6aa848c958acfe1506230c78"
+      ],
+      "ts": "2026-09-14T19:18:40"
     }
   ]
 }
