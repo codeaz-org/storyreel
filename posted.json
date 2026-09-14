@@ -75,7 +75,8 @@
       "I saw a pitch-black entity on a bus when I was in a psychotic state",
       "My husband's secret coffee shop kiss",
       "My landlord's 'friend' vanished without leaving a clue",
-      "A heartbreaking 9/11 case that remains unsolved"
+      "A heartbreaking 9/11 case that remains unsolved",
+      "The Vanishing Act at Kennedy Walton's Birthday Party"
     ]
   },
   "uploads": [
@@ -1531,6 +1532,28 @@
         "6aa848c958acfe1506230c78"
       ],
       "ts": "2026-09-14T19:18:40"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Vanishing Act at Kennedy Walton's Birthday Party",
+      "title": "The Missing Guest",
+      "story": "Woman leaves her family home to go to a friend's birthday celebration at a bar; During the event, she suddenly leaves and starts crying in her car, and she vanishes shortly after the party's over- Where is Kennedy Walton? (2022)",
+      "story_id": "reddit:1wejr3g",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wejr3g/woman_leaves_her_family_home_to_go_to_a_friends/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa8696ff1b6da68ddc9ec49",
+        "6aa869843379ae521a5d2745",
+        "6aa8699ef1b6da68ddc9ee78",
+        "6aa869abf1294963798e1bb2",
+        "6aa869b8536a393f6e48c68a",
+        "6aa869df815e1c0b129338f3"
+      ],
+      "ts": "2026-09-14T21:38:43"
     }
   ]
 }
