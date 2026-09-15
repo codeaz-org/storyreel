@@ -77,7 +77,8 @@
       "My landlord's 'friend' vanished without leaving a clue",
       "A heartbreaking 9/11 case that remains unsolved",
       "The Vanishing Act at Kennedy Walton's Birthday Party",
-      "The skin-cream that turned my life into a nightmare"
+      "The skin-cream that turned my life into a nightmare",
+      "She Saw Something That AI Didn't"
     ]
   },
   "uploads": [
@@ -1575,6 +1576,27 @@
         "6aa8af16fa1b0cab28a59849"
       ],
       "ts": "2026-09-15T02:35:20"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "She Saw Something That AI Didn't",
+      "title": "she saw something ai didn't",
+      "story": "She Saw Something That Wasn't in the Color-Blindness Test",
+      "story_id": "reddit:1wf959h",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wf959h/she_saw_something_that_wasnt_in_the/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa92801203a4231d60343be",
+        "6aa92810c0a47267e73fd26c",
+        "6aa9281db7777bb76b454c87",
+        "6aa9282b2ed6f7189191e13b",
+        "6aa928392ed6f7189191e2d4"
+      ],
+      "ts": "2026-09-15T11:11:57"
     }
   ]
 }
