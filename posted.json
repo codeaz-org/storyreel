@@ -76,7 +76,8 @@
       "My husband's secret coffee shop kiss",
       "My landlord's 'friend' vanished without leaving a clue",
       "A heartbreaking 9/11 case that remains unsolved",
-      "The Vanishing Act at Kennedy Walton's Birthday Party"
+      "The Vanishing Act at Kennedy Walton's Birthday Party",
+      "The skin-cream that turned my life into a nightmare"
     ]
   },
   "uploads": [
@@ -1554,6 +1555,26 @@
         "6aa869df815e1c0b129338f3"
       ],
       "ts": "2026-09-14T21:38:43"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The skin-cream that turned my life into a nightmare",
+      "title": "The Cream That Changed Everything",
+      "story": "I'm Never Using Dr. Viosca's Skin-So-Smooth EVER Again!",
+      "story_id": "reddit:1wexh9v",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wexh9v/im_never_using_dr_vioscas_skinsosmooth_ever_again/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa8aeecbb9b8eb9659d44f8",
+        "6aa8aefaa283eff81a548c0f",
+        "6aa8af08a283eff81a548d2b",
+        "6aa8af16fa1b0cab28a59849"
+      ],
+      "ts": "2026-09-15T02:35:20"
     }
   ]
 }
