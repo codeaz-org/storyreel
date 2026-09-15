@@ -78,7 +78,8 @@
       "A heartbreaking 9/11 case that remains unsolved",
       "The Vanishing Act at Kennedy Walton's Birthday Party",
       "The skin-cream that turned my life into a nightmare",
-      "She Saw Something That AI Didn't"
+      "She Saw Something That AI Didn't",
+      "The Family's Hope Revives in a 38-Year-Old Disappearance"
     ]
   },
   "uploads": [
@@ -1597,6 +1598,23 @@
         "6aa928392ed6f7189191e2d4"
       ],
       "ts": "2026-09-15T11:11:57"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Family's Hope Revives in a 38-Year-Old Disappearance",
+      "title": "A Flicker of Hope in the Shadows",
+      "story": "Vanilla Bean Ice Cream",
+      "story_id": "reddit:1we0vr3",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1we0vr3/vanilla_bean_ice_cream/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa96c3034e766c0b067ffc5"
+      ],
+      "ts": "2026-09-15T16:02:53"
     }
   ]
 }
