@@ -79,7 +79,8 @@
       "The Vanishing Act at Kennedy Walton's Birthday Party",
       "The skin-cream that turned my life into a nightmare",
       "She Saw Something That AI Didn't",
-      "The Family's Hope Revives in a 38-Year-Old Disappearance"
+      "The Family's Hope Revives in a 38-Year-Old Disappearance",
+      "The Day I Discovered a Stalker's Dark Obsession"
     ]
   },
   "uploads": [
@@ -1615,6 +1616,29 @@
         "6aa96c3034e766c0b067ffc5"
       ],
       "ts": "2026-09-15T16:02:53"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Day I Discovered a Stalker's Dark Obsession",
+      "title": "A Terrifying Discovery",
+      "story": "The Day I Found Out I Had A Stalker",
+      "story_id": "reddit:1weuxi0",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1weuxi0/the_day_i_found_out_i_had_a_stalker/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa9b5df9b7ab1cd5b56afd9",
+        "6aa9b5ed5f644a57ba178f2d",
+        "6aa9b5fa2df46a9af0cb0b11",
+        "6aa9b6089b7ab1cd5b56b40c",
+        "6aa9b6152df46a9af0cb0df8",
+        "6aa9b6223cbad1d5523c1411",
+        "6aa9b6302df46a9af0cb1063"
+      ],
+      "ts": "2026-09-15T21:17:16"
     }
   ]
 }
