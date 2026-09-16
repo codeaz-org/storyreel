@@ -81,7 +81,8 @@
       "She Saw Something That AI Didn't",
       "The Family's Hope Revives in a 38-Year-Old Disappearance",
       "The Day I Discovered a Stalker's Dark Obsession",
-      "Woman's voice warning me in the elevator"
+      "Woman's voice warning me in the elevator",
+      "My Hair Doesn't Want Me To Be Rescued"
     ]
   },
   "uploads": [
@@ -1657,6 +1658,23 @@
         "6aa9fb9381d74a10250acbc7"
       ],
       "ts": "2026-09-16T02:14:38"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Hair Doesn't Want Me To Be Rescued",
+      "title": "The Uncooperative Locks",
+      "story": "The 2015 Parrott\u2019s Ferry Bridge Jane Doe Has Been Identified As Anita Kathleen Ranker",
+      "story_id": "reddit:1wgctc6",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wgctc6/the_2015_parrotts_ferry_bridge_jane_doe_has_been/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aaa73d096e75561b025d9a1"
+      ],
+      "ts": "2026-09-16T10:47:41"
     }
   ]
 }
