@@ -80,7 +80,8 @@
       "The skin-cream that turned my life into a nightmare",
       "She Saw Something That AI Didn't",
       "The Family's Hope Revives in a 38-Year-Old Disappearance",
-      "The Day I Discovered a Stalker's Dark Obsession"
+      "The Day I Discovered a Stalker's Dark Obsession",
+      "Woman's voice warning me in the elevator"
     ]
   },
   "uploads": [
@@ -1639,6 +1640,23 @@
         "6aa9b6302df46a9af0cb1063"
       ],
       "ts": "2026-09-15T21:17:16"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Woman's voice warning me in the elevator",
+      "title": "The Warning in the Elevator",
+      "story": "Woman's voice warning me in the elevator",
+      "story_id": "reddit:1wfjxfv",
+      "story_url": "https://reddit.com/r/Ghoststories/comments/1wfjxfv/womans_voice_warning_me_in_the_elevator/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aa9fb9381d74a10250acbc7"
+      ],
+      "ts": "2026-09-16T02:14:38"
     }
   ]
 }
