@@ -87,7 +87,8 @@
       "The Collector's New Favorite Toy Became His Worst Nightmare",
       "The Mysterious Visitors from My Childhood",
       "My Tinder Hookup ATE Me on Our First Date",
-      "The Mysterious Deaths of Three Young Sisters"
+      "The Mysterious Deaths of Three Young Sisters",
+      "A Mysterious Woman in My Bed"
     ]
   },
   "uploads": [
@@ -1779,6 +1780,28 @@
         "6aac108aa5d892986cf5077f"
       ],
       "ts": "2026-09-17T16:08:00"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A Mysterious Woman in My Bed",
+      "title": "A Stranger in the Night",
+      "story": "Women Should Know Their Place",
+      "story_id": "reddit:1wh4v3o",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wh4v3o/women_should_know_their_place/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aac5945bdf816a24771695d",
+        "6aac59526d6662c4b440f194",
+        "6aac595fa392fa7c05c7c1f2",
+        "6aac5a216d6662c4b441086a",
+        "6aac5a2e588f5df927117381",
+        "6aac5a3aa392fa7c05c7d5d7"
+      ],
+      "ts": "2026-09-17T21:18:58"
     }
   ]
 }
