@@ -84,7 +84,8 @@
       "Woman's voice warning me in the elevator",
       "My Hair Doesn't Want Me To Be Rescued",
       "The Ghostly Encounter That Made Me Question Reality",
-      "The Collector's New Favorite Toy Became His Worst Nightmare"
+      "The Collector's New Favorite Toy Became His Worst Nightmare",
+      "The Mysterious Visitors from My Childhood"
     ]
   },
   "uploads": [
@@ -1719,6 +1720,23 @@
         "6aab0641f50aa6b642fb4c5f"
       ],
       "ts": "2026-09-16T21:11:05"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Visitors from My Childhood",
+      "title": "Visitors from the Past",
+      "story": "The Family of Randy Leach Announced That New Leads and Evidence Have Been Uncovered In His Case",
+      "story_id": "reddit:1wbna6g",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wbna6g/the_family_of_randy_leach_announced_that_new/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aab4f2c665cd88db872fb26"
+      ],
+      "ts": "2026-09-17T02:23:37"
     }
   ]
 }
