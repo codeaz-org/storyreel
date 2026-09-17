@@ -86,7 +86,8 @@
       "The Ghostly Encounter That Made Me Question Reality",
       "The Collector's New Favorite Toy Became His Worst Nightmare",
       "The Mysterious Visitors from My Childhood",
-      "My Tinder Hookup ATE Me on Our First Date"
+      "My Tinder Hookup ATE Me on Our First Date",
+      "The Mysterious Deaths of Three Young Sisters"
     ]
   },
   "uploads": [
@@ -1761,6 +1762,23 @@
         "6aabcc6f047313b29fba2b55"
       ],
       "ts": "2026-09-17T11:15:48"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Deaths of Three Young Sisters",
+      "title": "The Shadows in Willow Creek",
+      "story": "3 young sisters were found dead in a pond. Months later, it was revealed that they had been strangled. Who killed Zi\u2019Ariel, A\u2019Miyah, and Te\u2019Mari? (Cass County TX, 2022)",
+      "story_id": "reddit:1whhei6",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1whhei6/3_young_sisters_were_found_dead_in_a_pond_months/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aac108aa5d892986cf5077f"
+      ],
+      "ts": "2026-09-17T16:08:00"
     }
   ]
 }
