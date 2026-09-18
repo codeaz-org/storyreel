@@ -88,7 +88,8 @@
       "The Mysterious Visitors from My Childhood",
       "My Tinder Hookup ATE Me on Our First Date",
       "The Mysterious Deaths of Three Young Sisters",
-      "A Mysterious Woman in My Bed"
+      "A Mysterious Woman in My Bed",
+      "The Final Warning from My Father"
     ]
   },
   "uploads": [
@@ -1802,6 +1803,23 @@
         "6aac5a3aa392fa7c05c7d5d7"
       ],
       "ts": "2026-09-17T21:18:58"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Final Warning from My Father",
+      "title": "The Last Goodbye",
+      "story": "Was my father already gone 3 months before his physical passing?",
+      "story_id": "reddit:1whikit",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1whikit/was_my_father_already_gone_3_months_before_his/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aac9eac7f2b11f4582ab5ee"
+      ],
+      "ts": "2026-09-18T02:15:05"
     }
   ]
 }
