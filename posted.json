@@ -90,7 +90,8 @@
       "The Mysterious Deaths of Three Young Sisters",
       "A Mysterious Woman in My Bed",
       "The Final Warning from My Father",
-      "My husband's bizarre accusation: 'You're not the woman I married!'"
+      "My husband's bizarre accusation: 'You're not the woman I married!'",
+      "A mysterious, glowing red line appears in my hallway"
     ]
   },
   "uploads": [
@@ -1838,6 +1839,23 @@
         "6aad130415159f403b44a7a3"
       ],
       "ts": "2026-09-18T10:31:29"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A mysterious, glowing red line appears in my hallway",
+      "title": "The Red Line in My Hallway",
+      "story": "I just saw a red glowing line in my hallway.  Anyone else?",
+      "story_id": "reddit:1wes9ln",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1wes9ln/i_just_saw_a_red_glowing_line_in_my_hallway/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aad64c39f49d0351ae60d1b"
+      ],
+      "ts": "2026-09-18T16:20:16"
     }
   ]
 }
