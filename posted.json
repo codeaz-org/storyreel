@@ -91,7 +91,8 @@
       "A Mysterious Woman in My Bed",
       "The Final Warning from My Father",
       "My husband's bizarre accusation: 'You're not the woman I married!'",
-      "A mysterious, glowing red line appears in my hallway"
+      "A mysterious, glowing red line appears in my hallway",
+      "The West Point Cadet Who Never Came Home"
     ]
   },
   "uploads": [
@@ -1856,6 +1857,31 @@
         "6aad64c39f49d0351ae60d1b"
       ],
       "ts": "2026-09-18T16:20:16"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The West Point Cadet Who Never Came Home",
+      "title": "The Unmarked Grave of West Point",
+      "story": "In 1950, a West Point cadet goes to dinner with a man he had previously told friends he was unsettled and disgusted by. He never came home. What happened to Richard Colvin Cox?",
+      "story_id": "reddit:1wi0uce",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wi0uce/in_1950_a_west_point_cadet_goes_to_dinner_with_a/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aada30f988279488764e31f",
+        "6aada31c1e8bdcdb522f9e81",
+        "6aada3291e8bdcdb522f9f52",
+        "6aada33504838aa1c451b396",
+        "6aada34204838aa1c451b454",
+        "6aada34f1e8bdcdb522fa142",
+        "6aada35c5fe629aa2660bab3",
+        "6aada3695fe629aa2660bc64",
+        "6aada3701e8bdcdb522fa31d"
+      ],
+      "ts": "2026-09-18T20:46:04"
     }
   ]
 }
