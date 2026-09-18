@@ -89,7 +89,8 @@
       "My Tinder Hookup ATE Me on Our First Date",
       "The Mysterious Deaths of Three Young Sisters",
       "A Mysterious Woman in My Bed",
-      "The Final Warning from My Father"
+      "The Final Warning from My Father",
+      "My husband's bizarre accusation: 'You're not the woman I married!'"
     ]
   },
   "uploads": [
@@ -1820,6 +1821,23 @@
         "6aac9eac7f2b11f4582ab5ee"
       ],
       "ts": "2026-09-18T02:15:05"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My husband's bizarre accusation: 'You're not the woman I married!'",
+      "title": "The Unrecognizable Me",
+      "story": "My husband is convinced I've been replaced.",
+      "story_id": "reddit:1wi125l",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wi125l/my_husband_is_convinced_ive_been_replaced/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aad130415159f403b44a7a3"
+      ],
+      "ts": "2026-09-18T10:31:29"
     }
   ]
 }
