@@ -93,7 +93,8 @@
       "My husband's bizarre accusation: 'You're not the woman I married!'",
       "A mysterious, glowing red line appears in my hallway",
       "The West Point Cadet Who Never Came Home",
-      "He Thought He Could Hide His Affair From Me"
+      "He Thought He Could Hide His Affair From Me",
+      "My dog's frantic barks: a mysterious repeat"
     ]
   },
   "uploads": [
@@ -1906,6 +1907,23 @@
         "6aadf4c7560f708e814b30f2"
       ],
       "ts": "2026-09-19T02:33:17"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My dog's frantic barks: a mysterious repeat",
+      "title": "The Barking Enigma",
+      "story": "It happened again.",
+      "story_id": "reddit:1wi8yvw",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1wi8yvw/it_happened_again/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aae5f4a1e8bdcdb5240aa5b"
+      ],
+      "ts": "2026-09-19T10:09:12"
     }
   ]
 }
