@@ -94,7 +94,8 @@
       "A mysterious, glowing red line appears in my hallway",
       "The West Point Cadet Who Never Came Home",
       "He Thought He Could Hide His Affair From Me",
-      "My dog's frantic barks: a mysterious repeat"
+      "My dog's frantic barks: a mysterious repeat",
+      "The Handover Manual's Red Rules"
     ]
   },
   "uploads": [
@@ -1924,6 +1925,30 @@
         "6aae5f4a1e8bdcdb5240aa5b"
       ],
       "ts": "2026-09-19T10:09:12"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Handover Manual's Red Rules",
+      "title": "The Red Rules of the Handover Manual",
+      "story": "I work night reception at a private residential facility. The handover manual has three rules marked in red, and I broke rule two.",
+      "story_id": "reddit:1wiyd9j",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wiyd9j/i_work_night_reception_at_a_private_residential/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aaead22140a30240259009c",
+        "6aaead2f65e5b8cd5b394286",
+        "6aaead3d140a30240259025b",
+        "6aaead4265e5b8cd5b394426",
+        "6aaead479a30e1221c0d5ad4",
+        "6aaead4e6e039ccbc81e2fa6",
+        "6aaead549a30e1221c0d5c08",
+        "6aaead5b140a3024025903e7"
+      ],
+      "ts": "2026-09-19T15:41:19"
     }
   ]
 }
