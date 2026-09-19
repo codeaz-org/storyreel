@@ -92,7 +92,8 @@
       "The Final Warning from My Father",
       "My husband's bizarre accusation: 'You're not the woman I married!'",
       "A mysterious, glowing red line appears in my hallway",
-      "The West Point Cadet Who Never Came Home"
+      "The West Point Cadet Who Never Came Home",
+      "He Thought He Could Hide His Affair From Me"
     ]
   },
   "uploads": [
@@ -1882,6 +1883,29 @@
         "6aada3701e8bdcdb522fa31d"
       ],
       "ts": "2026-09-18T20:46:04"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "He Thought He Could Hide His Affair From Me",
+      "title": "Betrayal in the Shadows",
+      "story": "His Family Didn\u2019t Want Me at the Funeral",
+      "story_id": "reddit:1wi1cbq",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wi1cbq/his_family_didnt_want_me_at_the_funeral/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aadf4715fe629aa26682fa0",
+        "6aadf47f04838aa1c458dbaf",
+        "6aadf48d560f708e814b2e91",
+        "6aadf49b5fe629aa266832d1",
+        "6aadf4ac1e8bdcdb5236dfc3",
+        "6aadf4ba5fe629aa266833f5",
+        "6aadf4c7560f708e814b30f2"
+      ],
+      "ts": "2026-09-19T02:33:17"
     }
   ]
 }
