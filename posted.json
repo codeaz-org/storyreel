@@ -95,7 +95,8 @@
       "The West Point Cadet Who Never Came Home",
       "He Thought He Could Hide His Affair From Me",
       "My dog's frantic barks: a mysterious repeat",
-      "The Handover Manual's Red Rules"
+      "The Handover Manual's Red Rules",
+      "My girlfriend fakes her death every time we argue"
     ]
   },
   "uploads": [
@@ -1949,6 +1950,27 @@
         "6aaead5b140a3024025903e7"
       ],
       "ts": "2026-09-19T15:41:19"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My girlfriend fakes her death every time we argue",
+      "title": "faking it till the end",
+      "story": "My girlfriend fakes her death every time we argue",
+      "story_id": "reddit:1wj1haq",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wj1haq/my_girlfriend_fakes_her_death_every_time_we_argue/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aaeedf5bb86436624a6881e",
+        "6aaeee0113d908add204f127",
+        "6aaeee0e140a3024025f2041",
+        "6aaeee134594e3153f3ffa52",
+        "6aaeee1abb86436624a69331"
+      ],
+      "ts": "2026-09-19T20:17:54"
     }
   ]
 }
