@@ -99,7 +99,8 @@
       "My girlfriend fakes her death every time we argue",
       "Remains found near road where Texas State student vanished 6 years ago",
       "The AI's Secret Knowledge",
-      "My first creepy encounter: a stalker in my life"
+      "My first creepy encounter: a stalker in my life",
+      "The Vanishing of 13-Year-Old Linda Sue Dearth"
     ]
   },
   "uploads": [
@@ -2032,6 +2033,23 @@
         "6aaffd7a581115d59057e901"
       ],
       "ts": "2026-09-20T15:35:41"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Vanishing of 13-Year-Old Linda Sue Dearth",
+      "title": "The Vanishing of Linda Sue Dearth",
+      "story": "The January 1973 Unsolved Homicide of Linda Sue Dearth, Montgomery County Ohio",
+      "story_id": "reddit:1wgl1e2",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wgl1e2/the_january_1973_unsolved_homicide_of_linda_sue/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab03e06b07e536c5a1b4239"
+      ],
+      "ts": "2026-09-20T20:11:45"
     }
   ]
 }
