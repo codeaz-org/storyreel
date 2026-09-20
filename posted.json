@@ -97,7 +97,8 @@
       "My dog's frantic barks: a mysterious repeat",
       "The Handover Manual's Red Rules",
       "My girlfriend fakes her death every time we argue",
-      "Remains found near road where Texas State student vanished 6 years ago"
+      "Remains found near road where Texas State student vanished 6 years ago",
+      "The AI's Secret Knowledge"
     ]
   },
   "uploads": [
@@ -1989,6 +1990,27 @@
         "6aaf41e64594e3153f474179"
       ],
       "ts": "2026-09-20T02:15:59"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The AI's Secret Knowledge",
+      "title": "The AI's Dark Awakening",
+      "story": "I accidentally asked our unreleased AI the wrong question",
+      "story_id": "reddit:1wjrvbf",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wjrvbf/i_accidentally_asked_our_unreleased_ai_the_wrong/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aafb9e28d048c06b4023ca1",
+        "6aafb9f0566e1a89bc2bebeb",
+        "6aafb9fd35dc00a6096e5516",
+        "6aafba0ab87fe8130461e9aa",
+        "6aafba17566e1a89bc2beed3"
+      ],
+      "ts": "2026-09-20T10:47:59"
     }
   ]
 }
