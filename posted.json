@@ -98,7 +98,8 @@
       "The Handover Manual's Red Rules",
       "My girlfriend fakes her death every time we argue",
       "Remains found near road where Texas State student vanished 6 years ago",
-      "The AI's Secret Knowledge"
+      "The AI's Secret Knowledge",
+      "My first creepy encounter: a stalker in my life"
     ]
   },
   "uploads": [
@@ -2011,6 +2012,26 @@
         "6aafba17566e1a89bc2beed3"
       ],
       "ts": "2026-09-20T10:47:59"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My first creepy encounter: a stalker in my life",
+      "title": "The Shadow in My Life",
+      "story": "My first creepy encounter",
+      "story_id": "reddit:1wk99sh",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wk99sh/my_first_creepy_encounter/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aaffd5190bfc6c1b5e27483",
+        "6aaffd5f387e8767d4f63776",
+        "6aaffd6d581115d59057e79c",
+        "6aaffd7a581115d59057e901"
+      ],
+      "ts": "2026-09-20T15:35:41"
     }
   ]
 }
