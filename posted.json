@@ -103,7 +103,8 @@
       "The Vanishing of 13-Year-Old Linda Sue Dearth",
       "I left for a phone call, but never came back",
       "Toronto's Easter Attack: A Decades-Old Crime Solved",
-      "Remains found in 2023 in southeast Florida have a mysterious past"
+      "Remains found in 2023 in southeast Florida have a mysterious past",
+      "I Thought the Notes Were Romantic"
     ]
   },
   "uploads": [
@@ -2106,6 +2107,27 @@
         "6ab16a719d554f7b28a41be9"
       ],
       "ts": "2026-09-21T17:33:05"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I Thought the Notes Were Romantic",
+      "title": "The Musician's Dark Obsession",
+      "story": "I Thought the Notes Were Romantic",
+      "story_id": "reddit:1wl71y4",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wl71y4/i_thought_the_notes_were_romantic/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab1a3091177eabccaef6346",
+        "6ab1a3171177eabccaef6551",
+        "6ab1a3248e2aab6eac4d4d73",
+        "6ab1a3318e2aab6eac4d4e21",
+        "6ab1a33fe1612e2f7877da46"
+      ],
+      "ts": "2026-09-21T21:35:01"
     }
   ]
 }
