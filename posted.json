@@ -100,7 +100,8 @@
       "Remains found near road where Texas State student vanished 6 years ago",
       "The AI's Secret Knowledge",
       "My first creepy encounter: a stalker in my life",
-      "The Vanishing of 13-Year-Old Linda Sue Dearth"
+      "The Vanishing of 13-Year-Old Linda Sue Dearth",
+      "I left for a phone call, but never came back"
     ]
   },
   "uploads": [
@@ -2050,6 +2051,23 @@
         "6ab03e06b07e536c5a1b4239"
       ],
       "ts": "2026-09-20T20:11:45"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I left for a phone call, but never came back",
+      "title": "The Unanswered Call",
+      "story": "Is he coming to take me?",
+      "story_id": "reddit:1wkbk7m",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1wkbk7m/is_he_coming_to_take_me/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab094e05a51e9fa48af18ec"
+      ],
+      "ts": "2026-09-21T02:22:21"
     }
   ]
 }
