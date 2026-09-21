@@ -102,7 +102,8 @@
       "My first creepy encounter: a stalker in my life",
       "The Vanishing of 13-Year-Old Linda Sue Dearth",
       "I left for a phone call, but never came back",
-      "Toronto's Easter Attack: A Decades-Old Crime Solved"
+      "Toronto's Easter Attack: A Decades-Old Crime Solved",
+      "Remains found in 2023 in southeast Florida have a mysterious past"
     ]
   },
   "uploads": [
@@ -2086,6 +2087,25 @@
         "6ab1167f72aeda4693eef8ef"
       ],
       "ts": "2026-09-21T11:35:22"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Remains found in 2023 in southeast Florida have a mysterious past",
+      "title": "The Forgotten Ones of Florida",
+      "story": "Remains found in May 2023 in southeast Florida have been identified as 74-year-old Regina Hess, but her life remains a mystery",
+      "story_id": "reddit:1wkd7m5",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wkd7m5/remains_found_in_may_2023_in_southeast_florida/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab16a556562412141896a7d",
+        "6ab16a629d554f7b28a4184e",
+        "6ab16a719d554f7b28a41be9"
+      ],
+      "ts": "2026-09-21T17:33:05"
     }
   ]
 }
