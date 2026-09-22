@@ -104,7 +104,8 @@
       "I left for a phone call, but never came back",
       "Toronto's Easter Attack: A Decades-Old Crime Solved",
       "Remains found in 2023 in southeast Florida have a mysterious past",
-      "I Thought the Notes Were Romantic"
+      "I Thought the Notes Were Romantic",
+      "Trapped in a lift with no escape"
     ]
   },
   "uploads": [
@@ -2128,6 +2129,26 @@
         "6ab1a33fe1612e2f7877da46"
       ],
       "ts": "2026-09-21T21:35:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Trapped in a lift with no escape",
+      "title": "The Last Floor",
+      "story": "One New Message",
+      "story_id": "reddit:1wl4y16",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wl4y16/one_new_message/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab1e7cec8163cbd583ff962",
+        "6ab1e7dc6ed20e9354f50ddf",
+        "6ab1e7e94d199840baf90b41",
+        "6ab1e7f76ed20e9354f50f30"
+      ],
+      "ts": "2026-09-22T02:28:27"
     }
   ]
 }
