@@ -107,7 +107,8 @@
       "I Thought the Notes Were Romantic",
       "Trapped in a lift with no escape",
       "The Mysterious John Doe: A Body Found in Miami-Dade County",
-      "The police finally cracked the case of two missing lovers from 1988"
+      "The police finally cracked the case of two missing lovers from 1988",
+      "Two more Colonial Parkway victims linked to a serial killer"
     ]
   },
   "uploads": [
@@ -2188,6 +2189,23 @@
         "6ab2ab1b4f4a0c196dcc79bd"
       ],
       "ts": "2026-09-22T16:21:04"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Two more Colonial Parkway victims linked to a serial killer",
+      "title": "The Dark Connection",
+      "story": "Disappearances of 2 more Colonial Parkway victims linked to Serial Killer Alan Wade Wilmer",
+      "story_id": "reddit:1wlvhep",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wlvhep/disappearances_of_2_more_colonial_parkway_victims/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab2ed1f98ae6feaa619c088"
+      ],
+      "ts": "2026-09-22T21:03:23"
     }
   ]
 }
