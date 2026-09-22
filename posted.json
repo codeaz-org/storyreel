@@ -105,7 +105,8 @@
       "Toronto's Easter Attack: A Decades-Old Crime Solved",
       "Remains found in 2023 in southeast Florida have a mysterious past",
       "I Thought the Notes Were Romantic",
-      "Trapped in a lift with no escape"
+      "Trapped in a lift with no escape",
+      "The Mysterious John Doe: A Body Found in Miami-Dade County"
     ]
   },
   "uploads": [
@@ -2149,6 +2150,23 @@
         "6ab1e7f76ed20e9354f50f30"
       ],
       "ts": "2026-09-22T02:28:27"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious John Doe: A Body Found in Miami-Dade County",
+      "title": "The John Doe Enigma",
+      "story": "Body of a man is found during road maintenance work; Despite having multiple healed fractures, distinct dentition, and a \"Catdog\" watch, he remains unidentified to this day- Who was the Miami-Dade County John Doe? (2000)",
+      "story_id": "reddit:1wkremx",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wkremx/body_of_a_man_is_found_during_road_maintenance/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab25b9d5cfcad806a3957bc"
+      ],
+      "ts": "2026-09-22T10:42:34"
     }
   ]
 }
