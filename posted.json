@@ -109,7 +109,8 @@
       "The Mysterious John Doe: A Body Found in Miami-Dade County",
       "The police finally cracked the case of two missing lovers from 1988",
       "Two more Colonial Parkway victims linked to a serial killer",
-      "My devices warned me not to look up after 12:03 P.M."
+      "My devices warned me not to look up after 12:03 P.M.",
+      "My Wife Said She Doesn't Recognize Me Anymore"
     ]
   },
   "uploads": [
@@ -2232,6 +2233,29 @@
         "6ab33ee0557b1c68e6c1d47e"
       ],
       "ts": "2026-09-23T02:50:26"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Wife Said She Doesn't Recognize Me Anymore",
+      "title": "My Wife's Chilling Admission",
+      "story": "My Wife Said She Doesn\u2019t Recognize Me Anymore",
+      "story_id": "reddit:1wmjj9p",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wmjj9p/my_wife_said_she_doesnt_recognize_me_anymore/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab3b215edbf4c710d54334a",
+        "6ab3b222edbf4c710d543546",
+        "6ab3b22fdba18bd410864191",
+        "6ab3b23deb36ce539ab33d3f",
+        "6ab3b24adba18bd4108647e4",
+        "6ab3b260dba18bd410864c69",
+        "6ab3b26ddba18bd4108650e3"
+      ],
+      "ts": "2026-09-23T11:03:46"
     }
   ]
 }
