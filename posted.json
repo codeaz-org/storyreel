@@ -108,7 +108,8 @@
       "Trapped in a lift with no escape",
       "The Mysterious John Doe: A Body Found in Miami-Dade County",
       "The police finally cracked the case of two missing lovers from 1988",
-      "Two more Colonial Parkway victims linked to a serial killer"
+      "Two more Colonial Parkway victims linked to a serial killer",
+      "My devices warned me not to look up after 12:03 P.M."
     ]
   },
   "uploads": [
@@ -2206,6 +2207,31 @@
         "6ab2ed1f98ae6feaa619c088"
       ],
       "ts": "2026-09-22T21:03:23"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My devices warned me not to look up after 12:03 P.M.",
+      "title": "The Warning at 12:03 P.M.",
+      "story": "Every device in my house woke me up at 5:38 A.M. with the exact same warning: Don't look up after 12:03 P.M.",
+      "story_id": "reddit:1wmdo9q",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wmdo9q/every_device_in_my_house_woke_me_up_at_538_am/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab33e7548b82bc36647f331",
+        "6ab33e837f829c668077e082",
+        "6ab33e9098ae6feaa6223ca3",
+        "6ab33e9e557b1c68e6c1cd9b",
+        "6ab33eab2aa0e20bb47075c1",
+        "6ab33eb8557b1c68e6c1cfde",
+        "6ab33ec6557b1c68e6c1d180",
+        "6ab33ed348b82bc3664802f2",
+        "6ab33ee0557b1c68e6c1d47e"
+      ],
+      "ts": "2026-09-23T02:50:26"
     }
   ]
 }
