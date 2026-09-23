@@ -110,7 +110,8 @@
       "The police finally cracked the case of two missing lovers from 1988",
       "Two more Colonial Parkway victims linked to a serial killer",
       "My devices warned me not to look up after 12:03 P.M.",
-      "My Wife Said She Doesn't Recognize Me Anymore"
+      "My Wife Said She Doesn't Recognize Me Anymore",
+      "The Man Who Refused to Wear Deodorant, and the Mysterious Bracelet"
     ]
   },
   "uploads": [
@@ -2256,6 +2257,29 @@
         "6ab3b26ddba18bd4108650e3"
       ],
       "ts": "2026-09-23T11:03:46"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Man Who Refused to Wear Deodorant, and the Mysterious Bracelet",
+      "title": "The Unbearable Stench of Regret",
+      "story": "The man inside my house REFUSES to wear deodorant.",
+      "story_id": "reddit:1wmfqzb",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wmfqzb/the_man_inside_my_house_refuses_to_wear_deodorant/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab3fcad062c9074d14d4dbb",
+        "6ab3fcb5fd4ba40aeaab88fb",
+        "6ab3fcbc7f7617192ba5d028",
+        "6ab3fcc17f037588e0bcf50f",
+        "6ab3fcc6fd4ba40aeaab8b02",
+        "6ab3fccd7f7617192ba5d158",
+        "6ab3fcd37f037588e0bcf8ee"
+      ],
+      "ts": "2026-09-23T16:22:01"
     }
   ]
 }
