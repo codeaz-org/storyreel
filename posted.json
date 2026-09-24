@@ -115,7 +115,8 @@
       "The Mysterious Death of the Bridge Lady",
       "Our dog's daily visits brought back the worst pain of our loss",
       "Police Solve 20-Year-Old Disappearance, But Was Justice Served?",
-      "My Landlady Said There Was No Basement, But I Discovered a Dark Secret"
+      "My Landlady Said There Was No Basement, But I Discovered a Dark Secret",
+      "They Refused to Call My Crime: A Mysterious Encounter"
     ]
   },
   "uploads": [
@@ -2363,6 +2364,29 @@
         "6ab5526c457da0b99bc6ced1"
       ],
       "ts": "2026-09-24T16:39:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "They Refused to Call My Crime: A Mysterious Encounter",
+      "title": "they refused to call my crime",
+      "story": "They Would Not Name My Crime",
+      "story_id": "reddit:1wnhb1n",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wnhb1n/they_would_not_name_my_crime/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab597089a9996eef1735437",
+        "6ab5971579ceb34ba6b6d49f",
+        "6ab597237794ad383566d13b",
+        "6ab5973003180a4897a191ee",
+        "6ab5973e858bdb85a737c714",
+        "6ab5974c7794ad383566d583",
+        "6ab59759fb65dbc70b0f1289"
+      ],
+      "ts": "2026-09-24T21:32:52"
     }
   ]
 }
