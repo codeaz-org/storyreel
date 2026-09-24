@@ -113,7 +113,8 @@
       "My Wife Said She Doesn't Recognize Me Anymore",
       "The Man Who Refused to Wear Deodorant, and the Mysterious Bracelet",
       "The Mysterious Death of the Bridge Lady",
-      "Our dog's daily visits brought back the worst pain of our loss"
+      "Our dog's daily visits brought back the worst pain of our loss",
+      "Police Solve 20-Year-Old Disappearance, But Was Justice Served?"
     ]
   },
   "uploads": [
@@ -2322,6 +2323,23 @@
         "6ab48d0b521044626fe1bb79"
       ],
       "ts": "2026-09-24T02:36:54"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Police Solve 20-Year-Old Disappearance, But Was Justice Served?",
+      "title": "The Bittersweet Return",
+      "story": "Police Have Closed The 1997 Disappearance Of Richard Roy Billmayer After A Prison Confession (Missing Since 1997)",
+      "story_id": "reddit:1wkzyqw",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wkzyqw/police_have_closed_the_1997_disappearance_of/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab5017815edc7cfdbaf1e67"
+      ],
+      "ts": "2026-09-24T10:54:44"
     }
   ]
 }
