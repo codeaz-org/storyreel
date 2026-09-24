@@ -114,7 +114,8 @@
       "The Man Who Refused to Wear Deodorant, and the Mysterious Bracelet",
       "The Mysterious Death of the Bridge Lady",
       "Our dog's daily visits brought back the worst pain of our loss",
-      "Police Solve 20-Year-Old Disappearance, But Was Justice Served?"
+      "Police Solve 20-Year-Old Disappearance, But Was Justice Served?",
+      "My Landlady Said There Was No Basement, But I Discovered a Dark Secret"
     ]
   },
   "uploads": [
@@ -2340,6 +2341,28 @@
         "6ab5017815edc7cfdbaf1e67"
       ],
       "ts": "2026-09-24T10:54:44"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Landlady Said There Was No Basement, But I Discovered a Dark Secret",
+      "title": "The Lie in the Walls",
+      "story": "My Landlady Said There Was No Basement",
+      "story_id": "reddit:1wnfpkv",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wnfpkv/my_landlady_said_there_was_no_basement/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab552294a68d8afcc577e8e",
+        "6ab55237197a53bc51f2118c",
+        "6ab55244457da0b99bc6ca5e",
+        "6ab55252f2f88235921a0b59",
+        "6ab5525f7cb0c4ddfc092cbd",
+        "6ab5526c457da0b99bc6ced1"
+      ],
+      "ts": "2026-09-24T16:39:01"
     }
   ]
 }
