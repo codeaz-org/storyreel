@@ -118,7 +118,8 @@
       "My Landlady Said There Was No Basement, But I Discovered a Dark Secret",
       "They Refused to Call My Crime: A Mysterious Encounter",
       "My daughter's bizarre 'gift' turned my worst nightmare into reality",
-      "I think I accidentally killed my boyfriend"
+      "I think I accidentally killed my boyfriend",
+      "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished"
     ]
   },
   "uploads": [
@@ -2433,6 +2434,23 @@
         "6ab6596fcbe818dd4f04345a"
       ],
       "ts": "2026-09-25T11:21:31"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished",
+      "title": "The Vanishing of Jason Landry",
+      "story": "Jason Landry Found",
+      "story_id": "reddit:1woehkm",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1woehkm/jason_landry_found/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab69fafd86d921cdb1816a4"
+      ],
+      "ts": "2026-09-25T16:22:04"
     }
   ]
 }
