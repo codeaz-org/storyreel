@@ -116,7 +116,8 @@
       "Our dog's daily visits brought back the worst pain of our loss",
       "Police Solve 20-Year-Old Disappearance, But Was Justice Served?",
       "My Landlady Said There Was No Basement, But I Discovered a Dark Secret",
-      "They Refused to Call My Crime: A Mysterious Encounter"
+      "They Refused to Call My Crime: A Mysterious Encounter",
+      "My daughter's bizarre 'gift' turned my worst nightmare into reality"
     ]
   },
   "uploads": [
@@ -2387,6 +2388,28 @@
         "6ab59759fb65dbc70b0f1289"
       ],
       "ts": "2026-09-24T21:32:52"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My daughter's bizarre 'gift' turned my worst nightmare into reality",
+      "title": "The Unwanted Gift",
+      "story": "My daughter has been laying eggs",
+      "story_id": "reddit:1wmkhvz",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wmkhvz/my_daughter_has_been_laying_eggs/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab5e1dbcbe818dd4ff64a5c",
+        "6ab5e1e8cbe818dd4ff64aeb",
+        "6ab5e1f4607bee5b0324471a",
+        "6ab5e201cbe818dd4ff64c2d",
+        "6ab5e20ea14029bcc72066f6",
+        "6ab5e2144be5473030a20c52"
+      ],
+      "ts": "2026-09-25T02:52:08"
     }
   ]
 }
