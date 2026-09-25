@@ -117,7 +117,8 @@
       "Police Solve 20-Year-Old Disappearance, But Was Justice Served?",
       "My Landlady Said There Was No Basement, But I Discovered a Dark Secret",
       "They Refused to Call My Crime: A Mysterious Encounter",
-      "My daughter's bizarre 'gift' turned my worst nightmare into reality"
+      "My daughter's bizarre 'gift' turned my worst nightmare into reality",
+      "I think I accidentally killed my boyfriend"
     ]
   },
   "uploads": [
@@ -2410,6 +2411,28 @@
         "6ab5e2144be5473030a20c52"
       ],
       "ts": "2026-09-25T02:52:08"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I think I accidentally killed my boyfriend",
+      "title": "My Boyfriend Never Awoke",
+      "story": "I think I accidentally killed my boyfriend",
+      "story_id": "reddit:1woewos",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1woewos/i_think_i_accidentally_killed_my_boyfriend/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab6593edb73444101eb8838",
+        "6ab6594bdb73444101eb8957",
+        "6ab659588c95968bb03713d5",
+        "6ab6595d4be5473030b02c3e",
+        "6ab6596a8c95968bb0371598",
+        "6ab6596fcbe818dd4f04345a"
+      ],
+      "ts": "2026-09-25T11:21:31"
     }
   ]
 }
