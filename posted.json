@@ -119,7 +119,8 @@
       "They Refused to Call My Crime: A Mysterious Encounter",
       "My daughter's bizarre 'gift' turned my worst nightmare into reality",
       "I think I accidentally killed my boyfriend",
-      "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished"
+      "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished",
+      "My neighbour has been standing in his driveway for six days, but I'm starting to wonder if he's still alive"
     ]
   },
   "uploads": [
@@ -2451,6 +2452,30 @@
         "6ab69fafd86d921cdb1816a4"
       ],
       "ts": "2026-09-25T16:22:04"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My neighbour has been standing in his driveway for six days, but I'm starting to wonder if he's still alive",
+      "title": "The Man in the Driveway",
+      "story": "My neighbour has been standing in his driveway for six days.",
+      "story_id": "reddit:1woslcx",
+      "story_url": "https://reddit.com/r/nosleep/comments/1woslcx/my_neighbour_has_been_standing_in_his_driveway/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab6e8ee84e8fc26af16efbd",
+        "6ab6e8fb84e8fc26af16f15f",
+        "6ab6e908b097c5b401a3234d",
+        "6ab6e91584e8fc26af16f437",
+        "6ab6e922dffba3cec6e57ec9",
+        "6ab6e92fb097c5b401a32dde",
+        "6ab6e93cf59168c9752b8665",
+        "6ab6e949f28173fa3f4f394a"
+      ],
+      "ts": "2026-09-25T21:34:35"
     }
   ]
 }
