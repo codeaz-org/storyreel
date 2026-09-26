@@ -121,7 +121,8 @@
       "I think I accidentally killed my boyfriend",
       "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished",
       "My neighbour has been standing in his driveway for six days, but I'm starting to wonder if he's still alive",
-      "The Mysterious Water Drop on My Arm"
+      "The Mysterious Water Drop on My Arm",
+      "Ghostly Roommate"
     ]
   },
   "uploads": [
@@ -2494,6 +2495,23 @@
         "6ab73311dffba3cec6ec5007"
       ],
       "ts": "2026-09-26T02:50:55"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Ghostly Roommate",
+      "title": "The Uninvited Guest",
+      "story": "Strange things happening in my house. Not lying.",
+      "story_id": "reddit:1work5q",
+      "story_url": "https://reddit.com/r/Ghoststories/comments/1work5q/strange_things_happening_in_my_house_not_lying/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab7eb8fccccb9429c32623c"
+      ],
+      "ts": "2026-09-26T15:58:03"
     }
   ]
 }
