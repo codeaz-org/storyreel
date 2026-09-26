@@ -122,7 +122,8 @@
       "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished",
       "My neighbour has been standing in his driveway for six days, but I'm starting to wonder if he's still alive",
       "The Mysterious Water Drop on My Arm",
-      "Ghostly Roommate"
+      "Ghostly Roommate",
+      "Everyone Thinks My Husband Is A Saint"
     ]
   },
   "uploads": [
@@ -2512,6 +2513,28 @@
         "6ab7eb8fccccb9429c32623c"
       ],
       "ts": "2026-09-26T15:58:03"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Everyone Thinks My Husband Is A Saint",
+      "title": "behind closed doors",
+      "story": "Everyone Thinks My Husband Is A Saint",
+      "story_id": "reddit:1wp5wok",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wp5wok/everyone_thinks_my_husband_is_a_saint/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab83178ccccb9429c39e86e",
+        "6ab831864b4b9f2c1c57e76e",
+        "6ab831933d66d464e5bcec75",
+        "6ab831a105811e5737383d3f",
+        "6ab831ae9f89edbefe7e63b7",
+        "6ab831bcccccb9429c39ec5d"
+      ],
+      "ts": "2026-09-26T20:56:21"
     }
   ]
 }
