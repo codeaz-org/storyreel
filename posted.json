@@ -120,7 +120,8 @@
       "My daughter's bizarre 'gift' turned my worst nightmare into reality",
       "I think I accidentally killed my boyfriend",
       "The Mysterious Disappearance of Jason Landry, a College Student Who Vanished",
-      "My neighbour has been standing in his driveway for six days, but I'm starting to wonder if he's still alive"
+      "My neighbour has been standing in his driveway for six days, but I'm starting to wonder if he's still alive",
+      "The Mysterious Water Drop on My Arm"
     ]
   },
   "uploads": [
@@ -2476,6 +2477,23 @@
         "6ab6e949f28173fa3f4f394a"
       ],
       "ts": "2026-09-25T21:34:35"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Water Drop on My Arm",
+      "title": "The Unseen Visitor",
+      "story": "Big water drop on my arm while indoors",
+      "story_id": "reddit:1wnvy9d",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1wnvy9d/big_water_drop_on_my_arm_while_indoors/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab73311dffba3cec6ec5007"
+      ],
+      "ts": "2026-09-26T02:50:55"
     }
   ]
 }
