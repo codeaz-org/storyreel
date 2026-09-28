@@ -127,7 +127,8 @@
       "My Customer's Tinder Date Arrived in a Scary Disguise",
       "My Fisherman Husband Came Home Smelling of Salt and Rot",
       "The Woman Who Came Back",
-      "My boyfriend's 'updates' cost me my phone"
+      "My boyfriend's 'updates' cost me my phone",
+      "The Ride that Changed Everything"
     ]
   },
   "uploads": [
@@ -2631,6 +2632,28 @@
         "6aba62fdafaa39daf4e17517"
       ],
       "ts": "2026-09-28T12:51:15"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Ride that Changed Everything",
+      "title": "The Unsettling Journey",
+      "story": "The first time I died was the hardest",
+      "story_id": "reddit:1wqmzdq",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wqmzdq/the_first_time_i_died_was_the_hardest/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abaf67f320ca548b4d0eb69",
+        "6abaf68c85cca6b129730782",
+        "6abaf69a320ca548b4d0ed32",
+        "6abaf6a7320ca548b4d0ee0c",
+        "6abaf6b393a81b612b52acf4",
+        "6abaf6c093a81b612b52aec1"
+      ],
+      "ts": "2026-09-28T23:21:32"
     }
   ]
 }
