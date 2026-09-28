@@ -126,7 +126,8 @@
       "Everyone Thinks My Husband Is A Saint",
       "My Customer's Tinder Date Arrived in a Scary Disguise",
       "My Fisherman Husband Came Home Smelling of Salt and Rot",
-      "The Woman Who Came Back"
+      "The Woman Who Came Back",
+      "My boyfriend's 'updates' cost me my phone"
     ]
   },
   "uploads": [
@@ -2607,6 +2608,29 @@
         "6ab9d79e36a0dcfcb3ed7e13"
       ],
       "ts": "2026-09-28T02:56:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My boyfriend's 'updates' cost me my phone",
+      "title": "The High Price of Love",
+      "story": "My boyfriend drugged my dinner tonight.",
+      "story_id": "reddit:1wpgwag",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wpgwag/my_boyfriend_drugged_my_dinner_tonight/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6aba62c732e0464e8606157b",
+        "6aba62cfd2d0382c66e86bc7",
+        "6aba62e2cab303ba6a07d357",
+        "6aba62e90e900257be82d5a6",
+        "6aba62efd2d0382c66e86fc4",
+        "6aba62f832e0464e86061ccd",
+        "6aba62fdafaa39daf4e17517"
+      ],
+      "ts": "2026-09-28T12:51:15"
     }
   ]
 }
