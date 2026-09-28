@@ -125,7 +125,8 @@
       "Ghostly Roommate",
       "Everyone Thinks My Husband Is A Saint",
       "My Customer's Tinder Date Arrived in a Scary Disguise",
-      "My Fisherman Husband Came Home Smelling of Salt and Rot"
+      "My Fisherman Husband Came Home Smelling of Salt and Rot",
+      "The Woman Who Came Back"
     ]
   },
   "uploads": [
@@ -2581,6 +2582,31 @@
         "6ab9872036a0dcfcb3e4dcc6"
       ],
       "ts": "2026-09-27T21:12:56"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Woman Who Came Back",
+      "title": "The Woman Who Came Back",
+      "story": "A woman came into my ER today. Someone had already performed her autopsy.",
+      "story_id": "reddit:1wrcbkk",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wrcbkk/a_woman_came_into_my_er_today_someone_had_already/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ab9d751a94ef4516f26b3ae",
+        "6ab9d75e36a0dcfcb3ed7a8b",
+        "6ab9d76a36a0dcfcb3ed7b4f",
+        "6ab9d777a94ef4516f26b661",
+        "6ab9d78482dee5c85bd38dc2",
+        "6ab9d789a94ef4516f26b776",
+        "6ab9d79054f1e60c7e83d5da",
+        "6ab9d79754f1e60c7e83d6ed",
+        "6ab9d79e36a0dcfcb3ed7e13"
+      ],
+      "ts": "2026-09-28T02:56:14"
     }
   ]
 }
