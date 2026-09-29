@@ -128,7 +128,8 @@
       "My Fisherman Husband Came Home Smelling of Salt and Rot",
       "The Woman Who Came Back",
       "My boyfriend's 'updates' cost me my phone",
-      "The Ride that Changed Everything"
+      "The Ride that Changed Everything",
+      "Killer Sentenced to Suffocate in Space"
     ]
   },
   "uploads": [
@@ -2654,6 +2655,28 @@
         "6abaf6c093a81b612b52aec1"
       ],
       "ts": "2026-09-28T23:21:32"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Killer Sentenced to Suffocate in Space",
+      "title": "The Last Breath",
+      "story": "They Sentenced Me to Suffocate in Space",
+      "story_id": "reddit:1wqv4gv",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wqv4gv/they_sentenced_me_to_suffocate_in_space/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abb32a593a81b612b59b026",
+        "6abb32b27889d8281c277c30",
+        "6abb32c0320ca548b4d7ee53",
+        "6abb32cd93a81b612b59b6c8",
+        "6abb32db85cca6b1297a179c",
+        "6abb32e8b6b26148958da677"
+      ],
+      "ts": "2026-09-29T03:38:09"
     }
   ]
 }
