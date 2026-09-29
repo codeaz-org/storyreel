@@ -131,7 +131,8 @@
       "The Ride that Changed Everything",
       "Killer Sentenced to Suffocate in Space",
       "The Disappearance of 11-Year-Old Kai Pavlovic",
-      "The Doctor's Desperate Warning: A Patient's Plea for Support"
+      "The Doctor's Desperate Warning: A Patient's Plea for Support",
+      "A 16-Year-Old's Murder Remains Unsolved After 35 Years"
     ]
   },
   "uploads": [
@@ -2716,6 +2717,25 @@
         "6abbf429f9bc1204bdefe96a"
       ],
       "ts": "2026-09-29T17:23:49"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A 16-Year-Old's Murder Remains Unsolved After 35 Years",
+      "title": "35 Years of Silence",
+      "story": "35 years later, the murder of 16-year-old Marshall Ray Butler remains unsolved \u2014 but more information has continued to surface",
+      "story_id": "reddit:1wqizmn",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wqizmn/35_years_later_the_murder_of_16yearold_marshall/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abc34f23b1eb12e6e38b986",
+        "6abc34fd5df9296bd8d4bd46",
+        "6abc350bbc79f721888a988d"
+      ],
+      "ts": "2026-09-29T22:00:14"
     }
   ]
 }
