@@ -130,7 +130,8 @@
       "My boyfriend's 'updates' cost me my phone",
       "The Ride that Changed Everything",
       "Killer Sentenced to Suffocate in Space",
-      "The Disappearance of 11-Year-Old Kai Pavlovic"
+      "The Disappearance of 11-Year-Old Kai Pavlovic",
+      "The Doctor's Desperate Warning: A Patient's Plea for Support"
     ]
   },
   "uploads": [
@@ -2698,6 +2699,23 @@
         "6abba8fdd8185f4293ea838c"
       ],
       "ts": "2026-09-29T12:02:27"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Doctor's Desperate Warning: A Patient's Plea for Support",
+      "title": "The Doctor's Desperate Warning",
+      "story": "The Doctor Will See You Now",
+      "story_id": "reddit:1wrzf4a",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wrzf4a/the_doctor_will_see_you_now/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abbf429f9bc1204bdefe96a"
+      ],
+      "ts": "2026-09-29T17:23:49"
     }
   ]
 }
