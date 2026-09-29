@@ -129,7 +129,8 @@
       "The Woman Who Came Back",
       "My boyfriend's 'updates' cost me my phone",
       "The Ride that Changed Everything",
-      "Killer Sentenced to Suffocate in Space"
+      "Killer Sentenced to Suffocate in Space",
+      "The Disappearance of 11-Year-Old Kai Pavlovic"
     ]
   },
   "uploads": [
@@ -2677,6 +2678,26 @@
         "6abb32e8b6b26148958da677"
       ],
       "ts": "2026-09-29T03:38:09"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Disappearance of 11-Year-Old Kai Pavlovic",
+      "title": "The Vanishing of Kai Pavlovic",
+      "story": "International family loses contact with a young boy who moved to Canada with his mother and stepfather; During a welfare check, his mother says that her son is with a mysterious \"caretaker\" that the police can't locate- Where is Kai Pavlovic? (2025)",
+      "story_id": "reddit:1wrmv7v",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wrmv7v/international_family_loses_contact_with_a_young/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abba8d60558bd2611df6709",
+        "6abba8e3d8185f4293ea8071",
+        "6abba8f02b1a989935c84841",
+        "6abba8fdd8185f4293ea838c"
+      ],
+      "ts": "2026-09-29T12:02:27"
     }
   ]
 }
