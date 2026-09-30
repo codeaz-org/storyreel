@@ -135,7 +135,8 @@
       "A 16-Year-Old's Murder Remains Unsolved After 35 Years",
       "The Tragic True Story Behind a Viral Turkish Meme",
       "Ghosts calling me fat?",
-      "My girlfriend's secret is one I never expected to stumble upon"
+      "My girlfriend's secret is one I never expected to stumble upon",
+      "The Marriage Time Loop"
     ]
   },
   "uploads": [
@@ -2795,6 +2796,29 @@
         "6abd4bf5bfe0bf16c36cfa51"
       ],
       "ts": "2026-09-30T17:49:32"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Marriage Time Loop",
+      "title": "Stuck in Eternity",
+      "story": "The worst thing that a marriage can be is predictable.",
+      "story_id": "reddit:1wsfjg2",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wsfjg2/the_worst_thing_that_a_marriage_can_be_is/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abd8a055feb60d6345df538",
+        "6abd8a13a8472cb404c21799",
+        "6abd8a219b58fd09c05b24f8",
+        "6abd8a30c6f337a779f61e99",
+        "6abd8a3ec6f337a779f62063",
+        "6abd8a4b5feb60d6345e005a",
+        "6abd8a59c6f337a779f62350"
+      ],
+      "ts": "2026-09-30T22:15:30"
     }
   ]
 }
