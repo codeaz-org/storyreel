@@ -132,7 +132,8 @@
       "Killer Sentenced to Suffocate in Space",
       "The Disappearance of 11-Year-Old Kai Pavlovic",
       "The Doctor's Desperate Warning: A Patient's Plea for Support",
-      "A 16-Year-Old's Murder Remains Unsolved After 35 Years"
+      "A 16-Year-Old's Murder Remains Unsolved After 35 Years",
+      "The Tragic True Story Behind a Viral Turkish Meme"
     ]
   },
   "uploads": [
@@ -2736,6 +2737,23 @@
         "6abc350bbc79f721888a988d"
       ],
       "ts": "2026-09-29T22:00:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Tragic True Story Behind a Viral Turkish Meme",
+      "title": "The Meme That Haunts",
+      "story": "The Tragic True Story Behind a Viral Turkish Meme: The Disappearance of 6-Year-Old H\u00fcseyin Can Da\u011fc\u0131",
+      "story_id": "reddit:1wreozn",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wreozn/the_tragic_true_story_behind_a_viral_turkish_meme/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abc79b528074da804bd4b90"
+      ],
+      "ts": "2026-09-30T02:53:37"
     }
   ]
 }
