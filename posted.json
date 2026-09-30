@@ -133,7 +133,8 @@
       "The Disappearance of 11-Year-Old Kai Pavlovic",
       "The Doctor's Desperate Warning: A Patient's Plea for Support",
       "A 16-Year-Old's Murder Remains Unsolved After 35 Years",
-      "The Tragic True Story Behind a Viral Turkish Meme"
+      "The Tragic True Story Behind a Viral Turkish Meme",
+      "Ghosts calling me fat?"
     ]
   },
   "uploads": [
@@ -2754,6 +2755,23 @@
         "6abc79b528074da804bd4b90"
       ],
       "ts": "2026-09-30T02:53:37"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Ghosts calling me fat?",
+      "title": "The Mysterious Voice in My Head",
+      "story": "Ghosts calling me fat?",
+      "story_id": "reddit:1ws1y1z",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1ws1y1z/ghosts_calling_me_fat/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abcfb89664828cf4aa1ebce"
+      ],
+      "ts": "2026-09-30T12:07:33"
     }
   ]
 }
