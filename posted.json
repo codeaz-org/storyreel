@@ -134,7 +134,8 @@
       "The Doctor's Desperate Warning: A Patient's Plea for Support",
       "A 16-Year-Old's Murder Remains Unsolved After 35 Years",
       "The Tragic True Story Behind a Viral Turkish Meme",
-      "Ghosts calling me fat?"
+      "Ghosts calling me fat?",
+      "My girlfriend's secret is one I never expected to stumble upon"
     ]
   },
   "uploads": [
@@ -2772,6 +2773,28 @@
         "6abcfb89664828cf4aa1ebce"
       ],
       "ts": "2026-09-30T12:07:33"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My girlfriend's secret is one I never expected to stumble upon",
+      "title": "The Unseen Truth",
+      "story": "My girlfriend and her friends are cannibals",
+      "story_id": "reddit:1wrqsnv",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wrqsnv/my_girlfriend_and_her_friends_are_cannibals/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abd4bb0aecb985cec9bf70c",
+        "6abd4bbdaecb985cec9bf957",
+        "6abd4bcb16681d5db3229976",
+        "6abd4bd9aecb985cec9bfce0",
+        "6abd4be76e104b76ed7da5c2",
+        "6abd4bf5bfe0bf16c36cfa51"
+      ],
+      "ts": "2026-09-30T17:49:32"
     }
   ]
 }
