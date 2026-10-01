@@ -138,7 +138,8 @@
       "My girlfriend's secret is one I never expected to stumble upon",
       "The Marriage Time Loop",
       "Pregnant, asexuality, and a surprising reaction",
-      "My husband's 'accident' cost me a trip to the ER"
+      "My husband's 'accident' cost me a trip to the ER",
+      "My insurance scammer's letter was a clever trap"
     ]
   },
   "uploads": [
@@ -2861,6 +2862,26 @@
         "6abe4d51c4f15bf64e1ddc84"
       ],
       "ts": "2026-10-01T12:08:45"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My insurance scammer's letter was a clever trap",
+      "title": "The Letter That Changed Everything",
+      "story": "A Genuine Scam",
+      "story_id": "reddit:1wtrp5u",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wtrp5u/a_genuine_scam/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abea455b3804ae2cb9a6d20",
+        "6abea463ff2ba07132bc1625",
+        "6abea472d230700baf51ce20",
+        "6abea481b3804ae2cb9a77e7"
+      ],
+      "ts": "2026-10-01T18:20:01"
     }
   ]
 }
