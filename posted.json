@@ -139,7 +139,8 @@
       "The Marriage Time Loop",
       "Pregnant, asexuality, and a surprising reaction",
       "My husband's 'accident' cost me a trip to the ER",
-      "My insurance scammer's letter was a clever trap"
+      "My insurance scammer's letter was a clever trap",
+      "My boyfriend's 'innocent' smile hid a secret"
     ]
   },
   "uploads": [
@@ -2882,6 +2883,29 @@
         "6abea481b3804ae2cb9a77e7"
       ],
       "ts": "2026-10-01T18:20:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My boyfriend's 'innocent' smile hid a secret",
+      "title": "The Smile Next Door",
+      "story": "My boyfriend pukes up flowers every time he lies.",
+      "story_id": "reddit:1wtbdfe",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wtbdfe/my_boyfriend_pukes_up_flowers_every_time_he_lies/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abee1fa63de9e09a27f6f2e",
+        "6abee208b435ee011903887c",
+        "6abee21622215530c706de24",
+        "6abee22422215530c706dedf",
+        "6abee2328bccc8e6415d36a3",
+        "6abee24063de9e09a27f7647",
+        "6abee24ec07bdc2fc25d51b2"
+      ],
+      "ts": "2026-10-01T22:43:02"
     }
   ]
 }
