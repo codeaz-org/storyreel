@@ -137,7 +137,8 @@
       "Ghosts calling me fat?",
       "My girlfriend's secret is one I never expected to stumble upon",
       "The Marriage Time Loop",
-      "Pregnant, asexuality, and a surprising reaction"
+      "Pregnant, asexuality, and a surprising reaction",
+      "My husband's 'accident' cost me a trip to the ER"
     ]
   },
   "uploads": [
@@ -2843,6 +2844,23 @@
         "6abdd397b29c0fecf4148b0b"
       ],
       "ts": "2026-10-01T03:28:26"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My husband's 'accident' cost me a trip to the ER",
+      "title": "A trip to the ER for me, but not what I expected",
+      "story": "I went to the ER despite my husband's insistence",
+      "story_id": "reddit:1wtb8g0",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wtb8g0/i_went_to_the_er_despite_my_husbands_insistence/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abe4d51c4f15bf64e1ddc84"
+      ],
+      "ts": "2026-10-01T12:08:45"
     }
   ]
 }
