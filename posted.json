@@ -142,7 +142,8 @@
       "My insurance scammer's letter was a clever trap",
       "My boyfriend's 'innocent' smile hid a secret",
       "A Bitter Taste: When Food Critics Encounter the Human Cost",
-      "I almost married the wrong man"
+      "I almost married the wrong man",
+      "Freaked out by a 2am security shift"
     ]
   },
   "uploads": [
@@ -2953,6 +2954,23 @@
         "6abf9ac7f781c1ecf1634d5c"
       ],
       "ts": "2026-10-02T11:51:00"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Freaked out by a 2am security shift",
+      "title": "Midnight Shift",
+      "story": "I wanna quit this job",
+      "story_id": "reddit:1wtxne6",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1wtxne6/i_wanna_quit_this_job/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abfe694918015097ad154ba"
+      ],
+      "ts": "2026-10-02T17:14:56"
     }
   ]
 }
