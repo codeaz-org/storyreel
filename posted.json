@@ -141,7 +141,8 @@
       "My husband's 'accident' cost me a trip to the ER",
       "My insurance scammer's letter was a clever trap",
       "My boyfriend's 'innocent' smile hid a secret",
-      "A Bitter Taste: When Food Critics Encounter the Human Cost"
+      "A Bitter Taste: When Food Critics Encounter the Human Cost",
+      "I almost married the wrong man"
     ]
   },
   "uploads": [
@@ -2930,6 +2931,28 @@
         "6abf25e7c07bdc2fc268461d"
       ],
       "ts": "2026-10-02T03:31:46"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I almost married the wrong man",
+      "title": "A Near Miss",
+      "story": "I almost married the wrong man.",
+      "story_id": "reddit:1wu680t",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wu680t/i_almost_married_the_wrong_man/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abf9aa979e44b20b32bcf78",
+        "6abf9aaf81e421bfcd79e089",
+        "6abf9ab5f781c1ecf1634a91",
+        "6abf9aba79e44b20b32bd26d",
+        "6abf9ac1b41a266eabf828c9",
+        "6abf9ac7f781c1ecf1634d5c"
+      ],
+      "ts": "2026-10-02T11:51:00"
     }
   ]
 }
