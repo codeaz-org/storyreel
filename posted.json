@@ -143,7 +143,8 @@
       "My boyfriend's 'innocent' smile hid a secret",
       "A Bitter Taste: When Food Critics Encounter the Human Cost",
       "I almost married the wrong man",
-      "Freaked out by a 2am security shift"
+      "Freaked out by a 2am security shift",
+      "The Appalachian Trail Tech's Terrifying Fog Encounter"
     ]
   },
   "uploads": [
@@ -2971,6 +2972,31 @@
         "6abfe694918015097ad154ba"
       ],
       "ts": "2026-10-02T17:14:56"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Appalachian Trail Tech's Terrifying Fog Encounter",
+      "title": "Lost in the Gray",
+      "story": "\u200bI spent twelve years as an Appalachian trail tech. I\u2019ll never go back into the fog..",
+      "story_id": "reddit:1wuo9bd",
+      "story_url": "https://reddit.com/r/nosleep/comments/1wuo9bd/i_spent_twelve_years_as_an_appalachian_trail_tech/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac02d824b07e9a1f4d09fe2",
+        "6ac02d8e6091822e891ab653",
+        "6ac02d9c08f9f1f9691b2b7a",
+        "6ac02da8f942e39137ff09e3",
+        "6ac02db6f942e39137ff0b12",
+        "6ac02dc36091822e891ab990",
+        "6ac02dc808f9f1f9691b2e8e",
+        "6ac02dcd08f9f1f9691b2f8a",
+        "6ac02dd2f942e39137ff0ea8"
+      ],
+      "ts": "2026-10-02T22:17:34"
     }
   ]
 }
