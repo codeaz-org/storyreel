@@ -140,7 +140,8 @@
       "Pregnant, asexuality, and a surprising reaction",
       "My husband's 'accident' cost me a trip to the ER",
       "My insurance scammer's letter was a clever trap",
-      "My boyfriend's 'innocent' smile hid a secret"
+      "My boyfriend's 'innocent' smile hid a secret",
+      "A Bitter Taste: When Food Critics Encounter the Human Cost"
     ]
   },
   "uploads": [
@@ -2906,6 +2907,29 @@
         "6abee24ec07bdc2fc25d51b2"
       ],
       "ts": "2026-10-01T22:43:02"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A Bitter Taste: When Food Critics Encounter the Human Cost",
+      "title": "A Bitter Taste",
+      "story": "I Ate a Dessert Seasoned with a Dying Man's Tears",
+      "story_id": "reddit:1wu705i",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wu705i/i_ate_a_dessert_seasoned_with_a_dying_mans_tears/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6abf25a5c07bdc2fc2683f97",
+        "6abf25b2c07bdc2fc268417a",
+        "6abf25c022215530c7127b30",
+        "6abf25cd8bccc8e641682c15",
+        "6abf25da63de9e09a28ab446",
+        "6abf25e28bccc8e641682dbd",
+        "6abf25e7c07bdc2fc268461d"
+      ],
+      "ts": "2026-10-02T03:31:46"
     }
   ]
 }
