@@ -144,7 +144,8 @@
       "A Bitter Taste: When Food Critics Encounter the Human Cost",
       "I almost married the wrong man",
       "Freaked out by a 2am security shift",
-      "The Appalachian Trail Tech's Terrifying Fog Encounter"
+      "The Appalachian Trail Tech's Terrifying Fog Encounter",
+      "A guy at the liquor store tried to open my car door"
     ]
   },
   "uploads": [
@@ -2997,6 +2998,23 @@
         "6ac02dd2f942e39137ff0ea8"
       ],
       "ts": "2026-10-02T22:17:34"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A guy at the liquor store tried to open my car door",
+      "title": "Liquor Store Confrontation",
+      "story": "A guy at the liquor store tried to open my car door",
+      "story_id": "reddit:1wpxqri",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wpxqri/a_guy_at_the_liquor_store_tried_to_open_my_car/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac06e81d584367032281609"
+      ],
+      "ts": "2026-10-03T02:54:53"
     }
   ]
 }
