@@ -148,7 +148,8 @@
       "A guy at the liquor store tried to open my car door",
       "The Wolves Refuse to Enter One Valley",
       "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life",
-      "He cheated on me, and blamed me for it"
+      "He cheated on me, and blamed me for it",
+      "The Unsettling Thirst for Milk in the Dark"
     ]
   },
   "uploads": [
@@ -3077,6 +3078,28 @@
         "6ac240c011a7340ba0259b93"
       ],
       "ts": "2026-10-04T12:03:02"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Unsettling Thirst for Milk in the Dark",
+      "title": "whispers in the dark",
+      "story": "If it weren't for the milk.",
+      "story_id": "reddit:1wvk993",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wvk993/if_it_werent_for_the_milk/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac282732dd93d8b00f6995a",
+        "6ac282826ae9cbb01a517850",
+        "6ac28290fe1389e413386691",
+        "6ac2829efe1389e413387c46",
+        "6ac282ac8f73649f46123799",
+        "6ac282bb8f73649f46123ca9"
+      ],
+      "ts": "2026-10-04T16:44:31"
     }
   ]
 }
