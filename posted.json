@@ -149,7 +149,8 @@
       "The Wolves Refuse to Enter One Valley",
       "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life",
       "He cheated on me, and blamed me for it",
-      "The Unsettling Thirst for Milk in the Dark"
+      "The Unsettling Thirst for Milk in the Dark",
+      "The Worst Pain a Parent Can Bear"
     ]
   },
   "uploads": [
@@ -3100,6 +3101,27 @@
         "6ac282bb8f73649f46123ca9"
       ],
       "ts": "2026-10-04T16:44:31"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Worst Pain a Parent Can Bear",
+      "title": "The Weight of Grief",
+      "story": "My Husband Begged Me to Open the Door Before Sunrise",
+      "story_id": "reddit:1ww1doe",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1ww1doe/my_husband_begged_me_to_open_the_door_before/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac2c1735de5ee424c17833d",
+        "6ac2c178d467abe8cfc7c81a",
+        "6ac2c17cca1380ada837dc6c",
+        "6ac2c181fe1389e41341abb4",
+        "6ac2c1875de5ee424c1785ea"
+      ],
+      "ts": "2026-10-04T21:13:20"
     }
   ]
 }
