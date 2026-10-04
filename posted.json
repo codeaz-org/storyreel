@@ -146,7 +146,8 @@
       "Freaked out by a 2am security shift",
       "The Appalachian Trail Tech's Terrifying Fog Encounter",
       "A guy at the liquor store tried to open my car door",
-      "The Wolves Refuse to Enter One Valley"
+      "The Wolves Refuse to Enter One Valley",
+      "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life"
     ]
   },
   "uploads": [
@@ -3033,6 +3034,26 @@
         "6ac17144814d657011d70eea"
       ],
       "ts": "2026-10-03T21:18:55"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life",
+      "title": "Sunday Funday, Deadly Encounter",
+      "story": "getting in to a car crash potentially saved my life",
+      "story_id": "reddit:1wukpy9",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wukpy9/getting_in_to_a_car_crash_potentially_saved_my/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac1caad8dc991c73c6874e9",
+        "6ac1cabaaa79e514b90a64a8",
+        "6ac1cac88dc991c73c6881c5",
+        "6ac1cad65829d2489a03206b"
+      ],
+      "ts": "2026-10-04T03:40:24"
     }
   ]
 }
