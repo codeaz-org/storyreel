@@ -147,7 +147,8 @@
       "The Appalachian Trail Tech's Terrifying Fog Encounter",
       "A guy at the liquor store tried to open my car door",
       "The Wolves Refuse to Enter One Valley",
-      "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life"
+      "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life",
+      "He cheated on me, and blamed me for it"
     ]
   },
   "uploads": [
@@ -3054,6 +3055,28 @@
         "6ac1cad65829d2489a03206b"
       ],
       "ts": "2026-10-04T03:40:24"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "He cheated on me, and blamed me for it",
+      "title": "betrayed in silence",
+      "story": "My boyfriend says that it's \"my fault\" that he cheated.",
+      "story_id": "reddit:1wvvwb4",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wvvwb4/my_boyfriend_says_that_its_my_fault_that_he/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac2407ba486988a6e153d47",
+        "6ac24089d8dbde86e145c775",
+        "6ac24096d8dbde86e145c8cd",
+        "6ac240a4a486988a6e1542a8",
+        "6ac240b2d8dbde86e145ce8e",
+        "6ac240c011a7340ba0259b93"
+      ],
+      "ts": "2026-10-04T12:03:02"
     }
   ]
 }
