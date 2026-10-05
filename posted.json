@@ -150,7 +150,8 @@
       "A mysterious encounter on a Sunday Funday turned into a night that potentially saved my life",
       "He cheated on me, and blamed me for it",
       "The Unsettling Thirst for Milk in the Dark",
-      "The Worst Pain a Parent Can Bear"
+      "The Worst Pain a Parent Can Bear",
+      "My sibling's new car raised an eyebrow, but his next move was the real surprise"
     ]
   },
   "uploads": [
@@ -3122,6 +3123,29 @@
         "6ac2c1875de5ee424c1785ea"
       ],
       "ts": "2026-10-04T21:13:20"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My sibling's new car raised an eyebrow, but his next move was the real surprise",
+      "title": "The Brother I Never Knew",
+      "story": "My siblings and I USED to live here.",
+      "story_id": "reddit:1wwo3ch",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wwo3ch/my_siblings_and_i_used_to_live_here/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac318dad467abe8cfd3ff18",
+        "6ac318e769a169193a586dbd",
+        "6ac318f563761da98b68a5d2",
+        "6ac318fafe1389e4134d8933",
+        "6ac318fd69a169193a5870b0",
+        "6ac3190369a169193a587142",
+        "6ac3190863761da98b68a738"
+      ],
+      "ts": "2026-10-05T03:26:15"
     }
   ]
 }
