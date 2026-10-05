@@ -151,7 +151,8 @@
       "He cheated on me, and blamed me for it",
       "The Unsettling Thirst for Milk in the Dark",
       "The Worst Pain a Parent Can Bear",
-      "My sibling's new car raised an eyebrow, but his next move was the real surprise"
+      "My sibling's new car raised an eyebrow, but his next move was the real surprise",
+      "A 15-year-old girl's creepy encounter with an old man at the mall"
     ]
   },
   "uploads": [
@@ -3146,6 +3147,23 @@
         "6ac3190863761da98b68a738"
       ],
       "ts": "2026-10-05T03:26:15"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A 15-year-old girl's creepy encounter with an old man at the mall",
+      "title": "The Mall Encounter",
+      "story": "I fucking hate old men",
+      "story_id": "reddit:1wr0ahq",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wr0ahq/i_fucking_hate_old_men/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac3a1474739f6d09c0fc4c6"
+      ],
+      "ts": "2026-10-05T13:08:18"
     }
   ]
 }
