@@ -154,7 +154,8 @@
       "My sibling's new car raised an eyebrow, but his next move was the real surprise",
       "A 15-year-old girl's creepy encounter with an old man at the mall",
       "My husband molted",
-      "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld"
+      "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld",
+      "The Disappearance of Sophie Elizabeth Reeder"
     ]
   },
   "uploads": [
@@ -3208,6 +3209,23 @@
         "6ac477bdb0e0485fb46b3b6a"
       ],
       "ts": "2026-10-06T04:21:40"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Disappearance of Sophie Elizabeth Reeder",
+      "title": "The Vanishing of Sophie Reeder",
+      "story": "The Disappearance of Sophie Elizabeth Reeder",
+      "story_id": "reddit:1wxu9a0",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wxu9a0/the_disappearance_of_sophie_elizabeth_reeder/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac4ecf804a0d5021f6b7b68"
+      ],
+      "ts": "2026-10-06T12:43:32"
     }
   ]
 }
