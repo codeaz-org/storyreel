@@ -153,7 +153,8 @@
       "The Worst Pain a Parent Can Bear",
       "My sibling's new car raised an eyebrow, but his next move was the real surprise",
       "A 15-year-old girl's creepy encounter with an old man at the mall",
-      "My husband molted"
+      "My husband molted",
+      "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld"
     ]
   },
   "uploads": [
@@ -3182,6 +3183,31 @@
         "6ac435cbacc08dcd5e98afb6"
       ],
       "ts": "2026-10-05T23:41:59"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld",
+      "title": "jean spangler's disappearance",
+      "story": "An Old Hollywood Cold Case: What Happened to Aspiring Starlet Jean Spangler?",
+      "story_id": "reddit:1wugt50",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wugt50/an_old_hollywood_cold_case_what_happened_to/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac47757032d0529987ae084",
+        "6ac47764b0e0485fb46b2263",
+        "6ac47770032d0529987ae488",
+        "6ac4777d59057dd2e0d2cbcf",
+        "6ac4778aacc08dcd5ea1c37a",
+        "6ac4779698d02b181e20902c",
+        "6ac477a3032d0529987aeda9",
+        "6ac477b059057dd2e0d2d6e0",
+        "6ac477bdb0e0485fb46b3b6a"
+      ],
+      "ts": "2026-10-06T04:21:40"
     }
   ]
 }
