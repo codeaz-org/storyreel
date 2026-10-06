@@ -155,7 +155,8 @@
       "A 15-year-old girl's creepy encounter with an old man at the mall",
       "My husband molted",
       "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld",
-      "The Disappearance of Sophie Elizabeth Reeder"
+      "The Disappearance of Sophie Elizabeth Reeder",
+      "A Football Field Encounter"
     ]
   },
   "uploads": [
@@ -3226,6 +3227,23 @@
         "6ac4ecf804a0d5021f6b7b68"
       ],
       "ts": "2026-10-06T12:43:32"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A Football Field Encounter",
+      "title": "The Field of Shadows",
+      "story": "This random lady came up to me while I was playing football and things got weird. What should I do?",
+      "story_id": "reddit:1wwi9sw",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wwi9sw/this_random_lady_came_up_to_me_while_i_was/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac574059833100fb59793fe"
+      ],
+      "ts": "2026-10-06T22:19:46"
     }
   ]
 }
