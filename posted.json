@@ -157,7 +157,8 @@
       "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld",
       "The Disappearance of Sophie Elizabeth Reeder",
       "A Football Field Encounter",
-      "Did my Dad come to say goodbye?"
+      "Did my Dad come to say goodbye?",
+      "The Last Week of School, and a Kiss That Never Came"
     ]
   },
   "uploads": [
@@ -3262,6 +3263,27 @@
         "6ac5bb61b6dcff802a068e8d"
       ],
       "ts": "2026-10-07T03:24:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Last Week of School, and a Kiss That Never Came",
+      "title": "The Last Week of School",
+      "story": "Spin the bottle was my only hope",
+      "story_id": "reddit:1wy9jfe",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wy9jfe/spin_the_bottle_was_my_only_hope/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac63e45664131ae369e9a7e",
+        "6ac63e53e5ea4ed768242541",
+        "6ac63e61664131ae369e9dfc",
+        "6ac63e6f664131ae369ea115",
+        "6ac63e7ee5ea4ed7682431b1"
+      ],
+      "ts": "2026-10-07T12:42:41"
     }
   ]
 }
