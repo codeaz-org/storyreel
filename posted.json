@@ -156,7 +156,8 @@
       "My husband molted",
       "Aspiring Starlet Jean Spangler Vanishes in Hollywood's Dark Underworld",
       "The Disappearance of Sophie Elizabeth Reeder",
-      "A Football Field Encounter"
+      "A Football Field Encounter",
+      "Did my Dad come to say goodbye?"
     ]
   },
   "uploads": [
@@ -3244,6 +3245,23 @@
         "6ac574059833100fb59793fe"
       ],
       "ts": "2026-10-06T22:19:46"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Did my Dad come to say goodbye?",
+      "title": "A Fateful Encounter",
+      "story": "Did my Dad come to say goodbye?",
+      "story_id": "reddit:1wxt0j2",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1wxt0j2/did_my_dad_come_to_say_goodbye/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac5bb61b6dcff802a068e8d"
+      ],
+      "ts": "2026-10-07T03:24:13"
     }
   ]
 }
