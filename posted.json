@@ -158,7 +158,8 @@
       "The Disappearance of Sophie Elizabeth Reeder",
       "A Football Field Encounter",
       "Did my Dad come to say goodbye?",
-      "The Last Week of School, and a Kiss That Never Came"
+      "The Last Week of School, and a Kiss That Never Came",
+      "Sara Nicole Graham's Mysterious Disappearance"
     ]
   },
   "uploads": [
@@ -3284,6 +3285,23 @@
         "6ac63e7ee5ea4ed7682431b1"
       ],
       "ts": "2026-10-07T12:42:41"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Sara Nicole Graham's Mysterious Disappearance",
+      "title": "The Vanishing of Sara Nicole",
+      "story": "Suspect Convicted of Murder in the Disappearance of Sara Nicole Graham",
+      "story_id": "reddit:1wyvkpt",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1wyvkpt/suspect_convicted_of_murder_in_the_disappearance/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac6cb865632f7b74bcf620e"
+      ],
+      "ts": "2026-10-07T22:45:22"
     }
   ]
 }
