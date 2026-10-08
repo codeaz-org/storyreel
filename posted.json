@@ -159,7 +159,8 @@
       "A Football Field Encounter",
       "Did my Dad come to say goodbye?",
       "The Last Week of School, and a Kiss That Never Came",
-      "Sara Nicole Graham's Mysterious Disappearance"
+      "Sara Nicole Graham's Mysterious Disappearance",
+      "The renter with a hunting rifle left me uneasy"
     ]
   },
   "uploads": [
@@ -3302,6 +3303,29 @@
         "6ac6cb865632f7b74bcf620e"
       ],
       "ts": "2026-10-07T22:45:22"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The renter with a hunting rifle left me uneasy",
+      "title": "Uneasy Encounter",
+      "story": "My First Customer",
+      "story_id": "reddit:1wz3c5d",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wz3c5d/my_first_customer/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac714c157f9bd074d26fde6",
+        "6ac714cf95b0fb1c5cca1f8d",
+        "6ac714dc01166a3e1c13ce22",
+        "6ac714e85632f7b74bda394b",
+        "6ac714f55632f7b74bda3a3b",
+        "6ac7150257f9bd074d2702c6",
+        "6ac7150f2977c961bdc4b142"
+      ],
+      "ts": "2026-10-08T03:57:50"
     }
   ]
 }
