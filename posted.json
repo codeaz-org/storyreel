@@ -160,7 +160,8 @@
       "Did my Dad come to say goodbye?",
       "The Last Week of School, and a Kiss That Never Came",
       "Sara Nicole Graham's Mysterious Disappearance",
-      "The renter with a hunting rifle left me uneasy"
+      "The renter with a hunting rifle left me uneasy",
+      "The Anemia That Wouldn't Breathe"
     ]
   },
   "uploads": [
@@ -3326,6 +3327,28 @@
         "6ac7150f2977c961bdc4b142"
       ],
       "ts": "2026-10-08T03:57:50"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Anemia That Wouldn't Breathe",
+      "title": "The Silent Suffocator",
+      "story": "Red Circles",
+      "story_id": "reddit:1wyjtjf",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wyjtjf/red_circles/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac793f4d1ababbf88afd447",
+        "6ac7940308d405a9e7008259",
+        "6ac79411daf7bb7cba20b61e",
+        "6ac7941f444a36d3be213a37",
+        "6ac7942d08d405a9e70090c3",
+        "6ac7943cd1ababbf88aff34e"
+      ],
+      "ts": "2026-10-08T13:00:31"
     }
   ]
 }
