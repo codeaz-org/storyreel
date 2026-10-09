@@ -162,7 +162,8 @@
       "Sara Nicole Graham's Mysterious Disappearance",
       "The renter with a hunting rifle left me uneasy",
       "The Anemia That Wouldn't Breathe",
-      "I REGRET caring for a comatose boyfriend's woman"
+      "I REGRET caring for a comatose boyfriend's woman",
+      "A surgeon's greatest fear: the impossible decision"
     ]
   },
   "uploads": [
@@ -3373,6 +3374,23 @@
         "6ac824e07d9f9f33011a95aa"
       ],
       "ts": "2026-10-08T23:18:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A surgeon's greatest fear: the impossible decision",
+      "title": "The Weight of Infallibility",
+      "story": "An Odd's Game",
+      "story_id": "reddit:1wz2kd1",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1wz2kd1/an_odds_game/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac8634293f9e5101fe73550"
+      ],
+      "ts": "2026-10-09T03:45:01"
     }
   ]
 }
