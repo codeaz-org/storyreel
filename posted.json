@@ -163,7 +163,8 @@
       "The renter with a hunting rifle left me uneasy",
       "The Anemia That Wouldn't Breathe",
       "I REGRET caring for a comatose boyfriend's woman",
-      "A surgeon's greatest fear: the impossible decision"
+      "A surgeon's greatest fear: the impossible decision",
+      "Did you check the closet before dinner?"
     ]
   },
   "uploads": [
@@ -3391,6 +3392,26 @@
         "6ac8634293f9e5101fe73550"
       ],
       "ts": "2026-10-09T03:45:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Did you check the closet before dinner?",
+      "title": "The Thing in the Closet",
+      "story": "Did you look everywhere?",
+      "story_id": "reddit:1x09ae6",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x09ae6/did_you_look_everywhere/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ac8deb96324418386b37c66",
+        "6ac8dec73c055a152a6539fb",
+        "6ac8ded51f640591362893c5",
+        "6ac8dee3c22cbf9dd5013ed8"
+      ],
+      "ts": "2026-10-09T12:31:49"
     }
   ]
 }
