@@ -166,7 +166,8 @@
       "A surgeon's greatest fear: the impossible decision",
       "Did you check the closet before dinner?",
       "Reality TV contestants were warned: 'You'll never leave The House'",
-      "The Birthday Party No One Came To"
+      "The Birthday Party No One Came To",
+      "The Fortune Teller's Ominous Warning"
     ]
   },
   "uploads": [
@@ -3456,6 +3457,23 @@
         "6acb8147f91f772d45c8e29e"
       ],
       "ts": "2026-10-11T12:28:15"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Fortune Teller's Ominous Warning",
+      "title": "The Unseen Future",
+      "story": "Snap",
+      "story_id": "reddit:1x1jl03",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x1jl03/snap/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acbc3588e8dd50ffc4d316d"
+      ],
+      "ts": "2026-10-11T17:11:47"
     }
   ]
 }
