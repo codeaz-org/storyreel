@@ -165,7 +165,8 @@
       "I REGRET caring for a comatose boyfriend's woman",
       "A surgeon's greatest fear: the impossible decision",
       "Did you check the closet before dinner?",
-      "Reality TV contestants were warned: 'You'll never leave The House'"
+      "Reality TV contestants were warned: 'You'll never leave The House'",
+      "The Birthday Party No One Came To"
     ]
   },
   "uploads": [
@@ -3430,6 +3431,31 @@
         "6acaf95fc4de2d2b124921ec"
       ],
       "ts": "2026-10-11T02:50:03"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Birthday Party No One Came To",
+      "title": "The Forgotten Celebration",
+      "story": "Only One Kid Showed Up to My Son\u2019s Birthday Party.",
+      "story_id": "reddit:1x1qck9",
+      "story_url": "https://reddit.com/r/nosleep/comments/1x1qck9/only_one_kid_showed_up_to_my_sons_birthday_party/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acb80e2d9cab260a7f8c995",
+        "6acb80eec4de2d2b125e3fb6",
+        "6acb80fbed92ed8fa5016009",
+        "6acb8107ed92ed8fa5016178",
+        "6acb8114c4de2d2b125e45b3",
+        "6acb8120c4de2d2b125e46b5",
+        "6acb812dd9cab260a7f8d8f2",
+        "6acb813af91f772d45c8e1a7",
+        "6acb8147f91f772d45c8e29e"
+      ],
+      "ts": "2026-10-11T12:28:15"
     }
   ]
 }
