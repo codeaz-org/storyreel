@@ -164,7 +164,8 @@
       "The Anemia That Wouldn't Breathe",
       "I REGRET caring for a comatose boyfriend's woman",
       "A surgeon's greatest fear: the impossible decision",
-      "Did you check the closet before dinner?"
+      "Did you check the closet before dinner?",
+      "Reality TV contestants were warned: 'You'll never leave The House'"
     ]
   },
   "uploads": [
@@ -3412,6 +3413,23 @@
         "6ac8dee3c22cbf9dd5013ed8"
       ],
       "ts": "2026-10-09T12:31:49"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Reality TV contestants were warned: 'You'll never leave The House'",
+      "title": "The House Had Plans for Them",
+      "story": "Am I overreacting or is this truly cause for concern??",
+      "story_id": "reddit:1wymugw",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1wymugw/am_i_overreacting_or_is_this_truly_cause_for/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acaf95fc4de2d2b124921ec"
+      ],
+      "ts": "2026-10-11T02:50:03"
     }
   ]
 }
