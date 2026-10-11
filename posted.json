@@ -167,7 +167,8 @@
       "Did you check the closet before dinner?",
       "Reality TV contestants were warned: 'You'll never leave The House'",
       "The Birthday Party No One Came To",
-      "The Fortune Teller's Ominous Warning"
+      "The Fortune Teller's Ominous Warning",
+      "Four-year-old Michael Dunahee disappears from playground"
     ]
   },
   "uploads": [
@@ -3474,6 +3475,23 @@
         "6acbc3588e8dd50ffc4d316d"
       ],
       "ts": "2026-10-11T17:11:47"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Four-year-old Michael Dunahee disappears from playground",
+      "title": "The Vanishing of Michael Dunahee",
+      "story": "Michael Dunahee Disappearance",
+      "story_id": "reddit:1x12i56",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x12i56/michael_dunahee_disappearance/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acc1426a9411fbcc5601e9c"
+      ],
+      "ts": "2026-10-11T22:56:34"
     }
   ]
 }
