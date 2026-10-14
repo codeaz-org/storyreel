@@ -170,7 +170,8 @@
       "The Fortune Teller's Ominous Warning",
       "Four-year-old Michael Dunahee disappears from playground",
       "My 70-week-pregnant wife's response to my concern sent me a chill",
-      "Love, But Not in the Way I Expected"
+      "Love, But Not in the Way I Expected",
+      "My Daughter Was Already Dead"
     ]
   },
   "uploads": [
@@ -3535,6 +3536,28 @@
         "6acf66b0be984f4200f4f101"
       ],
       "ts": "2026-10-14T11:24:25"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Daughter Was Already Dead",
+      "title": "My Daughter Was Already Dead",
+      "story": "My Daughter Was Already Dead",
+      "story_id": "reddit:1x3sefx",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x3sefx/my_daughter_was_already_dead/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acfaee7d95fde8a287d4b49",
+        "6acfaef55b30ebb7bb94eefa",
+        "6acfaf03383f24b42c5106f6",
+        "6acfaf12383f24b42c510948",
+        "6acfaf21d67533d930ddf93e",
+        "6acfaf2f6826a2a50935dcd2"
+      ],
+      "ts": "2026-10-14T16:33:38"
     }
   ]
 }
