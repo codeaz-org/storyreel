@@ -169,7 +169,8 @@
       "The Birthday Party No One Came To",
       "The Fortune Teller's Ominous Warning",
       "Four-year-old Michael Dunahee disappears from playground",
-      "My 70-week-pregnant wife's response to my concern sent me a chill"
+      "My 70-week-pregnant wife's response to my concern sent me a chill",
+      "Love, But Not in the Way I Expected"
     ]
   },
   "uploads": [
@@ -3512,6 +3513,28 @@
         "6acef2931f3f10bcb7acd877"
       ],
       "ts": "2026-10-14T03:09:38"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Love, But Not in the Way I Expected",
+      "title": "A Bond Beyond Romance",
+      "story": "Love, Apparently",
+      "story_id": "reddit:1x3ozd2",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x3ozd2/love_apparently/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acf666c57cb08bbd104b4cd",
+        "6acf667967dda1d44c18e664",
+        "6acf668657cb08bbd104bac8",
+        "6acf66944e838fc59627a1ce",
+        "6acf66a257cb08bbd104c042",
+        "6acf66b0be984f4200f4f101"
+      ],
+      "ts": "2026-10-14T11:24:25"
     }
   ]
 }
