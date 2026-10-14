@@ -171,7 +171,8 @@
       "Four-year-old Michael Dunahee disappears from playground",
       "My 70-week-pregnant wife's response to my concern sent me a chill",
       "Love, But Not in the Way I Expected",
-      "My Daughter Was Already Dead"
+      "My Daughter Was Already Dead",
+      "Murder Mystery Night Turns Deadly"
     ]
   },
   "uploads": [
@@ -3558,6 +3559,28 @@
         "6acfaf2f6826a2a50935dcd2"
       ],
       "ts": "2026-10-14T16:33:38"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Murder Mystery Night Turns Deadly",
+      "title": "Murder at the Mansion",
+      "story": "My girlfriend is dragging me to a Murder Mystery Party.",
+      "story_id": "reddit:1x42z4f",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x42z4f/my_girlfriend_is_dragging_me_to_a_murder_mystery/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6acff739ad454aea56d00d11",
+        "6acff73f102b7fd4a490f346",
+        "6acff744ad454aea56d00fc0",
+        "6acff7491cf1b660315bf0c6",
+        "6acff74eac16d08dd4dce9d2",
+        "6acff753ac16d08dd4dcea8e"
+      ],
+      "ts": "2026-10-14T21:42:14"
     }
   ]
 }
