@@ -175,7 +175,8 @@
       "Murder Mystery Night Turns Deadly",
       "My best friend's mom's secret client requests",
       "Baffling 1960 Child Murder Solved Decades Later",
-      "The Mysterious Murder of the 'Princeton Angels'"
+      "The Mysterious Murder of the 'Princeton Angels'",
+      "The Uninvited Roommate"
     ]
   },
   "uploads": [
@@ -3643,6 +3644,26 @@
         "6ad1017202634b2d67e4a32f"
       ],
       "ts": "2026-10-15T16:36:18"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Uninvited Roommate",
+      "title": "The Uninvited Tenant",
+      "story": "There is someone living under my home.",
+      "story_id": "reddit:1x47utg",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1x47utg/there_is_someone_living_under_my_home/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad14257c18d6c3593d06915",
+        "6ad142645533140b41c98df3",
+        "6ad142725533140b41c993a3",
+        "6ad1427f5533140b41c994e1"
+      ],
+      "ts": "2026-10-15T21:15:00"
     }
   ]
 }
