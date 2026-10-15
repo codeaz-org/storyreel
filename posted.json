@@ -174,7 +174,8 @@
       "My Daughter Was Already Dead",
       "Murder Mystery Night Turns Deadly",
       "My best friend's mom's secret client requests",
-      "Baffling 1960 Child Murder Solved Decades Later"
+      "Baffling 1960 Child Murder Solved Decades Later",
+      "The Mysterious Murder of the 'Princeton Angels'"
     ]
   },
   "uploads": [
@@ -3617,6 +3618,31 @@
         "6ad0ad2a02a4f4f292325d1d"
       ],
       "ts": "2026-10-15T10:38:31"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Murder of the 'Princeton Angels'",
+      "title": "The Tragic Tale of the Princeton Angels",
+      "story": "2 newborn girls, twins, were found murdered near Princeton, B.C. on October 9, 1994. This is the tragic story of 'The Princeton Angels.'",
+      "story_id": "reddit:1x28alc",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x28alc/2_newborn_girls_twins_were_found_murdered_near/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad10105e30d190e5e5ec2e6",
+        "6ad10113accae0c0bef8f33c",
+        "6ad101209e106c07ca798f92",
+        "6ad1012fe30d190e5e5ecaca",
+        "6ad1013caccae0c0bef8fb9f",
+        "6ad1014aaccae0c0bef8fd23",
+        "6ad101579e106c07ca7999cd",
+        "6ad101659e106c07ca799f4c",
+        "6ad1017202634b2d67e4a32f"
+      ],
+      "ts": "2026-10-15T16:36:18"
     }
   ]
 }
