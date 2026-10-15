@@ -173,7 +173,8 @@
       "Love, But Not in the Way I Expected",
       "My Daughter Was Already Dead",
       "Murder Mystery Night Turns Deadly",
-      "My best friend's mom's secret client requests"
+      "My best friend's mom's secret client requests",
+      "Baffling 1960 Child Murder Solved Decades Later"
     ]
   },
   "uploads": [
@@ -3599,6 +3600,23 @@
         "6ad038d1ba6d896f9b55765e"
       ],
       "ts": "2026-10-15T02:22:05"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Baffling 1960 Child Murder Solved Decades Later",
+      "title": "The Echo of Evil",
+      "story": "Former police officer identified as the perpetrator of a 1960 child murder",
+      "story_id": "reddit:1x4ifda",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x4ifda/former_police_officer_identified_as_the/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad0ad2a02a4f4f292325d1d"
+      ],
+      "ts": "2026-10-15T10:38:31"
     }
   ]
 }
