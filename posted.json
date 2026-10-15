@@ -172,7 +172,8 @@
       "My 70-week-pregnant wife's response to my concern sent me a chill",
       "Love, But Not in the Way I Expected",
       "My Daughter Was Already Dead",
-      "Murder Mystery Night Turns Deadly"
+      "Murder Mystery Night Turns Deadly",
+      "My best friend's mom's secret client requests"
     ]
   },
   "uploads": [
@@ -3581,6 +3582,23 @@
         "6acff753ac16d08dd4dcea8e"
       ],
       "ts": "2026-10-14T21:42:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My best friend's mom's secret client requests",
+      "title": "The Unseen Demands",
+      "story": "\u201cGentlemen\u2019s\u201d business: About 1 in 10 clients asks for a girl who doesn\u2019t work there",
+      "story_id": "reddit:1x47251",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1x47251/gentlemens_business_about_1_in_10_clients_asks/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad038d1ba6d896f9b55765e"
+      ],
+      "ts": "2026-10-15T02:22:05"
     }
   ]
 }
