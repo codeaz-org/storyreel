@@ -176,7 +176,8 @@
       "My best friend's mom's secret client requests",
       "Baffling 1960 Child Murder Solved Decades Later",
       "The Mysterious Murder of the 'Princeton Angels'",
-      "The Uninvited Roommate"
+      "The Uninvited Roommate",
+      "The Vanishing Act of Bob Dale"
     ]
   },
   "uploads": [
@@ -3664,6 +3665,23 @@
         "6ad1427f5533140b41c994e1"
       ],
       "ts": "2026-10-15T21:15:00"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Vanishing Act of Bob Dale",
+      "title": "The Mysterious Disappearance of Bob Dale",
+      "story": "What Happened to Bob Dale?",
+      "story_id": "reddit:1x4cd97",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x4cd97/what_happened_to_bob_dale/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad186f6ee2c696029b63714"
+      ],
+      "ts": "2026-10-16T02:07:47"
     }
   ]
 }
