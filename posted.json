@@ -179,7 +179,8 @@
       "The Uninvited Roommate",
       "The Vanishing Act of Bob Dale",
       "My husband's over-the-top gift just wasn't what I had in mind",
-      "The Ex-Fianc\u00e9 of Missing Mother Michelle Parker Arrested After 14-Year Search"
+      "The Ex-Fianc\u00e9 of Missing Mother Michelle Parker Arrested After 14-Year Search",
+      "My wife's ghostly roommate is coming with us...to our new home"
     ]
   },
   "uploads": [
@@ -3725,6 +3726,23 @@
         "6ad24c8545dfa13a723c94f9"
       ],
       "ts": "2026-10-16T16:10:23"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My wife's ghostly roommate is coming with us...to our new home",
+      "title": "The Uninvited Roommate",
+      "story": "Moving But My Wife Wants To Invite The Ghost With Us",
+      "story_id": "reddit:1x6abqu",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1x6abqu/moving_but_my_wife_wants_to_invite_the_ghost_with/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad289d2d254ff4dc47c2554"
+      ],
+      "ts": "2026-10-16T20:32:14"
     }
   ]
 }
