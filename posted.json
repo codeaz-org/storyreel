@@ -183,7 +183,8 @@
       "My wife's ghostly roommate is coming with us...to our new home",
       "DNA Evidence Bungled: A Mother and Daughter's Murder Case Crumbles",
       "The Agony of a Diagnosis",
-      "The Guy I Hooked Up With Died in His Sleep"
+      "The Guy I Hooked Up With Died in His Sleep",
+      "A Stranger Followed Me into the Park"
     ]
   },
   "uploads": [
@@ -3814,6 +3815,23 @@
         "6ad390db938409f1d08fd6e3"
       ],
       "ts": "2026-10-17T15:13:44"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A Stranger Followed Me into the Park",
+      "title": "The Unsettling Encounter",
+      "story": "A man followed me into the park",
+      "story_id": "reddit:1x5rj1e",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x5rj1e/a_man_followed_me_into_the_park/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad3d376e272c4918f9cea78"
+      ],
+      "ts": "2026-10-17T19:58:42"
     }
   ]
 }
