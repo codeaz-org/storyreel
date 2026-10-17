@@ -180,7 +180,8 @@
       "The Vanishing Act of Bob Dale",
       "My husband's over-the-top gift just wasn't what I had in mind",
       "The Ex-Fianc\u00e9 of Missing Mother Michelle Parker Arrested After 14-Year Search",
-      "My wife's ghostly roommate is coming with us...to our new home"
+      "My wife's ghostly roommate is coming with us...to our new home",
+      "DNA Evidence Bungled: A Mother and Daughter's Murder Case Crumbles"
     ]
   },
   "uploads": [
@@ -3743,6 +3744,31 @@
         "6ad289d2d254ff4dc47c2554"
       ],
       "ts": "2026-10-16T20:32:14"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "DNA Evidence Bungled: A Mother and Daughter's Murder Case Crumbles",
+      "title": "A Mother and Daughter's Killer Walk Free",
+      "story": "[1984] - A 9-year-old and her mother were strangled in their beds in Ferntree Gully. In 2008 a DNA database finally named a man. Two weeks later the charges were dropped: his DNA had been transferred onto the evidence in a lab in 1999, and nobody noticed for nine years.",
+      "story_id": "reddit:1x4oef6",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x4oef6/1984_a_9yearold_and_her_mother_were_strangled_in/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad2df6f1694d771d517fc96",
+        "6ad2df7c87c4935770aa4cd5",
+        "6ad2df8a1694d771d517fec4",
+        "6ad2df981c7e49ea4c339f1b",
+        "6ad2dfa51694d771d5180162",
+        "6ad2dfb387c4935770aa5108",
+        "6ad2dfc01694d771d518047d",
+        "6ad2dfce8ac6cfe54428b2f1",
+        "6ad2dfdb52adf2bfae70ad78"
+      ],
+      "ts": "2026-10-17T02:37:31"
     }
   ]
 }
