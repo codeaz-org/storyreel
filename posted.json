@@ -185,7 +185,8 @@
       "The Agony of a Diagnosis",
       "The Guy I Hooked Up With Died in His Sleep",
       "A Stranger Followed Me into the Park",
-      "Dad's mysterious early return home"
+      "Dad's mysterious early return home",
+      "Neighbor's constant 'friendliness' makes me question my safety"
     ]
   },
   "uploads": [
@@ -3850,6 +3851,26 @@
         "6ad429110b0d72757a03139c"
       ],
       "ts": "2026-10-18T02:03:55"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Neighbor's constant 'friendliness' makes me question my safety",
+      "title": "The Friendly Stranger Next Door",
+      "story": "Can't tell if my neighbour is a creep or just over friendly",
+      "story_id": "reddit:1x51qby",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1x51qby/cant_tell_if_my_neighbour_is_a_creep_or_just_over/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad49f47cde708266152b5bd",
+        "6ad49f54938409f1d0c71471",
+        "6ad49f62938409f1d0c7157e",
+        "6ad49f70938409f1d0c717af"
+      ],
+      "ts": "2026-10-18T10:28:19"
     }
   ]
 }
