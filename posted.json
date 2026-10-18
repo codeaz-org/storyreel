@@ -187,7 +187,8 @@
       "A Stranger Followed Me into the Park",
       "Dad's mysterious early return home",
       "Neighbor's constant 'friendliness' makes me question my safety",
-      "A 1962 murder mystery solved, 50 years later"
+      "A 1962 murder mystery solved, 50 years later",
+      "Body in a Barrel, a Lake Mead Mystery"
     ]
   },
   "uploads": [
@@ -3889,6 +3890,23 @@
         "6ad4e31a0b0d72757a29f7e9"
       ],
       "ts": "2026-10-18T15:17:43"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Body in a Barrel, a Lake Mead Mystery",
+      "title": "The Barrel Beneath",
+      "story": "Body found in a barrel in Lake Mead in 2022 has been identified",
+      "story_id": "reddit:1x7ymj3",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x7ymj3/body_found_in_a_barrel_in_lake_mead_in_2022_has/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad52453ae173d6e00170844"
+      ],
+      "ts": "2026-10-18T19:56:00"
     }
   ]
 }
