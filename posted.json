@@ -186,7 +186,8 @@
       "The Guy I Hooked Up With Died in His Sleep",
       "A Stranger Followed Me into the Park",
       "Dad's mysterious early return home",
-      "Neighbor's constant 'friendliness' makes me question my safety"
+      "Neighbor's constant 'friendliness' makes me question my safety",
+      "A 1962 murder mystery solved, 50 years later"
     ]
   },
   "uploads": [
@@ -3871,6 +3872,23 @@
         "6ad49f70938409f1d0c717af"
       ],
       "ts": "2026-10-18T10:28:19"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A 1962 murder mystery solved, 50 years later",
+      "title": "The Cold Case: Unraveling the Truth",
+      "story": "Police Use DNA to Solve a 1962 Cold Case in Washington State",
+      "story_id": "reddit:1x7qhsw",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x7qhsw/police_use_dna_to_solve_a_1962_cold_case_in/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad4e31a0b0d72757a29f7e9"
+      ],
+      "ts": "2026-10-18T15:17:43"
     }
   ]
 }
