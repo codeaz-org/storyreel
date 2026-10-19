@@ -191,7 +191,8 @@
       "Body in a Barrel, a Lake Mead Mystery",
       "Bones Uncovered at the Home of Raymond Horsch",
       "My one-night stand that wouldn't leave",
-      "My Grandpa's Hidden Gift"
+      "My Grandpa's Hidden Gift",
+      "My Daughter Still Believed In Unicorns"
     ]
   },
   "uploads": [
@@ -3975,6 +3976,28 @@
         "6ad662821c2220995c3828d6"
       ],
       "ts": "2026-10-19T18:32:32"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Daughter Still Believed In Unicorns",
+      "title": "The Last Unicorn's Whisper",
+      "story": "My Daughter Still Believed In Unicorns",
+      "story_id": "reddit:1x6r9qe",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x6r9qe/my_daughter_still_believed_in_unicorns/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad69b3641ade07ddcb716d0",
+        "6ad69b4441ade07ddcb71858",
+        "6ad69b5141ade07ddcb71a7b",
+        "6ad69b574d4b93887a0519e0",
+        "6ad69b5c41ade07ddcb71c76",
+        "6ad69b6229a6896a47cafa49"
+      ],
+      "ts": "2026-10-19T22:35:30"
     }
   ]
 }
