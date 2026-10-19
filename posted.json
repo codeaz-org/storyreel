@@ -189,7 +189,8 @@
       "Neighbor's constant 'friendliness' makes me question my safety",
       "A 1962 murder mystery solved, 50 years later",
       "Body in a Barrel, a Lake Mead Mystery",
-      "Bones Uncovered at the Home of Raymond Horsch"
+      "Bones Uncovered at the Home of Raymond Horsch",
+      "My one-night stand that wouldn't leave"
     ]
   },
   "uploads": [
@@ -3928,6 +3929,29 @@
         "6ad581000b0d72757a4a9a51"
       ],
       "ts": "2026-10-19T02:30:42"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My one-night stand that wouldn't leave",
+      "title": "The Ghost in My Bed",
+      "story": "All I did was BREAK UP with my boyfriend.",
+      "story_id": "reddit:1x8bfy2",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x8bfy2/all_i_did_was_break_up_with_my_boyfriend/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad60f269d89c1f845be3708",
+        "6ad60f33b0a056e4b948ee84",
+        "6ad60f409d89c1f845be39f6",
+        "6ad60f4e701b6eabfdc53b44",
+        "6ad60f5be9e263ce82156bbb",
+        "6ad60f689d89c1f845be4632",
+        "6ad60f75e9e263ce82156f2b"
+      ],
+      "ts": "2026-10-19T12:37:55"
     }
   ]
 }
