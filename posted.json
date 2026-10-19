@@ -188,7 +188,8 @@
       "Dad's mysterious early return home",
       "Neighbor's constant 'friendliness' makes me question my safety",
       "A 1962 murder mystery solved, 50 years later",
-      "Body in a Barrel, a Lake Mead Mystery"
+      "Body in a Barrel, a Lake Mead Mystery",
+      "Bones Uncovered at the Home of Raymond Horsch"
     ]
   },
   "uploads": [
@@ -3907,6 +3908,26 @@
         "6ad52453ae173d6e00170844"
       ],
       "ts": "2026-10-18T19:56:00"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Bones Uncovered at the Home of Raymond Horsch",
+      "title": "Dark Secret in Raymond Horsch's Home",
+      "story": "Bones Have Been Recovered At The Property of Raymond Horsch",
+      "story_id": "reddit:1x754ap",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x754ap/bones_have_been_recovered_at_the_property_of/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad580d5938409f1d0f75c58",
+        "6ad580e3ae173d6e0029bcee",
+        "6ad580f18206df0c0facdda7",
+        "6ad581000b0d72757a4a9a51"
+      ],
+      "ts": "2026-10-19T02:30:42"
     }
   ]
 }
