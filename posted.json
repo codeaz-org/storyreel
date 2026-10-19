@@ -190,7 +190,8 @@
       "A 1962 murder mystery solved, 50 years later",
       "Body in a Barrel, a Lake Mead Mystery",
       "Bones Uncovered at the Home of Raymond Horsch",
-      "My one-night stand that wouldn't leave"
+      "My one-night stand that wouldn't leave",
+      "My Grandpa's Hidden Gift"
     ]
   },
   "uploads": [
@@ -3952,6 +3953,28 @@
         "6ad60f75e9e263ce82156f2b"
       ],
       "ts": "2026-10-19T12:37:55"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Grandpa's Hidden Gift",
+      "title": "The Family Secret",
+      "story": "My Grandpa has always had a very unique gift.",
+      "story_id": "reddit:1x7h16x",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x7h16x/my_grandpa_has_always_had_a_very_unique_gift/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad66244b9cfc8c8145c99e3",
+        "6ad66252b9cfc8c8145c9d16",
+        "6ad66260b9cfc8c8145c9f0d",
+        "6ad6626e4e78a3578525b53d",
+        "6ad6627c55d4f2ff45428ca6",
+        "6ad662821c2220995c3828d6"
+      ],
+      "ts": "2026-10-19T18:32:32"
     }
   ]
 }
