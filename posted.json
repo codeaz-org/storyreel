@@ -195,7 +195,8 @@
       "My Daughter Still Believed In Unicorns",
       "My one-night stand became a four-day housemate",
       "My six year old cousin claims her imaginary friend is talking to her",
-      "I'm Invaded by an Unseen Presence"
+      "I'm Invaded by an Unseen Presence",
+      "My girlfriend freezes in place every day at noon"
     ]
   },
   "uploads": [
@@ -4056,6 +4057,28 @@
         "6ad791358e465c3b521a0106"
       ],
       "ts": "2026-10-20T16:05:04"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My girlfriend freezes in place every day at noon",
+      "title": "The Daily Freeze",
+      "story": "Every day at noon my girlfriend freezes in place.",
+      "story_id": "reddit:1x9xyav",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x9xyav/every_day_at_noon_my_girlfriend_freezes_in_place/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad7df6027a874ea090af012",
+        "6ad7df6dac49cb934a85307f",
+        "6ad7df7aa52f1cb256861dc3",
+        "6ad7df87554cd8284991169a",
+        "6ad7df94141c814ae4945eb9",
+        "6ad7dfa1554cd82849911b5b"
+      ],
+      "ts": "2026-10-20T21:38:37"
     }
   ]
 }
