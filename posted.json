@@ -194,7 +194,8 @@
       "My Grandpa's Hidden Gift",
       "My Daughter Still Believed In Unicorns",
       "My one-night stand became a four-day housemate",
-      "My six year old cousin claims her imaginary friend is talking to her"
+      "My six year old cousin claims her imaginary friend is talking to her",
+      "I'm Invaded by an Unseen Presence"
     ]
   },
   "uploads": [
@@ -4038,6 +4039,23 @@
         "6ad7466cafbc1740acd662fe"
       ],
       "ts": "2026-10-20T10:46:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I'm Invaded by an Unseen Presence",
+      "title": "The Unseen Guest",
+      "story": "Enceinte",
+      "story_id": "reddit:1x9c55w",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x9c55w/enceinte/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad791358e465c3b521a0106"
+      ],
+      "ts": "2026-10-20T16:05:04"
     }
   ]
 }
