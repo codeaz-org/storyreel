@@ -193,7 +193,8 @@
       "My one-night stand that wouldn't leave",
       "My Grandpa's Hidden Gift",
       "My Daughter Still Believed In Unicorns",
-      "My one-night stand became a four-day housemate"
+      "My one-night stand became a four-day housemate",
+      "My six year old cousin claims her imaginary friend is talking to her"
     ]
   },
   "uploads": [
@@ -4020,6 +4021,23 @@
         "6ad6d63d9d034d7aedd4c336"
       ],
       "ts": "2026-10-20T02:46:29"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My six year old cousin claims her imaginary friend is talking to her",
+      "title": "The Whisper in the Dark",
+      "story": "Creepy kids drawing. ALA/demon is talking to my 6 year old cousin? Help.",
+      "story_id": "reddit:1x9jgci",
+      "story_url": "https://reddit.com/r/creepypasta/comments/1x9jgci/creepy_kids_drawing_alademon_is_talking_to_my_6/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad7466cafbc1740acd662fe"
+      ],
+      "ts": "2026-10-20T10:46:01"
     }
   ]
 }
