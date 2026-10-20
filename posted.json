@@ -192,7 +192,8 @@
       "Bones Uncovered at the Home of Raymond Horsch",
       "My one-night stand that wouldn't leave",
       "My Grandpa's Hidden Gift",
-      "My Daughter Still Believed In Unicorns"
+      "My Daughter Still Believed In Unicorns",
+      "My one-night stand became a four-day housemate"
     ]
   },
   "uploads": [
@@ -3998,6 +3999,27 @@
         "6ad69b6229a6896a47cafa49"
       ],
       "ts": "2026-10-19T22:35:30"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My one-night stand became a four-day housemate",
+      "title": "The Unexpected Roommate",
+      "story": "My one-night stand hasn't left after four days",
+      "story_id": "reddit:1x88c5q",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1x88c5q/my_onenight_stand_hasnt_left_after_four_days/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad6d608e9c669def5e7c70e",
+        "6ad6d615b81183413dabe7f9",
+        "6ad6d622b81183413dabe952",
+        "6ad6d630e9c669def5e7cc05",
+        "6ad6d63d9d034d7aedd4c336"
+      ],
+      "ts": "2026-10-20T02:46:29"
     }
   ]
 }
