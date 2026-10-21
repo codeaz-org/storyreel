@@ -198,7 +198,8 @@
       "I'm Invaded by an Unseen Presence",
       "My girlfriend freezes in place every day at noon",
       "Road trip revealed a stalker in my own home",
-      "My son's imaginary friend became a disturbing presence"
+      "My son's imaginary friend became a disturbing presence",
+      "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist"
     ]
   },
   "uploads": [
@@ -4122,6 +4123,30 @@
         "6ad89b1f9c5d256f6596d568"
       ],
       "ts": "2026-10-21T10:59:40"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist",
+      "title": "The Unit That Shouldn't Be",
+      "story": "I\u2019m a furniture mover. My buddy convinced me to flip a storage unit, but the items inside shouldn\u2019t exist. [Part 7]",
+      "story_id": "reddit:1xaca6b",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xaca6b/im_a_furniture_mover_my_buddy_convinced_me_to/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad8efc0df7c066e7e6cebc3",
+        "6ad8efce238922340bc28fe9",
+        "6ad8efdd238922340bc2973a",
+        "6ad8efeb67456bb8c0056ace",
+        "6ad8eff9df7c066e7e6d0500",
+        "6ad8f007238922340bc2a68c",
+        "6ad8f015df4eba090f8237fe",
+        "6ad8f023238922340bc2b462"
+      ],
+      "ts": "2026-10-21T17:00:44"
     }
   ]
 }
