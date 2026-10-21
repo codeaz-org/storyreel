@@ -199,7 +199,8 @@
       "My girlfriend freezes in place every day at noon",
       "Road trip revealed a stalker in my own home",
       "My son's imaginary friend became a disturbing presence",
-      "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist"
+      "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist",
+      "Shot at the bus stop: a 15-year-old's tragic morning"
     ]
   },
   "uploads": [
@@ -4147,6 +4148,28 @@
         "6ad8f023238922340bc2b462"
       ],
       "ts": "2026-10-21T17:00:44"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Shot at the bus stop: a 15-year-old's tragic morning",
+      "title": "The Last Stop",
+      "story": "Derrick Houston Jr., 15, of Indianapolis, IN - Shot and killed while waiting at a bus-stop to his school the morning of April 20th 2023.",
+      "story_id": "reddit:1x6sgqm",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1x6sgqm/derrick_houston_jr_15_of_indianapolis_in_shot_and/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad930fbb71cd0e4248f739d",
+        "6ad93108bc50ae7f72d7184b",
+        "6ad93115cfacd0260096d194",
+        "6ad931229756ed1587ca360c",
+        "6ad9312fbc50ae7f72d7266d",
+        "6ad9313c9756ed1587ca3bdf"
+      ],
+      "ts": "2026-10-21T21:39:04"
     }
   ]
 }
