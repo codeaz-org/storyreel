@@ -197,7 +197,8 @@
       "My six year old cousin claims her imaginary friend is talking to her",
       "I'm Invaded by an Unseen Presence",
       "My girlfriend freezes in place every day at noon",
-      "Road trip revealed a stalker in my own home"
+      "Road trip revealed a stalker in my own home",
+      "My son's imaginary friend became a disturbing presence"
     ]
   },
   "uploads": [
@@ -4104,6 +4105,23 @@
         "6ad82b68db7d8198214105c9"
       ],
       "ts": "2026-10-21T03:01:26"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My son's imaginary friend became a disturbing presence",
+      "title": "The Shadow in the Corner",
+      "story": "Guy crept down my driveway at night while I unloaded groceries.",
+      "story_id": "reddit:1x9pb9e",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1x9pb9e/guy_crept_down_my_driveway_at_night_while_i/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad89b1f9c5d256f6596d568"
+      ],
+      "ts": "2026-10-21T10:59:40"
     }
   ]
 }
