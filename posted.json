@@ -196,7 +196,8 @@
       "My one-night stand became a four-day housemate",
       "My six year old cousin claims her imaginary friend is talking to her",
       "I'm Invaded by an Unseen Presence",
-      "My girlfriend freezes in place every day at noon"
+      "My girlfriend freezes in place every day at noon",
+      "Road trip revealed a stalker in my own home"
     ]
   },
   "uploads": [
@@ -4079,6 +4080,30 @@
         "6ad7dfa1554cd82849911b5b"
       ],
       "ts": "2026-10-20T21:38:37"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Road trip revealed a stalker in my own home",
+      "title": "The One at Home",
+      "story": "i spent 3 nights convincing myself i was paranoid about my bedroom window. on the last night, i saw someone trying to get in.",
+      "story_id": "reddit:1x8c5w9",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1x8c5w9/i_spent_3_nights_convincing_myself_i_was_paranoid/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad82b09a9967de0496fe6eb",
+        "6ad82b17db7d81982140e520",
+        "6ad82b2550009d9e95061799",
+        "6ad82b3250009d9e95061f42",
+        "6ad82b409fdbc474fbf9bc5e",
+        "6ad82b4d9fdbc474fbf9bf39",
+        "6ad82b5aaff466fe09fb242a",
+        "6ad82b68db7d8198214105c9"
+      ],
+      "ts": "2026-10-21T03:01:26"
     }
   ]
 }
