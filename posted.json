@@ -200,7 +200,8 @@
       "Road trip revealed a stalker in my own home",
       "My son's imaginary friend became a disturbing presence",
       "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist",
-      "Shot at the bus stop: a 15-year-old's tragic morning"
+      "Shot at the bus stop: a 15-year-old's tragic morning",
+      "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it."
     ]
   },
   "uploads": [
@@ -4170,6 +4171,31 @@
         "6ad9313c9756ed1587ca3bdf"
       ],
       "ts": "2026-10-21T21:39:04"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it.",
+      "title": "The Unspoken Game",
+      "story": "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it.",
+      "story_id": "reddit:1xaqnjg",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xaqnjg/the_children_in_my_neighborhood_play_a_disturbing/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ad9f42ce0831046db0d9fb8",
+        "6ad9f439b7096b8d3811b81d",
+        "6ad9f447e0831046db0dad54",
+        "6ad9f454b3b4a1914c96b2e3",
+        "6ad9f461b7096b8d3811c07d",
+        "6ad9f46eebec8224f3bcf40f",
+        "6ad9f47bb3b4a1914c96bb57",
+        "6ad9f488ebec8224f3bcfc2d",
+        "6ad9f495ebec8224f3bcff7d"
+      ],
+      "ts": "2026-10-22T11:31:53"
     }
   ]
 }
