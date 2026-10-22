@@ -201,7 +201,8 @@
       "My son's imaginary friend became a disturbing presence",
       "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist",
       "Shot at the bus stop: a 15-year-old's tragic morning",
-      "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it."
+      "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it.",
+      "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me."
     ]
   },
   "uploads": [
@@ -4196,6 +4197,31 @@
         "6ad9f495ebec8224f3bcff7d"
       ],
       "ts": "2026-10-22T11:31:53"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me.",
+      "title": "A Sleep Solution Gone Wrong",
+      "story": "I Found a Sleeping Pill That Promises Six Months of Sleep. I Shouldn't Have Taken It.",
+      "story_id": "reddit:1xbbn2b",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xbbn2b/i_found_a_sleeping_pill_that_promises_six_months/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ada4166399af6f1f7284f65",
+        "6ada4174399af6f1f72853a7",
+        "6ada4182b2fbfbb7e98602d7",
+        "6ada419077984f39b2ac0b7e",
+        "6ada419fad1fc1b5527972b2",
+        "6ada41adad1fc1b552797c17",
+        "6ada41bc9a8a68d3cd6f5de3",
+        "6ada41cb77984f39b2ac1fbd",
+        "6ada41da9a8a68d3cd6f6942"
+      ],
+      "ts": "2026-10-22T17:01:21"
     }
   ]
 }
