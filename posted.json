@@ -202,7 +202,8 @@
       "My buddy convinced me to flip a storage unit, but the items inside shouldn't exist",
       "Shot at the bus stop: a 15-year-old's tragic morning",
       "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it.",
-      "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me."
+      "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me.",
+      "Airport staff's unusual request put my trip plans in chaos"
     ]
   },
   "uploads": [
@@ -4222,6 +4223,23 @@
         "6ada41da9a8a68d3cd6f6942"
       ],
       "ts": "2026-10-22T17:01:21"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Airport staff's unusual request put my trip plans in chaos",
+      "title": "The Unlikely Request That Derailed My Trip",
+      "story": "Heathrow airport came through and opened the doors to the \u201croom of requirement\u201d for me.",
+      "story_id": "reddit:1xb71lj",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1xb71lj/heathrow_airport_came_through_and_opened_the/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ada7c35128ac937cfd058c8"
+      ],
+      "ts": "2026-10-22T21:12:17"
     }
   ]
 }
