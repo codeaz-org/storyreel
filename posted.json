@@ -203,7 +203,8 @@
       "Shot at the bus stop: a 15-year-old's tragic morning",
       "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it.",
       "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me.",
-      "Airport staff's unusual request put my trip plans in chaos"
+      "Airport staff's unusual request put my trip plans in chaos",
+      "My husband's 'no job' became a mystery I couldn't ignore"
     ]
   },
   "uploads": [
@@ -4240,6 +4241,23 @@
         "6ada7c35128ac937cfd058c8"
       ],
       "ts": "2026-10-22T21:12:17"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My husband's 'no job' became a mystery I couldn't ignore",
+      "title": "The Unseen Truth",
+      "story": "I don't know what my husband does for a living",
+      "story_id": "reddit:1xbnwhw",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xbnwhw/i_dont_know_what_my_husband_does_for_a_living/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6adac8d39ef33e7811b3721c"
+      ],
+      "ts": "2026-10-23T02:39:11"
     }
   ]
 }
