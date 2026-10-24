@@ -204,7 +204,8 @@
       "The children in my neighborhood play a disturbing game. No one\u2019s allowed to talk about it.",
       "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me.",
       "Airport staff's unusual request put my trip plans in chaos",
-      "My husband's 'no job' became a mystery I couldn't ignore"
+      "My husband's 'no job' became a mystery I couldn't ignore",
+      "My husband heard our cat's thoughts"
     ]
   },
   "uploads": [
@@ -4258,6 +4259,23 @@
         "6adac8d39ef33e7811b3721c"
       ],
       "ts": "2026-10-23T02:39:11"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My husband heard our cat's thoughts",
+      "title": "Whispers in the Dark",
+      "story": "My husband heard our cat's thoughts?",
+      "story_id": "reddit:1xbyum1",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1xbyum1/my_husband_heard_our_cats_thoughts/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6adc32ede4be8a4d863e82a4"
+      ],
+      "ts": "2026-10-24T04:24:08"
     }
   ]
 }
