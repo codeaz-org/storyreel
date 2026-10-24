@@ -205,7 +205,8 @@
       "I Found a Pill Promising 6 Months of Sleep. It Almost Killed Me.",
       "Airport staff's unusual request put my trip plans in chaos",
       "My husband's 'no job' became a mystery I couldn't ignore",
-      "My husband heard our cat's thoughts"
+      "My husband heard our cat's thoughts",
+      "Human Remains Uncovered in Search for Missing Woman Ashley Carroll"
     ]
   },
   "uploads": [
@@ -4276,6 +4277,23 @@
         "6adc32ede4be8a4d863e82a4"
       ],
       "ts": "2026-10-24T04:24:08"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Human Remains Uncovered in Search for Missing Woman Ashley Carroll",
+      "title": "Ashley Carroll's Dark Discovery",
+      "story": "Human Remains Have Been Found During Search Of A Home In Relation To The Disappearance Of Ashley Carroll (May, 2010)",
+      "story_id": "reddit:1xb6v5l",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1xb6v5l/human_remains_have_been_found_during_search_of_a/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6adc927fe4be8a4d8655182f"
+      ],
+      "ts": "2026-10-24T11:11:56"
     }
   ]
 }
