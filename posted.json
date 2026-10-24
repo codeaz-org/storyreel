@@ -206,7 +206,8 @@
       "Airport staff's unusual request put my trip plans in chaos",
       "My husband's 'no job' became a mystery I couldn't ignore",
       "My husband heard our cat's thoughts",
-      "Human Remains Uncovered in Search for Missing Woman Ashley Carroll"
+      "Human Remains Uncovered in Search for Missing Woman Ashley Carroll",
+      "When a 'Caring' Husband's Wounds Had a Dark Secret"
     ]
   },
   "uploads": [
@@ -4294,6 +4295,29 @@
         "6adc927fe4be8a4d8655182f"
       ],
       "ts": "2026-10-24T11:11:56"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "When a 'Caring' Husband's Wounds Had a Dark Secret",
+      "title": "The Caring Husband's Secret",
+      "story": "Courage",
+      "story_id": "reddit:1xbassv",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xbassv/courage/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6adccf240b5343d0708defb7",
+        "6adccf316887a2efc1c2f0f0",
+        "6adccf3f0b5343d0708dfa19",
+        "6adccf4c6887a2efc1c2f84b",
+        "6adccf5a0b5343d0708e06e9",
+        "6adccf688b3d437ddcc7203f",
+        "6adccf76e4be8a4d8666add4"
+      ],
+      "ts": "2026-10-24T15:30:40"
     }
   ]
 }
