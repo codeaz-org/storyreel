@@ -207,7 +207,8 @@
       "My husband's 'no job' became a mystery I couldn't ignore",
       "My husband heard our cat's thoughts",
       "Human Remains Uncovered in Search for Missing Woman Ashley Carroll",
-      "When a 'Caring' Husband's Wounds Had a Dark Secret"
+      "When a 'Caring' Husband's Wounds Had a Dark Secret",
+      "The Hole That Disappeared"
     ]
   },
   "uploads": [
@@ -4318,6 +4319,23 @@
         "6adccf76e4be8a4d8666add4"
       ],
       "ts": "2026-10-24T15:30:40"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Hole That Disappeared",
+      "title": "The Hole That Disappeared",
+      "story": "Every year I fill this tiny hole next to the door with steel wool to keep the mice out. The hole disappeared this year.",
+      "story_id": "reddit:1xd1yco",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1xd1yco/every_year_i_fill_this_tiny_hole_next_to_the_door/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6add0fdbbd33ce99c33de3fb"
+      ],
+      "ts": "2026-10-24T20:06:47"
     }
   ]
 }
