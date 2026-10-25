@@ -210,7 +210,8 @@
       "When a 'Caring' Husband's Wounds Had a Dark Secret",
       "The Hole That Disappeared",
       "Grandmother's grim warning left me shaken",
-      "Skeletal Remains Found in Woodbury County, Iowa in 1988 Reveal a 40-Year-Old Mystery"
+      "Skeletal Remains Found in Woodbury County, Iowa in 1988 Reveal a 40-Year-Old Mystery",
+      "We had an extra person in our party... and I know for a fact we showed up with only 5"
     ]
   },
   "uploads": [
@@ -4372,6 +4373,32 @@
         "6adddbd56887a2efc1fdeac5"
       ],
       "ts": "2026-10-25T10:37:05"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "We had an extra person in our party... and I know for a fact we showed up with only 5",
+      "title": "The Uninvited Guest",
+      "story": "I went on a camping trip for five people. Then next morning, we had an extra person in our party",
+      "story_id": "reddit:1xenewp",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xenewp/i_went_on_a_camping_trip_for_five_people_then/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ade6d206887a2efc1245db8",
+        "6ade6d2e0b5343d070efa51e",
+        "6ade6d3bbd33ce99c38edb9b",
+        "6ade6d480b5343d070efa9e4",
+        "6ade6d54bd33ce99c38edddf",
+        "6ade6d610b5343d070efaef3",
+        "6ade6d6e6887a2efc124694f",
+        "6ade6d7be4be8a4d86c7beb8",
+        "6ade6d876887a2efc1246e4b",
+        "6ade6d946887a2efc1247082"
+      ],
+      "ts": "2026-10-25T20:57:02"
     }
   ]
 }
