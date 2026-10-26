@@ -211,7 +211,8 @@
       "The Hole That Disappeared",
       "Grandmother's grim warning left me shaken",
       "Skeletal Remains Found in Woodbury County, Iowa in 1988 Reveal a 40-Year-Old Mystery",
-      "We had an extra person in our party... and I know for a fact we showed up with only 5"
+      "We had an extra person in our party... and I know for a fact we showed up with only 5",
+      "My landlord's 'noise complaint' was a warning sign for something sinister"
     ]
   },
   "uploads": [
@@ -4399,6 +4400,31 @@
         "6ade6d946887a2efc1247082"
       ],
       "ts": "2026-10-25T20:57:02"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My landlord's 'noise complaint' was a warning sign for something sinister",
+      "title": "The Quiet Threat",
+      "story": "My landlord keeps sending me noise complaints for things that haven't happened yet.",
+      "story_id": "reddit:1xecb8y",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xecb8y/my_landlord_keeps_sending_me_noise_complaints_for/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6adebf59bd33ce99c3a46742",
+        "6adebf650b5343d07005d3d1",
+        "6adebf73bd33ce99c3a46a59",
+        "6adebf80bd33ce99c3a46c37",
+        "6adebf8de4be8a4d86dd4730",
+        "6adebf99e4be8a4d86dd486d",
+        "6adebf9ebd33ce99c3a470e9",
+        "6adebfa30b5343d07005e0d1",
+        "6adebfa63d5b27036b0678c6"
+      ],
+      "ts": "2026-10-26T02:47:50"
     }
   ]
 }
