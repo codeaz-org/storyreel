@@ -212,7 +212,8 @@
       "Grandmother's grim warning left me shaken",
       "Skeletal Remains Found in Woodbury County, Iowa in 1988 Reveal a 40-Year-Old Mystery",
       "We had an extra person in our party... and I know for a fact we showed up with only 5",
-      "My landlord's 'noise complaint' was a warning sign for something sinister"
+      "My landlord's 'noise complaint' was a warning sign for something sinister",
+      "Booked a dream trip to Venice, but my husband's cancer kept getting in the way"
     ]
   },
   "uploads": [
@@ -4425,6 +4426,27 @@
         "6adebfa63d5b27036b0678c6"
       ],
       "ts": "2026-10-26T02:47:50"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Booked a dream trip to Venice, but my husband's cancer kept getting in the way",
+      "title": "the trip that never was",
+      "story": "My Husband Is In His FIFTH Remission",
+      "story_id": "reddit:1xee6ps",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xee6ps/my_husband_is_in_his_fifth_remission/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6adf43c91b6e0444dbef4f6d",
+        "6adf43d712840f969dc4a51b",
+        "6adf43e53759e6ed6e7be613",
+        "6adf43eb9c091261b9152f0c",
+        "6adf43f112840f969dc4aaf2"
+      ],
+      "ts": "2026-10-26T12:12:53"
     }
   ]
 }
