@@ -215,7 +215,8 @@
       "My landlord's 'noise complaint' was a warning sign for something sinister",
       "Booked a dream trip to Venice, but my husband's cancer kept getting in the way",
       "Unsolved Cases: A Desperate Search for Clues",
-      "The Suffolk County Jane Doe's chilling discovery in a chimney"
+      "The Suffolk County Jane Doe's chilling discovery in a chimney",
+      "The patient who haunted me: A nurse's chilling encounter with a 90-year-old woman"
     ]
   },
   "uploads": [
@@ -4487,6 +4488,23 @@
         "6ae0185b457d00458c14e5c4"
       ],
       "ts": "2026-10-27T03:19:00"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The patient who haunted me: A nurse's chilling encounter with a 90-year-old woman",
+      "title": "The Patient Who Haunted Me",
+      "story": "Found this story on Tiktok and it sent chills down to my spine",
+      "story_id": "reddit:1xdx4wy",
+      "story_url": "https://reddit.com/r/Ghoststories/comments/1xdx4wy/found_this_story_on_tiktok_and_it_sent_chills/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ae0897b28aa69a8ad417a37"
+      ],
+      "ts": "2026-10-27T11:22:32"
     }
   ]
 }
