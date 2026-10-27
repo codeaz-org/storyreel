@@ -216,7 +216,8 @@
       "Booked a dream trip to Venice, but my husband's cancer kept getting in the way",
       "Unsolved Cases: A Desperate Search for Clues",
       "The Suffolk County Jane Doe's chilling discovery in a chimney",
-      "The patient who haunted me: A nurse's chilling encounter with a 90-year-old woman"
+      "The patient who haunted me: A nurse's chilling encounter with a 90-year-old woman",
+      "I found my husband leaning against the door, his forehead pressed into the wood."
     ]
   },
   "uploads": [
@@ -4505,6 +4506,21 @@
         "6ae0897b28aa69a8ad417a37"
       ],
       "ts": "2026-10-27T11:22:32"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I found my husband leaning against the door, his forehead pressed into the wood.",
+      "title": "The Moment I Discovered the Truth",
+      "story": "Something very strange happened to my husband at work today.",
+      "story_id": "reddit:1xfxgvt",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xfxgvt/something_very_strange_happened_to_my_husband_at/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-27T22:08:57"
     }
   ]
 }
