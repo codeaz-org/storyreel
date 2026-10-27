@@ -214,7 +214,8 @@
       "We had an extra person in our party... and I know for a fact we showed up with only 5",
       "My landlord's 'noise complaint' was a warning sign for something sinister",
       "Booked a dream trip to Venice, but my husband's cancer kept getting in the way",
-      "Unsolved Cases: A Desperate Search for Clues"
+      "Unsolved Cases: A Desperate Search for Clues",
+      "The Suffolk County Jane Doe's chilling discovery in a chimney"
     ]
   },
   "uploads": [
@@ -4465,6 +4466,27 @@
         "6adf97282adafdbae18b99d4"
       ],
       "ts": "2026-10-26T18:08:35"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Suffolk County Jane Doe's chilling discovery in a chimney",
+      "title": "The Chimney's Dark Secret",
+      "story": "Body of a woman is found in a chimney during a furnace cleaning; She had an unique, non-professional denture plate, and genetic genealogy reaserch links her ancestry to Brazil- Who was the Suffolk County Jane Doe (2005)?",
+      "story_id": "reddit:1xef5dd",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1xef5dd/body_of_a_woman_is_found_in_a_chimney_during_a/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": true,
+      "tiktok_post_ids": [
+        "6ae018278f5aed9e2e33faea",
+        "6ae01834e322dad8011f8458",
+        "6ae01840e322dad8011f85ff",
+        "6ae0184e8f5aed9e2e3400c3",
+        "6ae0185b457d00458c14e5c4"
+      ],
+      "ts": "2026-10-27T03:19:00"
     }
   ]
 }
