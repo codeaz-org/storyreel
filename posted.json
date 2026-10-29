@@ -221,7 +221,8 @@
       "The 'Friendly' lady at the airport",
       "A Scam Artist Gets Scammed",
       "The Stranger Who Saved Me From Being Stalked",
-      "A 'pizza delivery' man showed up at my door, but he wasn't carrying any food"
+      "A 'pizza delivery' man showed up at my door, but he wasn't carrying any food",
+      "The Dark Side of Hotel Hospitality"
     ]
   },
   "uploads": [
@@ -4585,6 +4586,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-10-29T12:09:37"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Dark Side of Hotel Hospitality",
+      "title": "Beyond the Welcome Mat",
+      "story": "A conversation I had recently completely shattered my trust in hotels (and people in general)",
+      "story_id": "reddit:1xhik41",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1xhik41/a_conversation_i_had_recently_completely/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-29T18:04:10"
     }
   ]
 }
