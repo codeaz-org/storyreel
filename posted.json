@@ -222,7 +222,8 @@
       "A Scam Artist Gets Scammed",
       "The Stranger Who Saved Me From Being Stalked",
       "A 'pizza delivery' man showed up at my door, but he wasn't carrying any food",
-      "The Dark Side of Hotel Hospitality"
+      "The Dark Side of Hotel Hospitality",
+      "My brother vanished during a game of hide and seek"
     ]
   },
   "uploads": [
@@ -4601,6 +4602,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-10-29T18:04:10"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My brother vanished during a game of hide and seek",
+      "title": "The Last Hide",
+      "story": "My hometown police have a list of the most mysterious cases of all time. My brother\u2019s vanishing is number one.",
+      "story_id": "reddit:1xhnvs8",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xhnvs8/my_hometown_police_have_a_list_of_the_most/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-29T22:53:13"
     }
   ]
 }
