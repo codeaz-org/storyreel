@@ -224,7 +224,8 @@
       "A 'pizza delivery' man showed up at my door, but he wasn't carrying any food",
       "The Dark Side of Hotel Hospitality",
       "My brother vanished during a game of hide and seek",
-      "Someone's been asking me questions in my sleep"
+      "Someone's been asking me questions in my sleep",
+      "The Baby Monitor Warning: A Frightening Prediction"
     ]
   },
   "uploads": [
@@ -4633,6 +4634,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-10-30T04:04:08"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Baby Monitor Warning: A Frightening Prediction",
+      "title": "The Baby Monitor Warning",
+      "story": "Husband doesn't know I overheard him on the baby monitor.",
+      "story_id": "reddit:1xioixx",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xioixx/husband_doesnt_know_i_overheard_him_on_the_baby/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-30T12:27:34"
     }
   ]
 }
