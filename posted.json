@@ -225,7 +225,8 @@
       "The Dark Side of Hotel Hospitality",
       "My brother vanished during a game of hide and seek",
       "Someone's been asking me questions in my sleep",
-      "The Baby Monitor Warning: A Frightening Prediction"
+      "The Baby Monitor Warning: A Frightening Prediction",
+      "Decomposing bodies found in home with no motive, suspect, or cause of death"
     ]
   },
   "uploads": [
@@ -4649,6 +4650,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-10-30T12:27:34"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Decomposing bodies found in home with no motive, suspect, or cause of death",
+      "title": "The Unseen Horror Within",
+      "story": "Decomposing bodies of Karon Clay, 33, and her 3-year-old son Karter, found in their Greenwood, IN home August 4, 2025. Karon was also 8 months pregnant and expectant of her 2nd son. No motive, suspect, or cause of death has been reported.",
+      "story_id": "reddit:1xiqgmt",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1xiqgmt/decomposing_bodies_of_karon_clay_33_and_her/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-30T17:45:04"
     }
   ]
 }
