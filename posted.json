@@ -223,7 +223,8 @@
       "The Stranger Who Saved Me From Being Stalked",
       "A 'pizza delivery' man showed up at my door, but he wasn't carrying any food",
       "The Dark Side of Hotel Hospitality",
-      "My brother vanished during a game of hide and seek"
+      "My brother vanished during a game of hide and seek",
+      "Someone's been asking me questions in my sleep"
     ]
   },
   "uploads": [
@@ -4617,6 +4618,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-10-29T22:53:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Someone's been asking me questions in my sleep",
+      "title": "The Voice in My Sleep",
+      "story": "I talk in my sleep. Someone has been asking me questions.",
+      "story_id": "reddit:1xhy310",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xhy310/i_talk_in_my_sleep_someone_has_been_asking_me/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-30T04:04:08"
     }
   ]
 }
