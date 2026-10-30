@@ -226,7 +226,8 @@
       "My brother vanished during a game of hide and seek",
       "Someone's been asking me questions in my sleep",
       "The Baby Monitor Warning: A Frightening Prediction",
-      "Decomposing bodies found in home with no motive, suspect, or cause of death"
+      "Decomposing bodies found in home with no motive, suspect, or cause of death",
+      "My ex-wife's midnight visit made my child's bedtime routine a nightmare"
     ]
   },
   "uploads": [
@@ -4665,6 +4666,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-10-30T17:45:04"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My ex-wife's midnight visit made my child's bedtime routine a nightmare",
+      "title": "A Midnight Visit from the Past",
+      "story": "Joint Custody",
+      "story_id": "reddit:1xhi2ag",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xhi2ag/joint_custody/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-10-30T22:29:03"
     }
   ]
 }
