@@ -232,7 +232,8 @@
       "My 5th Grade Class Fell Silent, One By One",
       "The Baby's Scream",
       "I Married and Divorced My Wife in Five Minutes",
-      "A Stalker's Revenge: 'You ruined my life you fucking bitch.'"
+      "A Stalker's Revenge: 'You ruined my life you fucking bitch.'",
+      "Trick 'r treating ain't what it used to be"
     ]
   },
   "uploads": [
@@ -4761,6 +4762,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-02T03:37:38"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Trick 'r treating ain't what it used to be",
+      "title": "The Last Trick",
+      "story": "Trick 'r treating ain't what it used to be.",
+      "story_id": "reddit:1xjk5ea",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xjk5ea/trick_r_treating_aint_what_it_used_to_be/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-02T14:44:42"
     }
   ]
 }
