@@ -235,7 +235,8 @@
       "A Stalker's Revenge: 'You ruined my life you fucking bitch.'",
       "Trick 'r treating ain't what it used to be",
       "I was pregnant, and then I wasn't",
-      "My daughter's scream in the dead of night"
+      "My daughter's scream in the dead of night",
+      "I feel like I'm losing my mind"
     ]
   },
   "uploads": [
@@ -4809,6 +4810,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-03T13:29:23"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I feel like I'm losing my mind",
+      "title": "Losing Grip",
+      "story": "I feel like im going crazy",
+      "story_id": "reddit:1xm7b00",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1xm7b00/i_feel_like_im_going_crazy/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-03T22:58:31"
     }
   ]
 }
