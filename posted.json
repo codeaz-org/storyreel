@@ -237,7 +237,8 @@
       "I was pregnant, and then I wasn't",
       "My daughter's scream in the dead of night",
       "I feel like I'm losing my mind",
-      "I Signed for a 'Free' Fridge, Lost My Deposit, and Got a Warning"
+      "I Signed for a 'Free' Fridge, Lost My Deposit, and Got a Warning",
+      "Someone's been taking credit for my kills"
     ]
   },
   "uploads": [
@@ -4841,6 +4842,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-04T04:18:08"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Someone's been taking credit for my kills",
+      "title": "The Imposter",
+      "story": "Someone keeps taking credit for my kills.",
+      "story_id": "reddit:1xm8so2",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xm8so2/someone_keeps_taking_credit_for_my_kills/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-04T23:21:42"
     }
   ]
 }
