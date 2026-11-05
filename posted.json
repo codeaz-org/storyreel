@@ -238,7 +238,8 @@
       "My daughter's scream in the dead of night",
       "I feel like I'm losing my mind",
       "I Signed for a 'Free' Fridge, Lost My Deposit, and Got a Warning",
-      "Someone's been taking credit for my kills"
+      "Someone's been taking credit for my kills",
+      "The 46-Year-Old Jane Doe Identified"
     ]
   },
   "uploads": [
@@ -4857,6 +4858,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-04T23:21:42"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The 46-Year-Old Jane Doe Identified",
+      "title": "The Forgotten Jane Doe",
+      "story": "FBI ECAP Jane doe 46 has been identified and is currently in custody!!!",
+      "story_id": "reddit:1xn2jy9",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1xn2jy9/fbi_ecap_jane_doe_46_has_been_identified_and_is/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-05T04:18:02"
     }
   ]
 }
