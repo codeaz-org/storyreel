@@ -239,7 +239,8 @@
       "I feel like I'm losing my mind",
       "I Signed for a 'Free' Fridge, Lost My Deposit, and Got a Warning",
       "Someone's been taking credit for my kills",
-      "The 46-Year-Old Jane Doe Identified"
+      "The 46-Year-Old Jane Doe Identified",
+      "I think I had a conversation with a ghost for about 30 minutes"
     ]
   },
   "uploads": [
@@ -4873,6 +4874,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-05T04:18:02"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I think I had a conversation with a ghost for about 30 minutes",
+      "title": "The Uninvited Guest",
+      "story": "I think I had a conversation with a ghost for about 30 minutes.",
+      "story_id": "reddit:1xn7wch",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1xn7wch/i_think_i_had_a_conversation_with_a_ghost_for/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-06T04:10:58"
     }
   ]
 }
