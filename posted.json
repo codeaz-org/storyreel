@@ -240,7 +240,8 @@
       "I Signed for a 'Free' Fridge, Lost My Deposit, and Got a Warning",
       "Someone's been taking credit for my kills",
       "The 46-Year-Old Jane Doe Identified",
-      "I think I had a conversation with a ghost for about 30 minutes"
+      "I think I had a conversation with a ghost for about 30 minutes",
+      "My date's manga obsession turned into a bizarre encounter"
     ]
   },
   "uploads": [
@@ -4889,6 +4890,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-06T04:10:58"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My date's manga obsession turned into a bizarre encounter",
+      "title": "The Manga Date",
+      "story": "There's something EXTREMELY wrong with my date.",
+      "story_id": "reddit:1xnr7xu",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xnr7xu/theres_something_extremely_wrong_with_my_date/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-06T14:03:32"
     }
   ]
 }
