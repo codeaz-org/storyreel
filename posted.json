@@ -243,7 +243,8 @@
       "I think I had a conversation with a ghost for about 30 minutes",
       "My date's manga obsession turned into a bizarre encounter",
       "I went on a date in China and ended up fleeing a hotel like I was escaping a crime scene",
-      "My son has been pretending to sleep for 3 weeks"
+      "My son has been pretending to sleep for 3 weeks",
+      "My dad's strange calls from work"
     ]
   },
   "uploads": [
@@ -4937,6 +4938,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-07T04:04:52"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My dad's strange calls from work",
+      "title": "Dad's Mysterious Calls",
+      "story": "My Dad Keeps Calling Me From Work, But He Doesn't Know He's Doing It.",
+      "story_id": "reddit:1xoh6ut",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xoh6ut/my_dad_keeps_calling_me_from_work_but_he_doesnt/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-07T12:24:08"
     }
   ]
 }
