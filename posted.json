@@ -245,7 +245,8 @@
       "I went on a date in China and ended up fleeing a hotel like I was escaping a crime scene",
       "My son has been pretending to sleep for 3 weeks",
       "My dad's strange calls from work",
-      "The Strange Request My Son Couldn't Refuse"
+      "The Strange Request My Son Couldn't Refuse",
+      "A cleaner's awkward encounter at the gym"
     ]
   },
   "uploads": [
@@ -4969,6 +4970,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-07T18:19:31"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "A cleaner's awkward encounter at the gym",
+      "title": "Sweat and Discomfort",
+      "story": "The Freshman and the Senior",
+      "story_id": "reddit:1xogidr",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xogidr/the_freshman_and_the_senior/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-07T21:54:41"
     }
   ]
 }
