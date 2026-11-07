@@ -242,7 +242,8 @@
       "The 46-Year-Old Jane Doe Identified",
       "I think I had a conversation with a ghost for about 30 minutes",
       "My date's manga obsession turned into a bizarre encounter",
-      "I went on a date in China and ended up fleeing a hotel like I was escaping a crime scene"
+      "I went on a date in China and ended up fleeing a hotel like I was escaping a crime scene",
+      "My son has been pretending to sleep for 3 weeks"
     ]
   },
   "uploads": [
@@ -4921,6 +4922,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-06T23:05:01"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My son has been pretending to sleep for 3 weeks",
+      "title": "The Boy Who Wouldn't Wake",
+      "story": "My son has been pretending to sleep for 3 weeks.",
+      "story_id": "reddit:1xoi85t",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xoi85t/my_son_has_been_pretending_to_sleep_for_3_weeks/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-07T04:04:52"
     }
   ]
 }
