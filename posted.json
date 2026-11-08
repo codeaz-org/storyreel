@@ -248,7 +248,8 @@
       "The Strange Request My Son Couldn't Refuse",
       "A cleaner's awkward encounter at the gym",
       "I Let My 30-Year Marriage Die Out of Boredom",
-      "My mom and I encountered a strange man on a quiet road when I was 6. I've never understood what happened."
+      "My mom and I encountered a strange man on a quiet road when I was 6. I've never understood what happened.",
+      "The Missing Woodman Brothers Found After 4-Year Search"
     ]
   },
   "uploads": [
@@ -5017,6 +5018,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-08T12:50:08"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Missing Woodman Brothers Found After 4-Year Search",
+      "title": "The Brothers in the Woods",
+      "story": "IDENTIFIED: Terry and Timothy Woodman \u2014 Missing since 2022, found in Pine Creek Lake, Oklahoma",
+      "story_id": "reddit:1xoyrop",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1xoyrop/identified_terry_and_timothy_woodman_missing/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-08T22:13:20"
     }
   ]
 }
