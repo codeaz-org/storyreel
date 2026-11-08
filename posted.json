@@ -247,7 +247,8 @@
       "My dad's strange calls from work",
       "The Strange Request My Son Couldn't Refuse",
       "A cleaner's awkward encounter at the gym",
-      "I Let My 30-Year Marriage Die Out of Boredom"
+      "I Let My 30-Year Marriage Die Out of Boredom",
+      "My mom and I encountered a strange man on a quiet road when I was 6. I've never understood what happened."
     ]
   },
   "uploads": [
@@ -5001,6 +5002,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-08T03:35:54"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My mom and I encountered a strange man on a quiet road when I was 6. I've never understood what happened.",
+      "title": "A Childhood Encounter",
+      "story": "My mom and I encountered a strange man on a quiet road when I was 6. I've never understood what happened.",
+      "story_id": "reddit:1xpsio7",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1xpsio7/my_mom_and_i_encountered_a_strange_man_on_a_quiet/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-08T12:50:08"
     }
   ]
 }
