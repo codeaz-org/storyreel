@@ -254,7 +254,8 @@
       "A man at the laundromat insisted my sweatshirt was his",
       "Tulsa's unsolved quadruple homicide",
       "What a stranger whispered on my evening run made my blood run cold",
-      "My deaf passenger's safety translator turned out to be a sinister plot"
+      "My deaf passenger's safety translator turned out to be a sinister plot",
+      "The Self-Checkout Conundrum"
     ]
   },
   "uploads": [
@@ -5113,6 +5114,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-11T03:54:21"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Self-Checkout Conundrum",
+      "title": "The Machine That Watches",
+      "story": "I work overnights at a 24-hour grocery. Self-checkout 4 keeps telling me there's an unexpected item in the bagging area.",
+      "story_id": "reddit:1xscrxz",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xscrxz/i_work_overnights_at_a_24hour_grocery/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-11T13:46:57"
     }
   ]
 }
