@@ -255,7 +255,8 @@
       "Tulsa's unsolved quadruple homicide",
       "What a stranger whispered on my evening run made my blood run cold",
       "My deaf passenger's safety translator turned out to be a sinister plot",
-      "The Self-Checkout Conundrum"
+      "The Self-Checkout Conundrum",
+      "I cancelled our health insurance \u2013 and got a surprise"
     ]
   },
   "uploads": [
@@ -5129,6 +5130,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-11T13:46:57"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I cancelled our health insurance \u2013 and got a surprise",
+      "title": "The Uninsured",
+      "story": "The Final Price",
+      "story_id": "reddit:1xsxx23",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xsxx23/the_final_price/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-12T00:15:13"
     }
   ]
 }
