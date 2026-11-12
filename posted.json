@@ -256,7 +256,8 @@
       "What a stranger whispered on my evening run made my blood run cold",
       "My deaf passenger's safety translator turned out to be a sinister plot",
       "The Self-Checkout Conundrum",
-      "I cancelled our health insurance \u2013 and got a surprise"
+      "I cancelled our health insurance \u2013 and got a surprise",
+      "The vending machine's darker side"
     ]
   },
   "uploads": [
@@ -5145,6 +5146,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-12T00:15:13"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The vending machine's darker side",
+      "title": "The Vending Machine's Dark Secret",
+      "story": "No one gets eaten by sharks",
+      "story_id": "reddit:1xsadsa",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xsadsa/no_one_gets_eaten_by_sharks/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-12T05:23:41"
     }
   ]
 }
