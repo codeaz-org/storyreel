@@ -259,7 +259,8 @@
       "I cancelled our health insurance \u2013 and got a surprise",
       "The vending machine's darker side",
       "My husband's potato head made me laugh at my own conversion therapy",
-      "Catching a stranger's fall on the subway"
+      "Catching a stranger's fall on the subway",
+      "The Stranger at the Grocery Store"
     ]
   },
   "uploads": [
@@ -5193,6 +5194,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-12T23:37:06"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Stranger at the Grocery Store",
+      "title": "The Quiet Encounter",
+      "story": "A stranger at the grocery store kept pretending we were a couple",
+      "story_id": "reddit:1xu6ghd",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1xu6ghd/a_stranger_at_the_grocery_store_kept_pretending/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-13T04:14:54"
     }
   ]
 }
