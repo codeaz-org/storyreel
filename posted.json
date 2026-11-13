@@ -260,7 +260,8 @@
       "The vending machine's darker side",
       "My husband's potato head made me laugh at my own conversion therapy",
       "Catching a stranger's fall on the subway",
-      "The Stranger at the Grocery Store"
+      "The Stranger at the Grocery Store",
+      "Good Boy, Bad Encounter"
     ]
   },
   "uploads": [
@@ -5209,6 +5210,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-13T04:14:54"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "Good Boy, Bad Encounter",
+      "title": "The Faithful Companion",
+      "story": "Good Boy",
+      "story_id": "reddit:1xu4rxf",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xu4rxf/good_boy/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-13T13:59:10"
     }
   ]
 }
