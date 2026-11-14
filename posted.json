@@ -263,7 +263,8 @@
       "The Stranger at the Grocery Store",
       "Good Boy, Bad Encounter",
       "My missing/ assumed dead brother shows up and everyone is acting like nothing happened",
-      "The Wife Who Faked Her Husband's Disappearance"
+      "The Wife Who Faked Her Husband's Disappearance",
+      "My house's mysterious midnight water thief"
     ]
   },
   "uploads": [
@@ -5257,6 +5258,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-14T05:20:50"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My house's mysterious midnight water thief",
+      "title": "The Secret Midnight Leaker",
+      "story": "My house uses exactly eleven gallons of water every night. I finally found out where it's going.",
+      "story_id": "reddit:1xvfvg5",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xvfvg5/my_house_uses_exactly_eleven_gallons_of_water/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-14T13:24:43"
     }
   ]
 }
