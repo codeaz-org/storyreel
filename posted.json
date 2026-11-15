@@ -267,7 +267,8 @@
       "My house's mysterious midnight water thief",
       "The ten worst things my husband ever did to me",
       "I'm Being Forced To Carry My Baby, But Something's Wrong",
-      "The Vanishing Twin Daughters"
+      "The Vanishing Twin Daughters",
+      "The Mermaid's Dark Secret"
     ]
   },
   "uploads": [
@@ -5321,6 +5322,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-15T13:42:32"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mermaid's Dark Secret",
+      "title": "The Tides of Deceit",
+      "story": "Mermaids Aren't What We Think They Are",
+      "story_id": "reddit:1xv5q3p",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1xv5q3p/mermaids_arent_what_we_think_they_are/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-15T22:25:12"
     }
   ]
 }
