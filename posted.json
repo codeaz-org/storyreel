@@ -269,7 +269,8 @@
       "I'm Being Forced To Carry My Baby, But Something's Wrong",
       "The Vanishing Twin Daughters",
       "The Mermaid's Dark Secret",
-      "Toothpaste disappeared then bounced off the top of my head"
+      "Toothpaste disappeared then bounced off the top of my head",
+      "My Crush Has Ruined My Life"
     ]
   },
   "uploads": [
@@ -5353,6 +5354,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-16T03:44:20"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My Crush Has Ruined My Life",
+      "title": "The Unrequited Crush",
+      "story": "My Crush Has Ruined My Life",
+      "story_id": "reddit:1xwbrfh",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1xwbrfh/my_crush_has_ruined_my_life/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-16T14:29:36"
     }
   ]
 }
