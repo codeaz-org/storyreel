@@ -270,7 +270,8 @@
       "The Vanishing Twin Daughters",
       "The Mermaid's Dark Secret",
       "Toothpaste disappeared then bounced off the top of my head",
-      "My Crush Has Ruined My Life"
+      "My Crush Has Ruined My Life",
+      "The Mango Nectar Mystery"
     ]
   },
   "uploads": [
@@ -5369,6 +5370,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-16T14:29:36"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mango Nectar Mystery",
+      "title": "The Mango Nectar Enigma",
+      "story": "Mango Nectar",
+      "story_id": "reddit:1xx8z2l",
+      "story_url": "https://reddit.com/r/nosleep/comments/1xx8z2l/mango_nectar/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-17T01:56:12"
     }
   ]
 }
