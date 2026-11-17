@@ -271,7 +271,8 @@
       "The Mermaid's Dark Secret",
       "Toothpaste disappeared then bounced off the top of my head",
       "My Crush Has Ruined My Life",
-      "The Mango Nectar Mystery"
+      "The Mango Nectar Mystery",
+      "I stepped off a subway train for two seconds, got back on, and somehow went 30 minutes back in time."
     ]
   },
   "uploads": [
@@ -5385,6 +5386,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-17T01:56:12"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I stepped off a subway train for two seconds, got back on, and somehow went 30 minutes back in time.",
+      "title": "The Two-Second Anomaly",
+      "story": "I stepped off a subway train for two seconds, got back on, and somehow went 30 minutes back in time.",
+      "story_id": "reddit:1xxpoxd",
+      "story_url": "https://reddit.com/r/Glitch_in_the_Matrix/comments/1xxpoxd/i_stepped_off_a_subway_train_for_two_seconds_got/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-17T15:26:51"
     }
   ]
 }
