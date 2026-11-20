@@ -278,7 +278,8 @@
       "My childhood friend visited me in a dream the night he died",
       "The $500,000 diamond that vanished at Monaco Grand Prix",
       "A Mother's Priorities Collide with Reality",
-      "My boyfriend's Disney Prince obsession turned me into a laughing stock"
+      "My boyfriend's Disney Prince obsession turned me into a laughing stock",
+      "The Mysterious Death of a Homeless WWII Vet"
     ]
   },
   "uploads": [
@@ -5497,6 +5498,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-20T00:40:42"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "The Mysterious Death of a Homeless WWII Vet",
+      "title": "The Forgotten Soldier",
+      "story": "Box Mike John Doe 1998 Identified by DNA Doe Project as Michael Kotyk",
+      "story_id": "reddit:1xyvscu",
+      "story_url": "https://reddit.com/r/UnresolvedMysteries/comments/1xyvscu/box_mike_john_doe_1998_identified_by_dna_doe/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-20T05:51:22"
     }
   ]
 }
