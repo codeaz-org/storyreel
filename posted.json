@@ -284,7 +284,8 @@
       "Mom's Denial of Identity",
       "A man at our garage sale wanted to buy a childhood photo of me. Not the frame. Just the photo.",
       "Setagaya Family Murders: A Killer in Plain Sight?",
-      "My boyfriend's 'hobby' is a warning sign I'm ignoring"
+      "My boyfriend's 'hobby' is a warning sign I'm ignoring",
+      "I saw something while I was dying"
     ]
   },
   "uploads": [
@@ -5593,6 +5594,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-21T23:08:51"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I saw something while I was dying",
+      "title": "the moment before the end",
+      "story": "I saw something while I was dying.",
+      "story_id": "reddit:1y014qw",
+      "story_url": "https://reddit.com/r/Paranormal/comments/1y014qw/i_saw_something_while_i_was_dying/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-22T03:58:08"
     }
   ]
 }
