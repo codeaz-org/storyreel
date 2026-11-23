@@ -288,7 +288,8 @@
       "I saw something while I was dying",
       "The Mysterious Disappearance of Alina Bozhko in a Ukrainian Forest",
       "New Jersey Police Recover Remains of Danielle Lopez, 37, 22 Years After Disappearance",
-      "Stranger at the train station asked to record my voice. Then I saw what he wanted me to say."
+      "Stranger at the train station asked to record my voice. Then I saw what he wanted me to say.",
+      "I've died six times, and I'm terrified of being found out"
     ]
   },
   "uploads": [
@@ -5657,6 +5658,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-23T04:52:43"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "I've died six times, and I'm terrified of being found out",
+      "title": "My Dark Secret",
+      "story": "I have died six different times.",
+      "story_id": "reddit:1y24u8u",
+      "story_url": "https://reddit.com/r/shortscarystories/comments/1y24u8u/i_have_died_six_different_times/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-23T17:19:46"
     }
   ]
 }
