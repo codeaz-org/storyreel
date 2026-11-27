@@ -296,7 +296,8 @@
       "My Wife's Mysterious Purge",
       "The Disappearance of Lindsey Watts",
       "Husband's Basement Ritual Left Me Questioning Reality",
-      "My Mother Locked Me in the Closet"
+      "My Mother Locked Me in the Closet",
+      "My neighbor snuck into our house and hid under my bed"
     ]
   },
   "uploads": [
@@ -5785,6 +5786,21 @@
       "tiktok": false,
       "tiktok_post_ids": [],
       "ts": "2026-11-27T01:31:36"
+    },
+    {
+      "channel": "threadfire",
+      "topic": "My neighbor snuck into our house and hid under my bed",
+      "title": "The Uninvited Guest",
+      "story": "My neighbor snuck into our house and hid under my bed",
+      "story_id": "reddit:1y61i79",
+      "story_url": "https://reddit.com/r/creepyencounters/comments/1y61i79/my_neighbor_snuck_into_our_house_and_hid_under_my/",
+      "trend_id": null,
+      "trend_url": null,
+      "theme": null,
+      "youtube": null,
+      "tiktok": false,
+      "tiktok_post_ids": [],
+      "ts": "2026-11-27T16:01:32"
     }
   ]
 }
